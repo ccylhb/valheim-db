@@ -1,0 +1,79 @@
+---
+import Base from "../../layouts/Base.astro";
+import Related from "../../components/Related.astro";
+import armor from "../../data/armor.json";
+
+export async function getStaticPaths() {
+  const armor = (await import("../../data/armor.json")).default;
+  return armor.map((a) => ({ params: { slug: a.slug }, props: { a } }));
+}
+const { a } = Astro.props;
+const total = a.pieces?.reduce((s: number, p: any) => s + (p.armor || 0), 0) || a.total_armor || 0;
+const sameTier = armor
+  .filter((x) => x.slug !== a.slug && (x.pieces?.length || 0) > 1)
+  .sort((x, y) => ((y.pieces?.reduce((s: number, p: any) => s + p.armor, 0) || 0)) - ((x.pieces?.reduce((s: number, p: any) => s + p.armor, 0) || 0)))
+  .slice(0, 3);
+---
+
+<Base
+  title={`${a.name} — Valheim Armor Set Stats`}
+  description={`${a.name} armor rating for each piece${a.set_bonus ? `, set bonus: ${a.set_bonus}` : ""} in Valheim.`}
+>
+  <p style="margin:0"><a href="/armor/">← All armor</a></p>
+  <h1 class="icon-h1">
+    {a.icon && <img src={a.icon} alt="" width="52" height="52" loading="eager" />}
+    {a.name}
+  </h1>
+
+  <div class="card answer-card">
+    <div class="stat-row">
+      <div>
+        <div class="stat-num">{total}</div>
+        <div class="stat-label">Total armor{(a.pieces?.length || 0) > 1 ? ` (${a.pieces?.length} pieces)` : ""}</div>
+      </div>
+      {(a.pieces || []).map((p: any) => (
+        <div key={p.type}>
+          <div class="stat-num" style="font-size:1.15rem">{p.armor ?? "—"}</div>
+          <div class="stat-label">{p.type}</div>
+        </div>
+      ))}
+    </div>
+  </div>
+
+  {(a.pieces || []).length > 0 && (
+    <section>
+      <h2>Pieces</h2>
+      <table>
+        <thead><tr><th>Piece</th><th>Type</th><th>Armor</th><th>Durability</th><th>Materials (Q1)</th></tr></thead>
+        <tbody>
+          {(a.pieces || []).map((p: any) => (
+            <tr>
+              <td><strong>{p.name}</strong></td>
+              <td>{p.type || "—"}</td>
+              <td>{p.armor ?? "—"}</td>
+              <td>{p.durability ?? "—"}</td>
+              <td>{p.materials || "—"}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </section>
+  )}
+
+  {a.set_bonus && (
+    <p style="margin-top:1rem"><strong>Set bonus:</strong> {a.set_bonus}</p>
+  )}
+
+  <Related
+    heading="Next steps"
+    links={[
+      { href: "/rankings/#armor", title: "Armor set rankings", sub: "Compare by total armor", tool: true },
+      ...sameTier.map((x) => ({
+        href: `/armor/${x.slug}/`,
+        title: x.name,
+        sub: `${x.pieces?.reduce((s: number, p: any) => s + p.armor, 0) || 0} total armor`,
+        icon: x.icon,
+      })),
+    ]}
+  />
+</Base>

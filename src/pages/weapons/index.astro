@@ -1,0 +1,50 @@
+---
+import Base from "../../layouts/Base.astro";
+import DataTable from "../../components/DataTable.astro";
+import weapons from "../../data/weapons.json";
+
+const totalDmg = (w: any): number =>
+  Object.values(w.damage || {}).reduce((s: number, v: any) => s + (Number(v) || 0), 0);
+const withDmg = weapons.filter((w) => totalDmg(w) > 0);
+const groups = [...new Set(weapons.map((w) => w.type || "Other"))].sort((a, b) => a.localeCompare(b));
+const count = (g: string) => weapons.filter((w) => (w.type || "Other") === g).length;
+const fmt = (w: any) =>
+  Object.entries(w.damage || {})
+    .map(([k, v]) => `${v} ${k}`)
+    .join(" + ");
+---
+
+<Base
+  title="Valheim Weapons — Damage, Durability & Upgrade Stats"
+  description="Complete Valheim weapon database: slash, pierce, blunt and elemental damage for every weapon, with durability, stamina cost and crafting source."
+>
+  <h1>Weapons</h1>
+  <p class="muted">
+    {weapons.length} weapons and tools. Damage is per hit at quality 1 — elemental values (frost, fire, spirit…) included where present.
+  </p>
+
+  <div class="grid grid-3" style="margin:1.25rem 0">
+    {groups.map((g) => (
+      <div class="card" style="padding:0.9rem 1.1rem">
+        <strong>{g}</strong>
+        <div class="muted">{count(g)} {count(g) === 1 ? "entry" : "entries"}</div>
+      </div>
+    ))}
+  </div>
+
+  <h2>All weapons by total damage</h2>
+  <DataTable
+    head={["Weapon", "Type", "Damage breakdown", "Stamina", "Block", "Durability"]}
+    rows={[...withDmg]
+      .sort((a, b) => totalDmg(b) - totalDmg(a))
+      .map((w) => [
+        `<a href="/weapons/${w.slug}/">${w.name}</a>`,
+        w.type || "—",
+        `<strong>${fmt(w)}</strong>`,
+        w.stamina ?? "—",
+        w.block_armor ?? "—",
+        w.durability ?? "—",
+      ])}
+    searchPlaceholder="Search weapons..."
+  />
+</Base>

@@ -1,0 +1,73 @@
+---
+import Base from "../../layouts/Base.astro";
+import Related from "../../components/Related.astro";
+import food from "../../data/food.json";
+
+export async function getStaticPaths() {
+  const food = (await import("../../data/food.json")).default;
+  return food.map((f) => ({ params: { slug: f.slug }, props: { f } }));
+}
+const { f } = Astro.props;
+const mins = (f.duration || 0) / 60;
+const similar = food
+  .filter((x) => x.slug !== f.slug && x.health)
+  .sort((a, b) => Math.abs((a.health || 0) - (f.health || 0)) - Math.abs((b.health || 0) - (f.health || 0)))
+  .slice(0, 3);
+---
+
+<Base
+  title={`${f.name} — Valheim Food Stats`}
+  description={`${f.name} gives ${f.health ?? "?"} health and ${f.stamina ?? "?"} stamina for ${mins ? mins.toFixed(0) + " minutes" : "a while"} in Valheim.`}
+>
+  <p style="margin:0"><a href="/food/">← All food</a></p>
+  <h1 class="icon-h1">
+    {f.icon && <img src={f.icon} alt="" width="52" height="52" loading="eager" />}
+    {f.name}
+  </h1>
+  <p>{f.source && <span class="tag">Cooked at {f.source}</span>}</p>
+
+  {f.description && <p class="muted">{f.description}</p>}
+
+  <div class="card answer-card">
+    <div class="stat-row">
+      <div>
+        <div class="stat-num" style="color:var(--good)">{f.health ?? "—"}</div>
+        <div class="stat-label">Health</div>
+      </div>
+      <div>
+        <div class="stat-num" style="color:var(--accent-2)">{f.stamina ?? "—"}</div>
+        <div class="stat-label">Stamina</div>
+      </div>
+      <div>
+        <div class="stat-num">{f.duration ? `${mins.toFixed(0)} min` : "—"}</div>
+        <div class="stat-label">Duration</div>
+      </div>
+      <div>
+        <div class="stat-num" style="font-size:1.15rem">{f.healing || "—"}</div>
+        <div class="stat-label">Healing</div>
+      </div>
+    </div>
+  </div>
+
+  {f.materials && (
+    <section>
+      <h2>Recipe</h2>
+      <p>{f.materials}</p>
+    </section>
+  )}
+  {f.effect && (
+    <section>
+      <h2>Effect</h2>
+      <p>{f.effect}</p>
+    </section>
+  )}
+
+  <Related
+    heading="Next steps"
+    links={[
+      { href: "/food-planner/", title: "Food planner", sub: "Build your 3-food loadout", tool: true },
+      { href: "/rankings/#food", title: "Best food rankings", sub: "Compare every dish", tool: true },
+      ...similar.map((x) => ({ href: `/food/${x.slug}/`, title: x.name, sub: `${x.health ?? "?"} HP · ${x.stamina ?? "?"} stamina`, icon: x.icon })),
+    ]}
+  />
+</Base>

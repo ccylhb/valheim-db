@@ -1,0 +1,65 @@
+---
+import Base from "../../layouts/Base.astro";
+import DataTable from "../../components/DataTable.astro";
+import creatures from "../../data/creatures.json";
+
+const hp = (c: any): number => {
+  const v = c.health_stars || {};
+  return v["0"] ?? v[0] ?? 0;
+};
+const dmg = (c: any): string => {
+  const v = (c.damage_stars || {})["0"] || (c.damage_stars || {})[0] || {};
+  return v.dmg ? `${v.dmg}${v.type ? " " + v.type : ""}` : "—";
+};
+const bosses = creatures.filter((c) => c.boss);
+const regular = creatures.filter((c) => !c.boss);
+---
+
+<Base
+  title="Valheim Creatures & Bosses — HP, Damage, Drops & Weaknesses"
+  description="Every Valheim creature and boss with base HP, attack damage, biome location, tameability and drops. Star-level stat variants included."
+>
+  <h1>Creatures &amp; Bosses</h1>
+  <p class="muted">
+    {creatures.length} creatures including {bosses.length} bosses. HP and damage are 0-star values — 1 and 2-star variants shown on detail pages.
+  </p>
+
+  <div class="grid grid-2" style="margin:1.25rem 0">
+    <a class="card" href="/rankings/#bosses" style="display:block">
+      <strong>🗡️ Boss order guide</strong>
+      <div class="muted">Eikthyr → The Elder → Bonemass → Moder → Yagluth → The Queen → Fader</div>
+    </a>
+    <a class="card" href="/rankings/#creatures" style="display:block">
+      <strong>Highest HP creatures</strong>
+      <div class="muted">Base + star-variant HP rankings</div>
+    </a>
+  </div>
+
+  <h2>Bosses ({bosses.length})</h2>
+  <DataTable
+    head={["Boss", "Location", "Base HP", "Attack", "Summon"]}
+    rows={bosses.map((c) => [
+      `<a href="/creatures/${c.slug}/">${c.name}</a>`,
+      c.location || "—",
+      hp(c) ? `<strong>${hp(c)}</strong>` : "—",
+      dmg(c),
+      c.drops?.slice(0, 1).join("") || "—",
+    ])}
+  />
+
+  <h2>Creatures by HP</h2>
+  <DataTable
+    head={["Creature", "Biome", "Base HP", "Attack", "Tameable", "Immune"]}
+    rows={[...regular]
+      .sort((a, b) => hp(b) - hp(a))
+      .map((c) => [
+        `<a href="/creatures/${c.slug}/">${c.name}</a>`,
+        c.location || "—",
+        hp(c) ? `<strong>${hp(c)}</strong>` : "—",
+        dmg(c),
+        String(c.tameable || "").toLowerCase() === "yes" || String(c.tameable || "").startsWith("Tame") ? "Yes" : (c.tameable || "—"),
+        c.immune || "—",
+      ])}
+    searchPlaceholder="Search creatures..."
+  />
+</Base>

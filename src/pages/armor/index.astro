@@ -1,0 +1,50 @@
+---
+import Base from "../../layouts/Base.astro";
+import DataTable from "../../components/DataTable.astro";
+import armor from "../../data/armor.json";
+
+const sortable = armor.map((a) => ({
+  ...a,
+  _total: a.pieces?.reduce((s: number, p: any) => s + (p.armor || 0), 0) || a.total_armor || 0,
+  _pieces: a.pieces?.length || 0,
+}));
+const sets = sortable.filter((a) => a._pieces > 1).sort((a, b) => b._total - a._total);
+const singles = sortable.filter((a) => a._pieces <= 1).sort((a, b) => b._total - a._total);
+---
+
+<Base
+  title="Valheim Armor — Armor Rating, Sets & Upgrade Stats"
+  description="Every Valheim armor set and piece with armor rating, durability, weight and crafting source. Compare sets by total armor."
+>
+  <h1>Armor</h1>
+  <p class="muted">
+    {sets.length} armor sets + {singles.length} individual pieces. Rating is base (quality 1) — most sets have a movement-speed or skill bonus.
+  </p>
+
+  <h2>Armor sets by total rating</h2>
+  <DataTable
+    head={["Set", "Pieces", "Total armor", "Pieces detail"]}
+    rows={sets.map((a) => [
+      `<a href="/armor/${a.slug}/">${a.name}</a>`,
+      a._pieces,
+      `<strong>${a._total}</strong>`,
+      a.pieces.map((p: any) => `${p.type}: ${p.armor}`).join(" · "),
+    ])}
+    searchPlaceholder="Search armor sets..."
+  />
+
+  <h2>Individual pieces</h2>
+  <DataTable
+    head={["Item", "Type", "Armor", "Durability", "Crafted at"]}
+    rows={singles.map((a) => {
+      const p = a.pieces?.[0] || {};
+      return [
+        `<a href="/armor/${a.slug}/">${a.name}</a>`,
+        p.type || "—",
+        p.armor ? `<strong>${p.armor}</strong>` : "—",
+        p.durability ?? "—",
+        p.materials?.split(" ")[0] ? "See page" : "—",
+      ];
+    })}
+  />
+</Base>

@@ -1,0 +1,115 @@
+---
+import Base from "../../layouts/Base.astro";
+import Related from "../../components/Related.astro";
+import food from "../../data/food.json";
+
+export async function getStaticPaths() {
+  const creatures = (await import("../../data/creatures.json")).default;
+  return creatures.map((c) => ({ params: { slug: c.slug }, props: { c } }));
+}
+const { c } = Astro.props;
+const h0 = (c.health_stars || {})["0"] ?? c.health_stars?.[0];
+const d0 = (c.damage_stars || {})["0"] ?? c.damage_stars?.[0];
+const starHp = Object.entries(c.health_stars || {}).map(([k, v]) => ({ star: Number(k), hp: v }));
+const starDmg = Object.entries(c.damage_stars || {}).map(([k, v]: any) => ({ star: Number(k), ...v }));
+const resist = [
+  c.veryweak && `Very weak: ${c.veryweak}`,
+  c.weak && `Weak: ${c.weak}`,
+  c.resistant && `Resistant: ${c.resistant}`,
+  c.veryresistant && `Very resistant: ${c.veryresistant}`,
+  c.immune && `Immune: ${c.immune}`,
+].filter(Boolean);
+const lootNames = (c.drops || []).map((d: string) => d.replace(/^\*\s*/, "").trim()).filter(Boolean);
+// match loot first-word families against food/creature names for drop-chain
+const fams = [...new Set(lootNames.map((l: string) => l.split(/\s+/)[0]).filter((w: string) => w.length > 2))];
+const related = food
+  .filter((f) => fams.some((x: string) => f.name.toLowerCase().includes(x.toLowerCase())))
+  .slice(0, 3)
+  .map((f) => ({ href: `/food/${f.slug}/`, title: f.name, sub: `${f.health ?? "?"} HP · ${f.stamina ?? "?"} stamina`, icon: f.icon }));
+---
+
+<Base
+  title={`${c.name}${c.boss ? " (Boss)" : ""} — Valheim HP, Damage & Drops`}
+  description={`${c.name} health, attack damage, biome location, drops${c.boss ? " and boss strategy" : ""} in Valheim. Star-level stat variants.`}
+>
+  <p style="margin:0"><a href="/creatures/">← All creatures</a></p>
+  <h1 class="icon-h1">
+    {c.icon && <img src={c.icon} alt="" width="52" height="52" loading="eager" />}
+    {c.name}
+    {c.boss && <span class="tag" style="vertical-align:middle">Boss</span>}
+  </h1>
+  <p>
+    {c.location && <span class="tag">{c.location}</span>}
+    {c.faction && <span class="tag">Faction: {c.faction}</span>}
+    {c.tameable && String(c.tameable).toLowerCase() !== "no" && <span class="tag">{c.tameable}</span>}
+  </p>
+
+  {c.description && <p class="muted">{c.description}</p>}
+
+  <div class="card answer-card">
+    <div class="stat-row">
+      <div>
+        <div class="stat-num">{h0 ?? "—"}</div>
+        <div class="stat-label">Base HP</div>
+      </div>
+      <div>
+        <div class="stat-num">{d0?.dmg ?? "—"}</div>
+        <div class="stat-label">Attack{d0?.type ? ` · ${d0.type}` : ""}</div>
+      </div>
+      <div>
+        <div class="stat-num">{c.stagger || "—"}</div>
+        <div class="stat-label">Stagger</div>
+      </div>
+      {c.immune && (
+        <div>
+          <div class="stat-num" style="font-size:1.2rem;color:var(--bad)">{c.immune}</div>
+          <div class="stat-label">Immune to</div>
+        </div>
+      )}
+    </div>
+  </div>
+
+  {starHp.length > 1 && (
+    <section>
+      <h2>Star variants</h2>
+      <table>
+        <thead><tr><th>Stars</th><th>Health</th><th>Attack</th></tr></thead>
+        <tbody>
+          {starHp.map((s) => {
+            const d = starDmg.find((x: any) => x.star === s.star);
+            return (
+              <tr>
+                <td>{"★".repeat(s.star + 1) || "0-star"}</td>
+                <td><strong>{s.hp}</strong></td>
+                <td>{d?.dmg ? `${d.dmg}${d.type ? " " + d.type : ""}` : "—"}</td>
+              </tr>
+            );
+          })}
+        </tbody>
+      </table>
+    </section>
+  )}
+
+  {resist.length > 0 && (
+    <section>
+      <h2>Damage resistances</h2>
+      <p>{resist.join(" · ")}</p>
+    </section>
+  )}
+
+  {lootNames.length > 0 && (
+    <section>
+      <h2>Drops</h2>
+      <p>{lootNames.join(" · ")}</p>
+    </section>
+  )}
+
+  <Related
+    heading="Next steps"
+    links={[
+      { href: "/rankings/#bosses", title: "Boss order guide", sub: "Summoning + strategy order", tool: true },
+      { href: "/rankings/#creatures", title: "Creature HP rankings", sub: "Biggest fights first", tool: true },
+      ...related.map((r) => ({ href: r.href, title: r.title, sub: r.sub, icon: r.icon })),
+    ]}
+  />
+</Base>

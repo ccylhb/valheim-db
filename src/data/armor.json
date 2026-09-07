@@ -1,0 +1,1727 @@
+[
+ {
+  "name": "Ask Set",
+  "slug": "ask-set",
+  "image": "",
+  "pieces": [
+   {
+    "name": "Hood of Ask",
+    "type": "Head",
+    "armor": 28.0,
+    "durability": 1000.0,
+    "weight": 1.0,
+    "materials": "15 Linen thread 4 Lox pelt 10 Asksvin hide",
+    "movement_speed": "",
+    "effect": ""
+   },
+   {
+    "name": "Breastplate of Ask",
+    "type": "Chest",
+    "armor": 28.0,
+    "durability": 1000.0,
+    "weight": 5.0,
+    "materials": "15 Linen thread 4 Lox pelt 10 Asksvin hide",
+    "movement_speed": "",
+    "effect": ""
+   },
+   {
+    "name": "Trousers of Ask",
+    "type": "Legs",
+    "armor": 28.0,
+    "durability": 1000.0,
+    "weight": 5.0,
+    "materials": "15 Linen thread 4 Lox pelt 10 Asksvin hide",
+    "movement_speed": "",
+    "effect": ""
+   }
+  ],
+  "set_bonus": "",
+  "description": "",
+  "total_armor": 84.0,
+  "icon": "/icons/ask_set.png"
+ },
+ {
+  "name": "Asksvin Cloak",
+  "slug": "asksvin-cloak",
+  "image": "",
+  "pieces": [
+   {
+    "name": "Asksvin cloak",
+    "type": "Cape",
+    "armor": null,
+    "durability": 1500.0,
+    "weight": 4.0,
+    "materials": "Asksvin hide x6 Morgen sinew x2",
+    "movement_speed": "",
+    "effect": "Wind Run effect Dodge stamina usage: -15% Resistant (0.5x) vs. Frost"
+   }
+  ],
+  "set_bonus": "",
+  "description": "",
+  "total_armor": 0,
+  "icon": "/icons/asksvin_cloak.png"
+ },
+ {
+  "name": "Beaded dress blue",
+  "slug": "beaded-dress-blue",
+  "image": "",
+  "pieces": [
+   {
+    "name": "Beaded dress blue",
+    "type": "Body",
+    "armor": 1.0,
+    "durability": 1000.0,
+    "weight": 10.0,
+    "materials": "",
+    "movement_speed": "",
+    "effect": ""
+   }
+  ],
+  "set_bonus": "",
+  "description": "",
+  "total_armor": 1.0,
+  "icon": "/icons/beaded_dress_blue.png"
+ },
+ {
+  "name": "Beaded dress brown",
+  "slug": "beaded-dress-brown",
+  "image": "",
+  "pieces": [
+   {
+    "name": "Beaded dress brown",
+    "type": "Body",
+    "armor": 1.0,
+    "durability": 1000.0,
+    "weight": 10.0,
+    "materials": "",
+    "movement_speed": "",
+    "effect": ""
+   }
+  ],
+  "set_bonus": "",
+  "description": "",
+  "total_armor": 1.0,
+  "icon": "/icons/beaded_dress_brown.png"
+ },
+ {
+  "name": "Beaded dress yellow",
+  "slug": "beaded-dress-yellow",
+  "image": "",
+  "pieces": [
+   {
+    "name": "Beaded dress yellow",
+    "type": "Body",
+    "armor": 1.0,
+    "durability": 1000.0,
+    "weight": 10.0,
+    "materials": "",
+    "movement_speed": "",
+    "effect": ""
+   }
+  ],
+  "set_bonus": "",
+  "description": "",
+  "total_armor": 1.0,
+  "icon": "/icons/beaded_dress_yellow.png"
+ },
+ {
+  "name": "Beaded tunic blue",
+  "slug": "beaded-tunic-blue",
+  "image": "",
+  "pieces": [
+   {
+    "name": "Beaded tunic blue",
+    "type": "Body",
+    "armor": 1.0,
+    "durability": 1000.0,
+    "weight": 10.0,
+    "materials": "",
+    "movement_speed": "",
+    "effect": ""
+   }
+  ],
+  "set_bonus": "",
+  "description": "",
+  "total_armor": 1.0,
+  "icon": "/icons/beaded_tunic_blue.png"
+ },
+ {
+  "name": "Beaded tunic red",
+  "slug": "beaded-tunic-red",
+  "image": "",
+  "pieces": [
+   {
+    "name": "Beaded tunic red",
+    "type": "Body",
+    "armor": 1.0,
+    "durability": 1000.0,
+    "weight": 10.0,
+    "materials": "",
+    "movement_speed": "",
+    "effect": ""
+   }
+  ],
+  "set_bonus": "",
+  "description": "",
+  "total_armor": 1.0,
+  "icon": "/icons/beaded_tunic_red.png"
+ },
+ {
+  "name": "Beaded tunic yellow",
+  "slug": "beaded-tunic-yellow",
+  "image": "",
+  "pieces": [
+   {
+    "name": "Beaded tunic yellow",
+    "type": "Body",
+    "armor": 1.0,
+    "durability": 1000.0,
+    "weight": 10.0,
+    "materials": "",
+    "movement_speed": "",
+    "effect": ""
+   }
+  ],
+  "set_bonus": "",
+  "description": "",
+  "total_armor": 1.0,
+  "icon": "/icons/beaded_tunic_yellow.png"
+ },
+ {
+  "name": "Bear Set",
+  "slug": "bear-set",
+  "image": "",
+  "pieces": [
+   {
+    "name": "Headdress of the Bear",
+    "type": "Head",
+    "armor": 7.0,
+    "durability": 1000.0,
+    "weight": 1.0,
+    "materials": "5 Bear hide 1 Bear trophy",
+    "movement_speed": "",
+    "effect": ""
+   },
+   {
+    "name": "Patterns of the Bear",
+    "type": "Chest",
+    "armor": 7.0,
+    "durability": 1000.0,
+    "weight": 5.0,
+    "materials": "5 Bear hide 2 Bear paw 4 Blueberries",
+    "movement_speed": "",
+    "effect": ""
+   },
+   {
+    "name": "Loincloth of the Bear",
+    "type": "Legs",
+    "armor": 7.0,
+    "durability": 1000.0,
+    "weight": 5.0,
+    "materials": "5 Bear hide 4 Blueberries",
+    "movement_speed": "",
+    "effect": ""
+   }
+  ],
+  "set_bonus": "",
+  "description": "",
+  "total_armor": 21.0,
+  "icon": "/icons/bear_set.png"
+ },
+ {
+  "name": "Bronze Armor",
+  "slug": "bronze-armor",
+  "image": "",
+  "pieces": [
+   {
+    "name": "Bronze helmet",
+    "type": "Head",
+    "armor": 8.0,
+    "durability": 1000.0,
+    "weight": 3.0,
+    "materials": "5 Bronze 2 Deer hide",
+    "movement_speed": "",
+    "effect": ""
+   },
+   {
+    "name": "Bronze plate cuirass",
+    "type": "Chest",
+    "armor": 8.0,
+    "durability": 1000.0,
+    "weight": 3.0,
+    "materials": "5 Bronze 2 Deer hide",
+    "movement_speed": "-5%",
+    "effect": ""
+   },
+   {
+    "name": "Bronze plate leggings",
+    "type": "Legs",
+    "armor": 8.0,
+    "durability": 1000.0,
+    "weight": 3.0,
+    "materials": "5 Bronze 2 Deer hide",
+    "movement_speed": "-5%",
+    "effect": ""
+   }
+  ],
+  "set_bonus": "",
+  "description": "",
+  "total_armor": 24.0,
+  "icon": ""
+ },
+ {
+  "name": "Cape of Odin",
+  "slug": "cape-of-odin",
+  "image": "",
+  "pieces": [
+   {
+    "name": "Cape of Odin",
+    "type": "Cape",
+    "armor": 1.0,
+    "durability": 1500.0,
+    "weight": 4.0,
+    "materials": "Leather scraps x10 Coal x4",
+    "movement_speed": "",
+    "effect": ""
+   }
+  ],
+  "set_bonus": "",
+  "description": "",
+  "total_armor": 1.0,
+  "icon": "/icons/cape_of_odin.png"
+ },
+ {
+  "name": "CAPE TEST",
+  "slug": "cape-test",
+  "image": "",
+  "pieces": [
+   {
+    "name": "CAPE TEST",
+    "type": "Cape",
+    "armor": 1.0,
+    "durability": 100.0,
+    "weight": null,
+    "materials": "n/a",
+    "movement_speed": "",
+    "effect": ""
+   }
+  ],
+  "set_bonus": "",
+  "description": "",
+  "total_armor": 1.0,
+  "icon": "/icons/cape_test.png"
+ },
+ {
+  "name": "Cape tunic blue",
+  "slug": "cape-tunic-blue",
+  "image": "",
+  "pieces": [
+   {
+    "name": "Cape tunic blue",
+    "type": "Body",
+    "armor": 1.0,
+    "durability": 1000.0,
+    "weight": 10.0,
+    "materials": "",
+    "movement_speed": "",
+    "effect": ""
+   }
+  ],
+  "set_bonus": "",
+  "description": "",
+  "total_armor": 1.0,
+  "icon": "/icons/cape_tunic_blue.png"
+ },
+ {
+  "name": "Cape tunic red",
+  "slug": "cape-tunic-red",
+  "image": "",
+  "pieces": [
+   {
+    "name": "Cape tunic red",
+    "type": "Body",
+    "armor": 1.0,
+    "durability": 1000.0,
+    "weight": 10.0,
+    "materials": "",
+    "movement_speed": "",
+    "effect": ""
+   }
+  ],
+  "set_bonus": "",
+  "description": "",
+  "total_armor": 1.0,
+  "icon": "/icons/cape_tunic_red.png"
+ },
+ {
+  "name": "Cape tunic yellow",
+  "slug": "cape-tunic-yellow",
+  "image": "",
+  "pieces": [
+   {
+    "name": "Cape tunic yellow",
+    "type": "Body",
+    "armor": 1.0,
+    "durability": 1000.0,
+    "weight": 10.0,
+    "materials": "",
+    "movement_speed": "",
+    "effect": ""
+   }
+  ],
+  "set_bonus": "",
+  "description": "",
+  "total_armor": 1.0,
+  "icon": "/icons/cape_tunic_yellow.png"
+ },
+ {
+  "name": "Carapace Armor",
+  "slug": "carapace-armor",
+  "image": "",
+  "pieces": [
+   {
+    "name": "Carapace helmet",
+    "type": "Head",
+    "armor": 32.0,
+    "durability": 1200.0,
+    "weight": 3.0,
+    "materials": "16 Carapace 3 Scale hide 2 Mandible 4 Refined eitr",
+    "movement_speed": "",
+    "effect": ""
+   },
+   {
+    "name": "Carapace breastplate",
+    "type": "Chest",
+    "armor": 32.0,
+    "durability": 1200.0,
+    "weight": 10.0,
+    "materials": "20 Carapace 3 Scale hide 5 Iron 4 Refined eitr",
+    "movement_speed": "-5%",
+    "effect": ""
+   },
+   {
+    "name": "Carapace greaves",
+    "type": "Legs",
+    "armor": 32.0,
+    "durability": 1200.0,
+    "weight": 10.0,
+    "materials": "20 Carapace 3 Scale hide 5 Iron 4 Refined eitr",
+    "movement_speed": "-5%",
+    "effect": ""
+   }
+  ],
+  "set_bonus": "",
+  "description": "",
+  "total_armor": 96.0,
+  "icon": "/icons/carapace_armor.png"
+ },
+ {
+  "name": "Celebratory cap",
+  "slug": "celebratory-cap",
+  "image": "",
+  "pieces": [
+   {
+    "name": "Celebratory cap",
+    "type": "Head",
+    "armor": 1.0,
+    "durability": 800.0,
+    "weight": 3.0,
+    "materials": "Deer hide x2 Bronze x1 Bear hide x1 Amber pearl x1",
+    "movement_speed": "",
+    "effect": "Base item stamina use: -15%"
+   }
+  ],
+  "set_bonus": "",
+  "description": "",
+  "total_armor": 1.0,
+  "icon": "/icons/celebratory_cap.png"
+ },
+ {
+  "name": "Dverger Circlet",
+  "slug": "dverger-circlet",
+  "image": "",
+  "pieces": [
+   {
+    "name": "",
+    "type": "Head",
+    "armor": 2.0,
+    "durability": 0.0,
+    "weight": 1.0,
+    "materials": "N/A",
+    "movement_speed": "",
+    "effect": "Perpetual lightsource"
+   }
+  ],
+  "set_bonus": "",
+  "description": "",
+  "total_armor": 2.0,
+  "icon": ""
+ },
+ {
+  "name": "Eitr-weave Set",
+  "slug": "eitr-weave-set",
+  "image": "",
+  "pieces": [
+   {
+    "name": "Eitr-weave hood",
+    "type": "Head",
+    "armor": 16.0,
+    "durability": 1000.0,
+    "weight": 1.0,
+    "materials": "16 Linen thread 15 Refined eitr 2 Iron",
+    "movement_speed": "",
+    "effect": ""
+   },
+   {
+    "name": "Eitr-weave robe",
+    "type": "Chest",
+    "armor": 16.0,
+    "durability": 1000.0,
+    "weight": 5.0,
+    "materials": "20 Linen thread 20 Refined eitr 10 Feathers 5 Scale hide",
+    "movement_speed": "-2%",
+    "effect": ""
+   },
+   {
+    "name": "Eitr-weave trousers",
+    "type": "Legs",
+    "armor": 16.0,
+    "durability": 1000.0,
+    "weight": 5.0,
+    "materials": "20 Linen thread 20 Refined eitr 10 Scale hide",
+    "movement_speed": "-2%",
+    "effect": ""
+   },
+   {
+    "name": "Feather cape",
+    "type": "Cape",
+    "armor": 16.0,
+    "durability": 1000.0,
+    "weight": 4.0,
+    "materials": "10 Feathers 20 Refined eitr 5 Scale hide",
+    "movement_speed": "",
+    "effect": "Feather fall Limit fall speed: 5m/s Fall damage: -100% Jump stamina: -20%"
+   }
+  ],
+  "set_bonus": "",
+  "description": "",
+  "total_armor": 64.0,
+  "icon": "/icons/eitr_weave_set.png"
+ },
+ {
+  "name": "Embla Set",
+  "slug": "embla-set",
+  "image": "",
+  "pieces": [
+   {
+    "name": "Hood of Embla",
+    "type": "Head",
+    "armor": 19.0,
+    "durability": 1000.0,
+    "weight": 1.0,
+    "materials": "16 Linen thread 15 Refined eitr 2 Asksvin hide",
+    "movement_speed": "",
+    "effect": ""
+   },
+   {
+    "name": "Trousers of Embla",
+    "type": "Chest",
+    "armor": 19.0,
+    "durability": 1000.0,
+    "weight": 5.0,
+    "materials": "20 Linen thread 20 Refined eitr 10 Asksvin hide",
+    "movement_speed": "-2%",
+    "effect": ""
+   },
+   {
+    "name": "Robes of Embla",
+    "type": "Legs",
+    "armor": 19.0,
+    "durability": 1000.0,
+    "weight": 5.0,
+    "materials": "20 Linen thread 20 Refined eitr 10 Asksvin hide 5Flametal",
+    "movement_speed": "-2%",
+    "effect": ""
+   }
+  ],
+  "set_bonus": "",
+  "description": "",
+  "total_armor": 57.0,
+  "icon": "/icons/embla_set.png"
+ },
+ {
+  "name": "Extravagant cap green",
+  "slug": "extravagant-cap-green",
+  "image": "",
+  "pieces": [
+   {
+    "name": "Extravagant cap green",
+    "type": "Head",
+    "armor": 1.0,
+    "durability": 800.0,
+    "weight": 3.0,
+    "materials": "",
+    "movement_speed": "",
+    "effect": ""
+   }
+  ],
+  "set_bonus": "",
+  "description": "",
+  "total_armor": 1.0,
+  "icon": "/icons/extravagant_cap_green.png"
+ },
+ {
+  "name": "Extravagant cap orange",
+  "slug": "extravagant-cap-orange",
+  "image": "",
+  "pieces": [
+   {
+    "name": "Extravagant cap orange",
+    "type": "Head",
+    "armor": 1.0,
+    "durability": 800.0,
+    "weight": 3.0,
+    "materials": "",
+    "movement_speed": "",
+    "effect": ""
+   }
+  ],
+  "set_bonus": "",
+  "description": "",
+  "total_armor": 1.0,
+  "icon": "/icons/extravagant_cap_orange.png"
+ },
+ {
+  "name": "Feather Cape",
+  "slug": "feather-cape",
+  "image": "",
+  "pieces": [
+   {
+    "name": "Feather cape",
+    "type": "Cape",
+    "armor": 1.0,
+    "durability": 1200.0,
+    "weight": 4.0,
+    "materials": "Feather x10 Scale hide x5 Refined eitr x20",
+    "movement_speed": "",
+    "effect": "Feather fall Very weak (2x) VS Fire Resistant (0.5x) VS Frost"
+   }
+  ],
+  "set_bonus": "",
+  "description": "",
+  "total_armor": 1.0,
+  "icon": ""
+ },
+ {
+  "name": "Fenris Set",
+  "slug": "fenris-set",
+  "image": "",
+  "pieces": [
+   {
+    "name": "Fenris hood",
+    "type": "Head",
+    "armor": 10.0,
+    "durability": 1000.0,
+    "weight": 1.0,
+    "materials": "20 Fenris hair 2 Wolf pelt 1 Cultist trophy",
+    "movement_speed": "+3%",
+    "effect": ""
+   },
+   {
+    "name": "Fenris coat",
+    "type": "Chest",
+    "armor": 10.0,
+    "durability": 1000.0,
+    "weight": 10.0,
+    "materials": "20 Fenris hair 5 Wolf pelt 10 Leather scraps",
+    "movement_speed": "+3%",
+    "effect": ""
+   },
+   {
+    "name": "Fenris leggings",
+    "type": "Legs",
+    "armor": 10.0,
+    "durability": 1000.0,
+    "weight": 10.0,
+    "materials": "20 Fenris hair 5 Wolf pelt 10 Leather scraps",
+    "movement_speed": "+3%",
+    "effect": ""
+   }
+  ],
+  "set_bonus": "",
+  "description": "",
+  "total_armor": 30.0,
+  "icon": "/icons/fenris_set.png"
+ },
+ {
+  "name": "Fishing Hat",
+  "slug": "fishing-hat",
+  "image": "",
+  "pieces": [
+   {
+    "name": "Fishing hat",
+    "type": "Head",
+    "armor": 8.0,
+    "durability": 1000.0,
+    "weight": 3.0,
+    "materials": "Perch x1 Pike x1 Tuna x1 Tetra x1 Trollfish x1 Giant herring x1 Grouper x1 Coral cod x1 Anglerfish x1 Northern salmon x1 Magmafish x1 Pufferfish x1",
+    "movement_speed": "",
+    "effect": "Fishing +20, Swim +20"
+   }
+  ],
+  "set_bonus": "",
+  "description": "",
+  "total_armor": 8.0,
+  "icon": "/icons/fishing_hat.png"
+ },
+ {
+  "name": "Flametal Armor",
+  "slug": "flametal-armor",
+  "image": "",
+  "pieces": [
+   {
+    "name": "Flametal Helmet",
+    "type": "Head",
+    "armor": 38.0,
+    "durability": 800.0,
+    "weight": 3.0,
+    "materials": "16 Flametal 3 Asksvin hide 2 Charred bone 4 Refined eitr",
+    "movement_speed": "",
+    "effect": ""
+   },
+   {
+    "name": "Flametal Breastplate",
+    "type": "Chest",
+    "armor": 38.0,
+    "durability": 1000.0,
+    "weight": 10.0,
+    "materials": "20 Flametal 3 Asksvin hide 5 Charred bone 1 Morgen heart",
+    "movement_speed": "-5%",
+    "effect": ""
+   },
+   {
+    "name": "Flametal Greaves",
+    "type": "Legs",
+    "armor": 38.0,
+    "durability": 1000.0,
+    "weight": 10.0,
+    "materials": "20 Flametal 3 Asksvin hide 5 Charred bone",
+    "movement_speed": "-5%",
+    "effect": ""
+   }
+  ],
+  "set_bonus": "",
+  "description": "",
+  "total_armor": 114.0,
+  "icon": "/icons/flametal_armor.png"
+ },
+ {
+  "name": "Fur cap brown",
+  "slug": "fur-cap-brown",
+  "image": "",
+  "pieces": [
+   {
+    "name": "Fur cap brown",
+    "type": "Head",
+    "armor": 1.0,
+    "durability": 800.0,
+    "weight": 3.0,
+    "materials": "",
+    "movement_speed": "",
+    "effect": ""
+   }
+  ],
+  "set_bonus": "",
+  "description": "",
+  "total_armor": 1.0,
+  "icon": "/icons/fur_cap_brown.png"
+ },
+ {
+  "name": "Fur cap grey",
+  "slug": "fur-cap-grey",
+  "image": "",
+  "pieces": [
+   {
+    "name": "Fur cap grey",
+    "type": "Head",
+    "armor": 1.0,
+    "durability": 800.0,
+    "weight": 3.0,
+    "materials": "",
+    "movement_speed": "",
+    "effect": ""
+   }
+  ],
+  "set_bonus": "",
+  "description": "",
+  "total_armor": 1.0,
+  "icon": "/icons/fur_cap_grey.png"
+ },
+ {
+  "name": "Harvest dress",
+  "slug": "harvest-dress",
+  "image": "",
+  "pieces": [
+   {
+    "name": "",
+    "type": "Body",
+    "armor": 1.0,
+    "durability": 1000.0,
+    "weight": 10.0,
+    "materials": "",
+    "movement_speed": "",
+    "effect": ""
+   }
+  ],
+  "set_bonus": "",
+  "description": "",
+  "total_armor": 1.0,
+  "icon": "/icons/harvest_dress.png"
+ },
+ {
+  "name": "Harvest tunic",
+  "slug": "harvest-tunic",
+  "image": "",
+  "pieces": [
+   {
+    "name": "",
+    "type": "Body",
+    "armor": 1.0,
+    "durability": 1000.0,
+    "weight": 10.0,
+    "materials": "",
+    "movement_speed": "",
+    "effect": ""
+   }
+  ],
+  "set_bonus": "",
+  "description": "",
+  "total_armor": 1.0,
+  "icon": "/icons/harvest_tunic.png"
+ },
+ {
+  "name": "Headband",
+  "slug": "headband",
+  "image": "",
+  "pieces": [
+   {
+    "name": "",
+    "type": "Head",
+    "armor": 1.0,
+    "durability": 1000.0,
+    "weight": 1.0,
+    "materials": "",
+    "movement_speed": "",
+    "effect": ""
+   }
+  ],
+  "set_bonus": "",
+  "description": "",
+  "total_armor": 1.0,
+  "icon": "/icons/headband.png"
+ },
+ {
+  "name": "Hood of Odin",
+  "slug": "hood-of-odin",
+  "image": "",
+  "pieces": [
+   {
+    "name": "Hood of Odin",
+    "type": "Head",
+    "armor": 1.0,
+    "durability": 300.0,
+    "weight": 1.0,
+    "materials": "Leather scraps x10 Coal x4",
+    "movement_speed": "",
+    "effect": ""
+   }
+  ],
+  "set_bonus": "",
+  "description": "",
+  "total_armor": 1.0,
+  "icon": "/icons/hood_of_odin.png"
+ },
+ {
+  "name": "Iron Armor",
+  "slug": "iron-armor",
+  "image": "",
+  "pieces": [
+   {
+    "name": "Iron helmet",
+    "type": "Head",
+    "armor": 14.0,
+    "durability": 1000.0,
+    "weight": 3.0,
+    "materials": "20 Iron 2 Deer hide",
+    "movement_speed": "",
+    "effect": ""
+   },
+   {
+    "name": "Iron scale mail",
+    "type": "Chest",
+    "armor": 14.0,
+    "durability": 1000.0,
+    "weight": 15.0,
+    "materials": "20 Iron 2 Deer hide",
+    "movement_speed": "-5%",
+    "effect": ""
+   },
+   {
+    "name": "Iron greaves",
+    "type": "Legs",
+    "armor": 14.0,
+    "durability": 1000.0,
+    "weight": 15.0,
+    "materials": "20 Iron 2 Deer hide",
+    "movement_speed": "-5%",
+    "effect": ""
+   }
+  ],
+  "set_bonus": "",
+  "description": "",
+  "total_armor": 42.0,
+  "icon": "/icons/iron_armor.png"
+ },
+ {
+  "name": "Leather Armor",
+  "slug": "leather-armor",
+  "image": "",
+  "pieces": [
+   {
+    "name": "Leather helmet",
+    "type": "Head",
+    "armor": 2.0,
+    "durability": 400.0,
+    "weight": 1.0,
+    "materials": "6 Deer hide",
+    "movement_speed": "",
+    "effect": ""
+   },
+   {
+    "name": "Leather tunic",
+    "type": "Chest",
+    "armor": 2.0,
+    "durability": 400.0,
+    "weight": 5.0,
+    "materials": "6 Deer hide",
+    "movement_speed": "",
+    "effect": ""
+   },
+   {
+    "name": "Leather pants",
+    "type": "Legs",
+    "armor": 2.0,
+    "durability": 400.0,
+    "weight": 5.0,
+    "materials": "6 Deer hide",
+    "movement_speed": "",
+    "effect": ""
+   },
+   {
+    "name": "Deer hide cape",
+    "type": "Cape",
+    "armor": 1.0,
+    "durability": 400.0,
+    "weight": 2.0,
+    "materials": "4 Deer hide 5 Bone fragments",
+    "movement_speed": "",
+    "effect": ""
+   }
+  ],
+  "set_bonus": "",
+  "description": "",
+  "total_armor": 7.0,
+  "icon": "/icons/leather_armor.png"
+ },
+ {
+  "name": "Linen Cape",
+  "slug": "linen-cape",
+  "image": "",
+  "pieces": [
+   {
+    "name": "Linen cape",
+    "type": "Cape",
+    "armor": 1.0,
+    "durability": 1500.0,
+    "weight": null,
+    "materials": "Linen thread x20 Silver x1",
+    "movement_speed": "",
+    "effect": ""
+   }
+  ],
+  "set_bonus": "",
+  "description": "",
+  "total_armor": 1.0,
+  "icon": "/icons/linen_cape.png"
+ },
+ {
+  "name": "Lox Cape",
+  "slug": "lox-cape",
+  "image": "",
+  "pieces": [
+   {
+    "name": "Lox cape",
+    "type": "Cape",
+    "armor": 1.0,
+    "durability": 1200.0,
+    "weight": null,
+    "materials": "Lox pelt x6 Silver x2",
+    "movement_speed": "",
+    "effect": "Resistant (0.5x) vs. Frost"
+   }
+  ],
+  "set_bonus": "",
+  "description": "",
+  "total_armor": 1.0,
+  "icon": "/icons/lox_cape.png"
+ },
+ {
+  "name": "Midsummer Crown",
+  "slug": "midsummer-crown",
+  "image": "",
+  "pieces": [
+   {
+    "name": "Midsummer Crown",
+    "type": "Head",
+    "armor": 1.0,
+    "durability": 0.0,
+    "weight": 1.0,
+    "materials": "Dandelion x10",
+    "movement_speed": "",
+    "effect": ""
+   }
+  ],
+  "set_bonus": "",
+  "description": "",
+  "total_armor": 1.0,
+  "icon": "/icons/midsummer_crown.png"
+ },
+ {
+  "name": "Padded Armor",
+  "slug": "padded-armor",
+  "image": "",
+  "pieces": [
+   {
+    "name": "Padded helmet",
+    "type": "Head",
+    "armor": 26.0,
+    "durability": 1000.0,
+    "weight": 3.0,
+    "materials": "10 Iron 15 Linen thread",
+    "movement_speed": "",
+    "effect": ""
+   },
+   {
+    "name": "Padded cuirass",
+    "type": "Chest",
+    "armor": 26.0,
+    "durability": 1000.0,
+    "weight": 10.0,
+    "materials": "10 Iron 15 Linen thread",
+    "movement_speed": "-5%",
+    "effect": ""
+   },
+   {
+    "name": "Padded greaves",
+    "type": "Legs",
+    "armor": 26.0,
+    "durability": 1000.0,
+    "weight": 10.0,
+    "materials": "10 Iron 15 Linen thread",
+    "movement_speed": "-5%",
+    "effect": ""
+   },
+   {
+    "name": "Linen cape",
+    "type": "Cape",
+    "armor": 1.0,
+    "durability": 1500.0,
+    "weight": 4.0,
+    "materials": "20 Linen thread 1 Silver",
+    "movement_speed": "",
+    "effect": ""
+   }
+  ],
+  "set_bonus": "",
+  "description": "",
+  "total_armor": 79.0,
+  "icon": "/icons/padded_armor.png"
+ },
+ {
+  "name": "Pointy Hat",
+  "slug": "pointy-hat",
+  "image": "",
+  "pieces": [
+   {
+    "name": "{{PAGENAME",
+    "type": "Head",
+    "armor": 1.0,
+    "durability": 800.0,
+    "weight": 3.0,
+    "materials": "Coal x5 Bronze x1 Deer hide x2",
+    "movement_speed": "",
+    "effect": ""
+   }
+  ],
+  "set_bonus": "",
+  "description": "",
+  "total_armor": 1.0,
+  "icon": ""
+ },
+ {
+  "name": "Rag Armor",
+  "slug": "rag-armor",
+  "image": "",
+  "pieces": [
+   {
+    "name": "Rag tunic",
+    "type": "Chest",
+    "armor": 2.0,
+    "durability": 200.0,
+    "weight": 2.0,
+    "materials": "5 Leather scraps",
+    "movement_speed": "",
+    "effect": ""
+   },
+   {
+    "name": "Rag trousers",
+    "type": "Legs",
+    "armor": 2.0,
+    "durability": 200.0,
+    "weight": 2.0,
+    "materials": "5 Leather scraps",
+    "movement_speed": "",
+    "effect": ""
+   }
+  ],
+  "set_bonus": "",
+  "description": "",
+  "total_armor": 4.0,
+  "icon": "/icons/rag_armor.png"
+ },
+ {
+  "name": "Root Set",
+  "slug": "root-set",
+  "image": "",
+  "pieces": [
+   {
+    "name": "Root mask",
+    "type": "Head",
+    "armor": 8.0,
+    "durability": 800.0,
+    "weight": 3.0,
+    "materials": "10 Root 10 Ancient bark 4 Leather scraps",
+    "movement_speed": "",
+    "effect": ""
+   },
+   {
+    "name": "Root harnesk",
+    "type": "Chest",
+    "armor": 8.0,
+    "durability": 800.0,
+    "weight": 10.0,
+    "materials": "10 Root 10 Ancient bark 2 Deer hide",
+    "movement_speed": "-2%",
+    "effect": ""
+   },
+   {
+    "name": "Root leggings",
+    "type": "Legs",
+    "armor": 8.0,
+    "durability": 800.0,
+    "weight": 10.0,
+    "materials": "10 Root 10 Ancient bark 2 Deer hide",
+    "movement_speed": "-2%",
+    "effect": ""
+   }
+  ],
+  "set_bonus": "",
+  "description": "",
+  "total_armor": 24.0,
+  "icon": "/icons/root_set.png"
+ },
+ {
+  "name": "Shawl dress blue",
+  "slug": "shawl-dress-blue",
+  "image": "",
+  "pieces": [
+   {
+    "name": "Shawl dress blue",
+    "type": "Body",
+    "armor": 1.0,
+    "durability": 1000.0,
+    "weight": 10.0,
+    "materials": "",
+    "movement_speed": "",
+    "effect": ""
+   }
+  ],
+  "set_bonus": "",
+  "description": "",
+  "total_armor": 1.0,
+  "icon": "/icons/shawl_dress_blue.png"
+ },
+ {
+  "name": "Shawl dress brown",
+  "slug": "shawl-dress-brown",
+  "image": "",
+  "pieces": [
+   {
+    "name": "Shawl dress brown",
+    "type": "Body",
+    "armor": 1.0,
+    "durability": 1000.0,
+    "weight": 10.0,
+    "materials": "",
+    "movement_speed": "",
+    "effect": ""
+   }
+  ],
+  "set_bonus": "",
+  "description": "",
+  "total_armor": 1.0,
+  "icon": ""
+ },
+ {
+  "name": "Shawl dress yellow",
+  "slug": "shawl-dress-yellow",
+  "image": "",
+  "pieces": [
+   {
+    "name": "Shawl dress yellow",
+    "type": "Body",
+    "armor": 1.0,
+    "durability": 1000.0,
+    "weight": 10.0,
+    "materials": "",
+    "movement_speed": "",
+    "effect": ""
+   }
+  ],
+  "set_bonus": "",
+  "description": "",
+  "total_armor": 1.0,
+  "icon": "/icons/shawl_dress_yellow.png"
+ },
+ {
+  "name": "Simple cap purple",
+  "slug": "simple-cap-purple",
+  "image": "",
+  "pieces": [
+   {
+    "name": "",
+    "type": "Head",
+    "armor": 1.0,
+    "durability": 800.0,
+    "weight": 3.0,
+    "materials": "",
+    "movement_speed": "",
+    "effect": ""
+   }
+  ],
+  "set_bonus": "",
+  "description": "",
+  "total_armor": 1.0,
+  "icon": "/icons/simple_cap_purple.png"
+ },
+ {
+  "name": "Simple cap red",
+  "slug": "simple-cap-red",
+  "image": "",
+  "pieces": [
+   {
+    "name": "Simple cap red",
+    "type": "Head",
+    "armor": 1.0,
+    "durability": 800.0,
+    "weight": 3.0,
+    "materials": "",
+    "movement_speed": "",
+    "effect": ""
+   }
+  ],
+  "set_bonus": "",
+  "description": "",
+  "total_armor": 1.0,
+  "icon": "/icons/simple_cap_red.png"
+ },
+ {
+  "name": "Simple dress blue",
+  "slug": "simple-dress-blue",
+  "image": "",
+  "pieces": [
+   {
+    "name": "Simple dress blue",
+    "type": "Body",
+    "armor": 1.0,
+    "durability": 1000.0,
+    "weight": 10.0,
+    "materials": "",
+    "movement_speed": "",
+    "effect": ""
+   }
+  ],
+  "set_bonus": "",
+  "description": "",
+  "total_armor": 1.0,
+  "icon": "/icons/simple_dress_blue.png"
+ },
+ {
+  "name": "Simple dress brown",
+  "slug": "simple-dress-brown",
+  "image": "",
+  "pieces": [
+   {
+    "name": "Simple dress brown",
+    "type": "Body",
+    "armor": 1.0,
+    "durability": 1000.0,
+    "weight": 10.0,
+    "materials": "",
+    "movement_speed": "",
+    "effect": ""
+   }
+  ],
+  "set_bonus": "",
+  "description": "",
+  "total_armor": 1.0,
+  "icon": "/icons/simple_dress_brown.png"
+ },
+ {
+  "name": "Simple dress natural",
+  "slug": "simple-dress-natural",
+  "image": "",
+  "pieces": [
+   {
+    "name": "Simple dress natural",
+    "type": "Body",
+    "armor": 1.0,
+    "durability": 1000.0,
+    "weight": 10.0,
+    "materials": "",
+    "movement_speed": "",
+    "effect": ""
+   }
+  ],
+  "set_bonus": "",
+  "description": "",
+  "total_armor": 1.0,
+  "icon": "/icons/simple_dress_natural.png"
+ },
+ {
+  "name": "Simple dress yellow",
+  "slug": "simple-dress-yellow",
+  "image": "",
+  "pieces": [
+   {
+    "name": "Simple dress yellow",
+    "type": "Body",
+    "armor": 1.0,
+    "durability": 1000.0,
+    "weight": 10.0,
+    "materials": "",
+    "movement_speed": "",
+    "effect": ""
+   }
+  ],
+  "set_bonus": "",
+  "description": "",
+  "total_armor": 1.0,
+  "icon": "/icons/simple_dress_yellow.png"
+ },
+ {
+  "name": "Simple tunic blue",
+  "slug": "simple-tunic-blue",
+  "image": "",
+  "pieces": [
+   {
+    "name": "Simple tunic blue",
+    "type": "Body",
+    "armor": 1.0,
+    "durability": 1000.0,
+    "weight": 10.0,
+    "materials": "",
+    "movement_speed": "",
+    "effect": ""
+   }
+  ],
+  "set_bonus": "",
+  "description": "",
+  "total_armor": 1.0,
+  "icon": "/icons/simple_tunic_blue.png"
+ },
+ {
+  "name": "Simple tunic natural",
+  "slug": "simple-tunic-natural",
+  "image": "",
+  "pieces": [
+   {
+    "name": "Simple tunic natural",
+    "type": "Body",
+    "armor": 1.0,
+    "durability": 1000.0,
+    "weight": 10.0,
+    "materials": "",
+    "movement_speed": "",
+    "effect": ""
+   }
+  ],
+  "set_bonus": "",
+  "description": "",
+  "total_armor": 1.0,
+  "icon": "/icons/simple_tunic_natural.png"
+ },
+ {
+  "name": "Simple tunic red",
+  "slug": "simple-tunic-red",
+  "image": "",
+  "pieces": [
+   {
+    "name": "Simple tunic red",
+    "type": "Body",
+    "armor": 1.0,
+    "durability": 1000.0,
+    "weight": 10.0,
+    "materials": "",
+    "movement_speed": "",
+    "effect": ""
+   }
+  ],
+  "set_bonus": "",
+  "description": "",
+  "total_armor": 1.0,
+  "icon": "/icons/simple_tunic_red.png"
+ },
+ {
+  "name": "Simple tunic yellow",
+  "slug": "simple-tunic-yellow",
+  "image": "",
+  "pieces": [
+   {
+    "name": "Simple tunic yellow",
+    "type": "Body",
+    "armor": 1.0,
+    "durability": 1000.0,
+    "weight": 10.0,
+    "materials": "",
+    "movement_speed": "",
+    "effect": ""
+   }
+  ],
+  "set_bonus": "",
+  "description": "",
+  "total_armor": 1.0,
+  "icon": "/icons/simple_tunic_yellow.png"
+ },
+ {
+  "name": "Straw hat",
+  "slug": "straw-hat",
+  "image": "",
+  "pieces": [
+   {
+    "name": "",
+    "type": "Head",
+    "armor": 1.0,
+    "durability": 800.0,
+    "weight": 3.0,
+    "materials": "",
+    "movement_speed": "",
+    "effect": ""
+   }
+  ],
+  "set_bonus": "",
+  "description": "",
+  "total_armor": 1.0,
+  "icon": "/icons/straw_hat.png"
+ },
+ {
+  "name": "Tied headscarf blue",
+  "slug": "tied-headscarf-blue",
+  "image": "",
+  "pieces": [
+   {
+    "name": "Tied headscarf blue",
+    "type": "Head",
+    "armor": 1.0,
+    "durability": 800.0,
+    "weight": 3.0,
+    "materials": "",
+    "movement_speed": "",
+    "effect": ""
+   }
+  ],
+  "set_bonus": "",
+  "description": "",
+  "total_armor": 1.0,
+  "icon": "/icons/tied_headscarf_blue.png"
+ },
+ {
+  "name": "Tied headscarf yellow",
+  "slug": "tied-headscarf-yellow",
+  "image": "",
+  "pieces": [
+   {
+    "name": "Tied headscarf yellow",
+    "type": "Head",
+    "armor": 1.0,
+    "durability": 800.0,
+    "weight": 3.0,
+    "materials": "",
+    "movement_speed": "",
+    "effect": ""
+   }
+  ],
+  "set_bonus": "",
+  "description": "",
+  "total_armor": 1.0,
+  "icon": "/icons/tied_headscarf_yellow.png"
+ },
+ {
+  "name": "Troll Hide Cape",
+  "slug": "troll-hide-cape",
+  "image": "",
+  "pieces": [
+   {
+    "name": "Troll hide cape",
+    "type": "Cape",
+    "armor": 1.0,
+    "durability": 500.0,
+    "weight": null,
+    "materials": "Troll hide x10 Bone fragments x10",
+    "movement_speed": "",
+    "effect": ""
+   }
+  ],
+  "set_bonus": "",
+  "description": "",
+  "total_armor": 1.0,
+  "icon": "/icons/troll_hide_cape.png"
+ },
+ {
+  "name": "Troll Set",
+  "slug": "troll-set",
+  "image": "",
+  "pieces": [
+   {
+    "name": "Troll leather hood",
+    "type": "Head",
+    "armor": 6.0,
+    "durability": 500.0,
+    "weight": 1.0,
+    "materials": "5 Troll hide 3 Bone fragments",
+    "movement_speed": "",
+    "effect": ""
+   },
+   {
+    "name": "Troll leather tunic",
+    "type": "Chest",
+    "armor": 6.0,
+    "durability": 500.0,
+    "weight": 5.0,
+    "materials": "5 Troll hide",
+    "movement_speed": "",
+    "effect": ""
+   },
+   {
+    "name": "Troll leather trousers",
+    "type": "Legs",
+    "armor": 6.0,
+    "durability": 500.0,
+    "weight": 5.0,
+    "materials": "5 Troll hide",
+    "movement_speed": "",
+    "effect": ""
+   },
+   {
+    "name": "Troll hide cape",
+    "type": "Cape",
+    "armor": 1.0,
+    "durability": 500.0,
+    "weight": 4.0,
+    "materials": "10 Troll hide 10Bone fragments",
+    "movement_speed": "",
+    "effect": ""
+   }
+  ],
+  "set_bonus": "",
+  "description": "",
+  "total_armor": 19.0,
+  "icon": "/icons/troll_set.png"
+ },
+ {
+  "name": "Twisted headscarf green",
+  "slug": "twisted-headscarf-green",
+  "image": "",
+  "pieces": [
+   {
+    "name": "Twisted headscarf green",
+    "type": "Head",
+    "armor": 1.0,
+    "durability": 800.0,
+    "weight": 3.0,
+    "materials": "",
+    "movement_speed": "",
+    "effect": ""
+   }
+  ],
+  "set_bonus": "",
+  "description": "",
+  "total_armor": 1.0,
+  "icon": "/icons/twisted_headscarf_green.png"
+ },
+ {
+  "name": "Twisted headscarf red",
+  "slug": "twisted-headscarf-red",
+  "image": "",
+  "pieces": [
+   {
+    "name": "Twisted headscarf red",
+    "type": "Head",
+    "armor": 1.0,
+    "durability": 800.0,
+    "weight": 3.0,
+    "materials": "",
+    "movement_speed": "",
+    "effect": ""
+   }
+  ],
+  "set_bonus": "",
+  "description": "",
+  "total_armor": 1.0,
+  "icon": "/icons/twisted_headscarf_red.png"
+ },
+ {
+  "name": "Vilebone Set",
+  "slug": "vilebone-set",
+  "image": "",
+  "pieces": [
+   {
+    "name": "Vilebone visage",
+    "type": "Head",
+    "armor": 12.0,
+    "durability": 1000.0,
+    "weight": 1.0,
+    "materials": "5 Bear hide 1 Vile trophy",
+    "movement_speed": "",
+    "effect": ""
+   },
+   {
+    "name": "Vilebone cage",
+    "type": "Chest",
+    "armor": 18.0,
+    "durability": 1000.0,
+    "weight": 5.0,
+    "materials": "4 Bear hide 3 Vile ribcage 4 Linen thread",
+    "movement_speed": "",
+    "effect": ""
+   },
+   {
+    "name": "Vilebone drapes",
+    "type": "Legs",
+    "armor": 18.0,
+    "durability": 1000.0,
+    "weight": 5.0,
+    "materials": "10 Bear hide 1 Vile ribcage 4 Linen thread",
+    "movement_speed": "",
+    "effect": ""
+   }
+  ],
+  "set_bonus": "",
+  "description": "",
+  "total_armor": 48.0,
+  "icon": "/icons/vilebone_set.png"
+ },
+ {
+  "name": "Wolf Armor",
+  "slug": "wolf-armor",
+  "image": "",
+  "pieces": [
+   {
+    "name": "Drake helmet",
+    "type": "Head",
+    "armor": 20.0,
+    "durability": 1000.0,
+    "weight": 3.0,
+    "materials": "20 Silver 2 Wolf pelt 2 Drake trophy",
+    "movement_speed": "",
+    "effect": ""
+   },
+   {
+    "name": "Wolf hide chestpiece",
+    "type": "Chest",
+    "armor": 20.0,
+    "durability": 1000.0,
+    "weight": 15.0,
+    "materials": "20 Silver 5 Wolf pelt 1 Chain",
+    "movement_speed": "-5%",
+    "effect": ""
+   },
+   {
+    "name": "Wolf hide trousers",
+    "type": "Legs",
+    "armor": 20.0,
+    "durability": 1000.0,
+    "weight": 15.0,
+    "materials": "20 Silver 5 Wolf pelt 4 Wolf fang",
+    "movement_speed": "-5%",
+    "effect": ""
+   },
+   {
+    "name": "Wolf fur cape",
+    "type": "Cape",
+    "armor": 1.0,
+    "durability": 1000.0,
+    "weight": 4.0,
+    "materials": "4 Silver 6 Wolf pelt 1 Wolf trophy",
+    "movement_speed": "",
+    "effect": ""
+   }
+  ],
+  "set_bonus": "",
+  "description": "",
+  "total_armor": 61.0,
+  "icon": "/icons/wolf_armor.png"
+ },
+ {
+  "name": "Wolf Fur Cape",
+  "slug": "wolf-fur-cape",
+  "image": "",
+  "pieces": [
+   {
+    "name": "Wolf fur cape",
+    "type": "Cape",
+    "armor": 1.0,
+    "durability": 1000.0,
+    "weight": null,
+    "materials": "Wolf pelt x6 Silver x4 Wolf trophy x1",
+    "movement_speed": "",
+    "effect": "Resistant (0.5x) vs. Frost"
+   }
+  ],
+  "set_bonus": "",
+  "description": "",
+  "total_armor": 1.0,
+  "icon": "/icons/wolf_fur_cape.png"
+ },
+ {
+  "name": "Yule Hat",
+  "slug": "yule-hat",
+  "image": "",
+  "pieces": [
+   {
+    "name": "",
+    "type": "Head",
+    "armor": 1.0,
+    "durability": 0.0,
+    "weight": 1.0,
+    "materials": "N/A",
+    "movement_speed": "",
+    "effect": ""
+   }
+  ],
+  "set_bonus": "",
+  "description": "",
+  "total_armor": 1.0,
+  "icon": "/icons/yule_hat.png"
+ }
+]

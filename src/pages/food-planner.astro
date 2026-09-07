@@ -1,0 +1,109 @@
+---
+import Base from "../layouts/Base.astro";
+import food from "../data/food.json";
+
+const items = food
+  .filter((f) => f.health || f.stamina)
+  .map((f) => ({
+    name: f.name,
+    slug: f.slug,
+    h: f.health || 0,
+    st: f.stamina || 0,
+    min: f.duration ? Math.round((f.duration || 0) / 60) : 0,
+  }))
+  .sort((a, b) => b.h - a.h);
+---
+
+<Base
+  title="Valheim Food Planner — 3-Slot Meal Loadout Builder"
+  description="Pick up to 3 Valheim foods and see combined max health, max stamina and buff duration. Plan the best meal before boss fights."
+>
+  <h1>🍲 Food planner</h1>
+  <p class="muted">
+    Valheim keeps only <strong>3 food buffs</strong> active at once. Tick up to 3 dishes — totals update instantly so you can tune your boss-fight loadout.
+  </p>
+
+  <div class="planner">
+    <div class="pick">
+      <input id="q" type="text" placeholder="Filter food..." />
+      <div id="list" class="list">
+        {items.map((it) => (
+          <label class="row">
+            <input type="checkbox" data-name={it.name} data-h={it.h} data-st={it.st} data-min={it.min} />
+            <span class="n">{it.name}</span>
+            <span class="v">
+              {[it.h ? `+${it.h} HP` : "", it.st ? `+${it.st} stam` : "", it.min ? `${it.min} min` : ""].filter(Boolean).join(" · ")}
+            </span>
+          </label>
+        ))}
+      </div>
+    </div>
+
+    <aside class="totals">
+      <h2>Loadout</h2>
+      <div class="t" style="border-color:var(--good)"><span>Max health</span><strong id="t-h">0</strong></div>
+      <div class="t" style="border-color:var(--accent-2)"><span>Max stamina</span><strong id="t-st">0</strong></div>
+      <div class="t"><span>Shortest buff</span><strong id="t-min">—</strong></div>
+      <p class="muted small">3 slots max — Valheim keeps only the last 3 foods eaten.</p>
+      <button id="clear" type="button">Clear all</button>
+    </aside>
+  </div>
+
+  <script>
+    const boxes = Array.from(document.querySelectorAll('#list input[type="checkbox"]')) as HTMLInputElement[];
+    const q = document.getElementById("q") as HTMLInputElement | null;
+    function vals(b: HTMLInputElement) {
+      return {
+        h: parseFloat(b.getAttribute("data-h") || "0"),
+        st: parseFloat(b.getAttribute("data-st") || "0"),
+        min: parseFloat(b.getAttribute("data-min") || "0"),
+      };
+    }
+    function update() {
+      const picked = boxes.filter((b) => b.checked);
+      const h = picked.reduce((s, b) => s + vals(b).h, 0);
+      const st = picked.reduce((s, b) => s + vals(b).st, 0);
+      const mins = picked.map((b) => vals(b).min).filter((m) => m > 0);
+      document.getElementById("t-h")!.textContent = String(Math.round(h));
+      document.getElementById("t-st")!.textContent = String(Math.round(st));
+      document.getElementById("t-min")!.textContent = mins.length ? Math.min(...mins) + " min" : "—";
+    }
+    boxes.forEach((b) =>
+      b.addEventListener("change", () => {
+        if (b.checked && boxes.filter((x) => x.checked).length > 3) {
+          b.checked = false;
+          alert("Valheim keeps only 3 food buffs — un-tick one first.");
+          return;
+        }
+        update();
+      })
+    );
+    q?.addEventListener("input", () => {
+      const s = q.value.toLowerCase();
+      document.querySelectorAll("#list .row").forEach((r) => {
+        const el = r as HTMLElement;
+        const n = (el.querySelector(".n") as HTMLElement).textContent!.toLowerCase();
+        el.style.display = n.includes(s) ? "" : "none";
+      });
+    });
+    document.getElementById("clear")?.addEventListener("click", () => {
+      boxes.forEach((b) => (b.checked = false));
+      update();
+    });
+  </script>
+
+  <style>
+    .planner { display: grid; grid-template-columns: 1.6fr 1fr; gap: 1rem; align-items: start; }
+    .list { max-height: 560px; overflow-y: auto; border: 1px solid var(--border); border-radius: 8px; background: var(--card); }
+    .row { display: flex; gap: 0.6rem; align-items: baseline; padding: 0.4rem 0.7rem; border-bottom: 1px solid var(--border); cursor: pointer; }
+    .row:last-child { border-bottom: none; }
+    .row:hover { background: var(--bg-soft); }
+    .row .n { min-width: 12rem; font-weight: 600; }
+    .row .v { color: var(--muted); font-size: 0.83rem; }
+    .totals { position: sticky; top: 4.5rem; }
+    .t { display: flex; justify-content: space-between; border-left: 3px solid var(--accent); padding-left: 0.75rem; margin: 0.6rem 0; }
+    .t strong { font-size: 1.15rem; }
+    .small { font-size: 0.82rem; }
+    @media (max-width: 800px) { .planner { grid-template-columns: 1fr; } }
+  </style>
+</Base>

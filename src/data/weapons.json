@@ -1,0 +1,3024 @@
+[
+ {
+  "name": "Abyssal Harpoon",
+  "slug": "abyssal-harpoon",
+  "image": "",
+  "type": "Spear",
+  "source": "Workbench",
+  "crafting_level": "2",
+  "repair_level": "2",
+  "durability": 50.0,
+  "stamina": 15.0,
+  "block_armor": 21.0,
+  "knockback": null,
+  "parry": null,
+  "backstab": 1.0,
+  "damage": {
+   "Pierce": 10.0
+  },
+  "materials": [
+   "Finewood x8 Chitin x30 Leather scraps x3"
+  ],
+  "description": "The ocean's wrath.",
+  "icon": "/icons/abyssal_harpoon.png"
+ },
+ {
+  "name": "Abyssal razor",
+  "slug": "abyssal-razor",
+  "image": "",
+  "type": "Knife",
+  "source": "Workbench",
+  "crafting_level": "2",
+  "repair_level": "2",
+  "durability": null,
+  "stamina": 8.0,
+  "block_armor": null,
+  "knockback": null,
+  "parry": null,
+  "backstab": null,
+  "damage": {
+   "Slash": 20.0,
+   "Pierce": 20.0
+  },
+  "materials": [
+   "Finewood x4 Chitin x20 Leather scraps x2",
+   "Chitin x10",
+   "Chitin x20",
+   "Chitin x30"
+  ],
+  "description": "A knife from the deep.",
+  "icon": "/icons/abyssal_razor.png"
+ },
+ {
+  "name": "Ancient bark spear",
+  "slug": "ancient-bark-spear",
+  "image": "",
+  "type": "Spear",
+  "source": "Forge",
+  "crafting_level": "3",
+  "repair_level": "3",
+  "durability": null,
+  "stamina": 10.0,
+  "block_armor": 21.0,
+  "knockback": null,
+  "parry": null,
+  "backstab": null,
+  "damage": {
+   "Pierce": 55.0
+  },
+  "materials": [
+   "Troll hide x4 Iron x10 Ancient bark x10",
+   "Troll hide x1 Iron x5 Ancient bark x5",
+   "Troll hide x2 Iron x10 Ancient bark x10",
+   "Troll hide x3 Iron x15 Ancient bark x15"
+  ],
+  "description": "Despite its gnarled look, this spear is strong and perfectly balanced.",
+  "icon": "/icons/ancient_bark_spear.png"
+ },
+ {
+  "name": "Antler pickaxe",
+  "slug": "antler-pickaxe",
+  "image": "",
+  "type": "Pickaxe",
+  "source": "Workbench",
+  "crafting_level": "1",
+  "repair_level": "1",
+  "durability": 100.0,
+  "stamina": 6.0,
+  "block_armor": null,
+  "knockback": null,
+  "parry": null,
+  "backstab": null,
+  "damage": {
+   "Pierce": 18.0,
+   "Pickaxe": 18.0
+  },
+  "materials": [
+   "Wood x10 Hard antler x1"
+  ],
+  "description": "This tool is hard enough to crack even the most stubborn rocks.",
+  "icon": "/icons/antler_pickaxe.png"
+ },
+ {
+  "name": "Arbalest",
+  "slug": "arbalest",
+  "image": "",
+  "type": "Crossbow",
+  "source": "Black forge",
+  "crafting_level": "1",
+  "repair_level": "1",
+  "durability": null,
+  "stamina": 1.0,
+  "block_armor": null,
+  "knockback": null,
+  "parry": null,
+  "backstab": null,
+  "damage": {
+   "Pierce": 200.0
+  },
+  "materials": [
+   "Wood x10 Iron x8 Root x4",
+   "Wood x5 Iron x4 Root x1",
+   "Wood x10 Iron x8 Root x2",
+   "Wood x15 Iron x12 Root x3"
+  ],
+  "description": "A slow but powerful weapon.",
+  "icon": "/icons/arbalest.png"
+ },
+ {
+  "name": "Banded shield",
+  "slug": "banded-shield",
+  "image": "",
+  "type": "Shield Round",
+  "source": "Forge",
+  "crafting_level": "2",
+  "repair_level": "2",
+  "durability": null,
+  "stamina": null,
+  "block_armor": 42.0,
+  "knockback": null,
+  "parry": null,
+  "backstab": null,
+  "damage": {},
+  "materials": [
+   "Finewood x10 Iron x8",
+   "Finewood x10 Iron x4",
+   "Finewood x20 Iron x8"
+  ],
+  "description": "Banded with hoops of iron, a true warrior's companion.",
+  "icon": ""
+ },
+ {
+  "name": "Basalt Bomb",
+  "slug": "basalt-bomb",
+  "image": "",
+  "type": "Bomb",
+  "source": "Workbench",
+  "crafting_level": "1",
+  "repair_level": "",
+  "durability": null,
+  "stamina": 8.0,
+  "block_armor": 2.0,
+  "knockback": 40.0,
+  "parry": null,
+  "backstab": 3.0,
+  "damage": {},
+  "materials": [
+   "Asksvin hide x1 Asksvin bladder x1 Proustite powder x3"
+  ],
+  "description": "With enough heat, it solidifies upon explosion.",
+  "icon": ""
+ },
+ {
+  "name": "Battleaxe",
+  "slug": "battleaxe",
+  "image": "",
+  "type": "Axe 2h",
+  "source": "Forge",
+  "crafting_level": "2",
+  "repair_level": "2",
+  "durability": 200.0,
+  "stamina": 16.0,
+  "block_armor": 28.0,
+  "knockback": 70.0,
+  "parry": null,
+  "backstab": null,
+  "damage": {
+   "Slash": 70.0,
+   "Chop": 40.0
+  },
+  "materials": [
+   "Ancient bark x30 Iron x35 Leather scraps x4",
+   "Ancient bark x5 Iron x15",
+   "Ancient bark x10 Iron x30",
+   "Ancient bark x15 Iron x45"
+  ],
+  "description": "Skull-splitter, a warrior's joy.",
+  "icon": "/icons/battleaxe.png"
+ },
+ {
+  "name": "Berserkir Axes",
+  "slug": "berserkir-axes",
+  "image": "",
+  "type": "axe dw",
+  "source": "Black forge",
+  "crafting_level": "3",
+  "repair_level": "3",
+  "durability": 175.0,
+  "stamina": 16.0,
+  "block_armor": 57.0,
+  "knockback": 20.0,
+  "parry": null,
+  "backstab": 3.0,
+  "damage": {
+   "Slash": 140.0,
+   "Chop": 80.0
+  },
+  "materials": [
+   "Charred bone x15 Flametal x24 Asksvin hide x3",
+   "Flametal x15 Asksvin hide x1",
+   "Flametal x30 Asksvin hide x2",
+   "Flametal x45 Asksvin hide x3"
+  ],
+  "description": "Let your rage take over and face the slaughter.",
+  "icon": ""
+ },
+ {
+  "name": "Bile Bomb",
+  "slug": "bile-bomb",
+  "image": "",
+  "type": "Bomb",
+  "source": "Workbench",
+  "crafting_level": "",
+  "repair_level": "",
+  "durability": null,
+  "stamina": 8.0,
+  "block_armor": 2.0,
+  "knockback": 40.0,
+  "parry": null,
+  "backstab": 3.0,
+  "damage": {
+   "Blunt": 5.0
+  },
+  "materials": [
+   "Sap x1 Bilebag x1 Resin x3"
+  ],
+  "description": "Handle with care.",
+  "icon": "/icons/bile_bomb.png"
+ },
+ {
+  "name": "Black metal atgeir",
+  "slug": "black-metal-atgeir",
+  "image": "",
+  "type": "Polearm",
+  "source": "Forge",
+  "crafting_level": "4",
+  "repair_level": "4",
+  "durability": null,
+  "stamina": 18.0,
+  "block_armor": 52.0,
+  "knockback": null,
+  "parry": null,
+  "backstab": null,
+  "damage": {
+   "Pierce": 105.0
+  },
+  "materials": [
+   "Finewood x10 Black metal x30 Linen thread x5",
+   "Black metal x15 Linen thread x5",
+   "Black metal x30 Linen thread x10",
+   "Black metal x45 Linen thread x15"
+  ],
+  "description": "A vicious hewing-axe of almost unbreakable black metal.",
+  "icon": "/icons/black_metal_atgeir.png"
+ },
+ {
+  "name": "Black metal axe",
+  "slug": "black-metal-axe",
+  "image": "",
+  "type": "Axe 1h",
+  "source": "Forge",
+  "crafting_level": "4",
+  "repair_level": "4",
+  "durability": 175.0,
+  "stamina": 14.0,
+  "block_armor": 39.0,
+  "knockback": 60.0,
+  "parry": null,
+  "backstab": null,
+  "damage": {
+   "Slash": 100.0,
+   "Chop": 60.0
+  },
+  "materials": [
+   "Finewood x6 Black metal x20 Linen thread x5",
+   "Black metal x10 Linen thread x5",
+   "Black metal x20 Linen thread x10",
+   "Black metal x30 Linen thread x15"
+  ],
+  "description": "A perfectly-balanced axe forged from dark metal with an emerald sheen.",
+  "icon": "/icons/black_metal_axe.png"
+ },
+ {
+  "name": "Black Metal Battleaxe",
+  "slug": "black-metal-battleaxe",
+  "image": "",
+  "type": "Axe 2h",
+  "source": "Forge",
+  "crafting_level": "4",
+  "repair_level": "4",
+  "durability": 200.0,
+  "stamina": 20.0,
+  "block_armor": 52.0,
+  "knockback": 70.0,
+  "parry": null,
+  "backstab": null,
+  "damage": {
+   "Slash": 110.0,
+   "Chop": 60.0
+  },
+  "materials": [
+   "Linen x5 Black metal x30 Finewood x10",
+   "Linen x5 Black metal x15",
+   "Linen x10 Black metal x30",
+   "Linen x15 Black metal x45"
+  ],
+  "description": "Green shall be the last thing your foes see before you cleave them in half.",
+  "icon": "/icons/black_metal_battleaxe.png"
+ },
+ {
+  "name": "Black Metal Bolt",
+  "slug": "black-metal-bolt",
+  "image": "",
+  "type": "Bolt",
+  "source": "Black forge",
+  "crafting_level": "2",
+  "repair_level": "",
+  "durability": null,
+  "stamina": null,
+  "block_armor": null,
+  "knockback": 0.0,
+  "parry": null,
+  "backstab": null,
+  "damage": {
+   "Pierce": 62.0
+  },
+  "materials": [
+   "Wood x8 Black metal x2 Feathers x2"
+  ],
+  "description": "A sleek bolt of dark metal.",
+  "icon": "/icons/black_metal_bolt.png"
+ },
+ {
+  "name": "Black metal knife",
+  "slug": "black-metal-knife",
+  "image": "",
+  "type": "Knife",
+  "source": "Forge",
+  "crafting_level": "4",
+  "repair_level": "4",
+  "durability": null,
+  "stamina": 12.0,
+  "block_armor": null,
+  "knockback": null,
+  "parry": null,
+  "backstab": null,
+  "damage": {
+   "Slash": 34.0,
+   "Pierce": 34.0
+  },
+  "materials": [
+   "Finewood x4 Black metal x10 Linen thread x5",
+   "Black metal x4 Linen thread x5",
+   "Black metal x8 Linen thread x10",
+   "Black metal x12 Linen thread x15"
+  ],
+  "description": "A darkling blade. Strong and sharp.",
+  "icon": "/icons/black_metal_knife.png"
+ },
+ {
+  "name": "Black metal missile",
+  "slug": "black-metal-missile",
+  "image": "",
+  "type": "Missile",
+  "source": "Artisan table",
+  "crafting_level": "1",
+  "repair_level": "",
+  "durability": null,
+  "stamina": null,
+  "block_armor": null,
+  "knockback": 60.0,
+  "parry": null,
+  "backstab": null,
+  "damage": {
+   "Pierce": 120.0
+  },
+  "materials": [
+   "Wood x10 Black metal x1"
+  ],
+  "description": "These thick missiles can punch through the hide of even the toughest of foes.",
+  "icon": "/icons/black_metal_missile.png"
+ },
+ {
+  "name": "Black Metal Pickaxe",
+  "slug": "black-metal-pickaxe",
+  "image": "",
+  "type": "Pickaxe",
+  "source": "Forge",
+  "crafting_level": "2",
+  "repair_level": "2",
+  "durability": 210.0,
+  "stamina": 14.0,
+  "block_armor": null,
+  "knockback": null,
+  "parry": null,
+  "backstab": null,
+  "damage": {
+   "Pierce": 49.0,
+   "Pickaxe": 49.0
+  },
+  "materials": [
+   "Yggdrasil wood x3 Black metal x25",
+   "Yggdrasil wood x1 Black metal x15",
+   "Yggdrasil wood x2 Black metal x30",
+   "Yggdrasil wood x3 Black metal x45"
+  ],
+  "description": "A good strong pick of glistening dark metal.",
+  "icon": "/icons/black_metal_pickaxe.png"
+ },
+ {
+  "name": "Black metal shield",
+  "slug": "black-metal-shield",
+  "image": "",
+  "type": "Shield Round",
+  "source": "Forge",
+  "crafting_level": "3",
+  "repair_level": "3",
+  "durability": null,
+  "stamina": null,
+  "block_armor": 78.0,
+  "knockback": null,
+  "parry": null,
+  "backstab": null,
+  "damage": {},
+  "materials": [
+   "Finewood x10 Black metal x8 Chain x5",
+   "Finewood x10 Black metal x4 Chain x2",
+   "Finewood x20 Black metal x8 Chain x4"
+  ],
+  "description": "Fashioned from the strongest metal, able to turn even the deadliest blades.",
+  "icon": "/icons/black_metal_shield.png"
+ },
+ {
+  "name": "Black metal sword",
+  "slug": "black-metal-sword",
+  "image": "",
+  "type": "Sword",
+  "source": "Forge",
+  "crafting_level": "4",
+  "repair_level": "4",
+  "durability": null,
+  "stamina": 14.0,
+  "block_armor": 39.0,
+  "knockback": null,
+  "parry": null,
+  "backstab": null,
+  "damage": {
+   "Slash": 95.0
+  },
+  "materials": [
+   "Finewood x2 Black metal x20 Linen thread x5",
+   "Black metal x10 Linen thread x5",
+   "Black metal x20 Linen thread x10",
+   "Black metal x30 Linen thread x15"
+  ],
+  "description": "A thing of death and beauty. It catches the light with a greenish glow.",
+  "icon": "/icons/black_metal_sword.png"
+ },
+ {
+  "name": "Black Metal Tower Shield",
+  "slug": "black-metal-tower-shield",
+  "image": "",
+  "type": "Shield Tower",
+  "source": "Forge",
+  "crafting_level": "3",
+  "repair_level": "3",
+  "durability": null,
+  "stamina": null,
+  "block_armor": 104.0,
+  "knockback": null,
+  "parry": null,
+  "backstab": null,
+  "damage": {},
+  "materials": [
+   "Finewood x15 Black metal x10 Chain x7",
+   "Finewood x10 Black metal x4 Chain x2",
+   "Finewood x20 Black metal x8 Chain x4"
+  ],
+  "description": "A tower shield of gleaming dark metal.",
+  "icon": "/icons/black_metal_tower_shield.png"
+ },
+ {
+  "name": "Bleeding Berserkir Axes",
+  "slug": "bleeding-berserkir-axes",
+  "image": "",
+  "type": "axe dw",
+  "source": "Black forge",
+  "crafting_level": "4",
+  "repair_level": "4",
+  "durability": 175.0,
+  "stamina": 16.0,
+  "block_armor": 57.0,
+  "knockback": 20.0,
+  "parry": null,
+  "backstab": 3.0,
+  "damage": {
+   "Slash": 140.0,
+   "Chop": 80.0
+  },
+  "materials": [
+   "Berserkir axes x1 Flametal x5 Bloodstone x1",
+   "Flametal x5 Bloodstone x1",
+   "Flametal x10 Bloodstone x2",
+   "Flametal x15 Bloodstone x3"
+  ],
+  "description": "The closer you are to death, the harder you are sure to hit.",
+  "icon": "/icons/bleeding_berserkir_axes.png"
+ },
+ {
+  "name": "Bloodgeon",
+  "slug": "bloodgeon",
+  "image": "",
+  "type": "Club 1h",
+  "source": "Black forge",
+  "crafting_level": "4",
+  "repair_level": "4",
+  "durability": 150.0,
+  "stamina": 16.0,
+  "block_armor": 57.0,
+  "knockback": 100.0,
+  "parry": null,
+  "backstab": null,
+  "damage": {
+   "Blunt": 135.0
+  },
+  "materials": [
+   "Flametal mace x1 Flametal x8 Bloodstone x1",
+   "Flametal x8 Bloodstone x1",
+   "Flametal x16 Bloodstone x2",
+   "Flametal x24 Bloodstone x3"
+  ],
+  "description": "The blood all but soaks into this mace, and it always yearns for more.",
+  "icon": "/icons/bloodgeon.png"
+ },
+ {
+  "name": "Bone bolt",
+  "slug": "bone-bolt",
+  "image": "",
+  "type": "Bolt",
+  "source": "Black forge",
+  "crafting_level": "1",
+  "repair_level": "",
+  "durability": null,
+  "stamina": null,
+  "block_armor": null,
+  "knockback": 0.0,
+  "parry": null,
+  "backstab": null,
+  "damage": {
+   "Pierce": 32.0
+  },
+  "materials": [
+   "Bone fragments x8 Feathers x2"
+  ],
+  "description": "A crude bolt of yellowed bone.",
+  "icon": "/icons/bone_bolt.png"
+ },
+ {
+  "name": "Bone Tower Shield",
+  "slug": "bone-tower-shield",
+  "image": "",
+  "type": "Shield Tower",
+  "source": "Workbench",
+  "crafting_level": "3",
+  "repair_level": "1",
+  "durability": null,
+  "stamina": null,
+  "block_armor": 32.0,
+  "knockback": null,
+  "parry": null,
+  "backstab": null,
+  "damage": {},
+  "materials": [
+   "Wood x10 Bone fragments x10 Skeleton trophy x3",
+   "Wood x5 Bone fragments x5",
+   "Wood x10 Bone fragments x10"
+  ],
+  "description": "The bones of dead warriors make for a good protection.",
+  "icon": "/icons/bone_tower_shield.png"
+ },
+ {
+  "name": "Bronze atgeir",
+  "slug": "bronze-atgeir",
+  "image": "",
+  "type": "Polearm",
+  "source": "Forge",
+  "crafting_level": "1",
+  "repair_level": "1",
+  "durability": 125.0,
+  "stamina": 12.0,
+  "block_armor": 16.0,
+  "knockback": null,
+  "parry": null,
+  "backstab": null,
+  "damage": {
+   "Pierce": 45.0
+  },
+  "materials": [
+   "Wood x10 Bronze x8 Leather scraps x2",
+   "Bronze x4",
+   "Bronze x8",
+   "Bronze x12"
+  ],
+  "description": "A true warrior's tool.",
+  "icon": "/icons/bronze_atgeir.png"
+ },
+ {
+  "name": "Bronze axe",
+  "slug": "bronze-axe",
+  "image": "",
+  "type": "Axe 1h",
+  "source": "Forge",
+  "crafting_level": "1",
+  "repair_level": "1",
+  "durability": 125.0,
+  "stamina": 8.0,
+  "block_armor": 12.0,
+  "knockback": 50.0,
+  "parry": null,
+  "backstab": null,
+  "damage": {
+   "Slash": 40.0,
+   "Chop": 40.0
+  },
+  "materials": [
+   "Wood x4 Bronze x8 Leather Scraps x2",
+   "Bronze x4 Leather Scraps x1",
+   "Bronze x8 Leather Scraps x2",
+   "Bronze x12 Leather Scraps x3"
+  ],
+  "description": "A bright and burnished blade, curved like a smile.",
+  "icon": "/icons/bronze_axe.png"
+ },
+ {
+  "name": "Bronze buckler",
+  "slug": "bronze-buckler",
+  "image": "",
+  "type": "Shield Buckler",
+  "source": "Forge",
+  "crafting_level": "1",
+  "repair_level": "1",
+  "durability": null,
+  "stamina": null,
+  "block_armor": 16.0,
+  "knockback": null,
+  "parry": null,
+  "backstab": null,
+  "damage": {},
+  "materials": [
+   "Bronze x10 Wood x4",
+   "Bronze x5 Wood x1",
+   "Bronze x10 Wood x2"
+  ],
+  "description": "A shield of burnished bronze, good to turn a blade or two.",
+  "icon": "/icons/bronze_buckler.png"
+ },
+ {
+  "name": "Bronze mace",
+  "slug": "bronze-mace",
+  "image": "",
+  "type": "Club 1h",
+  "source": "Forge",
+  "crafting_level": "1",
+  "repair_level": "1",
+  "durability": 200.0,
+  "stamina": 8.0,
+  "block_armor": 12.0,
+  "knockback": 80.0,
+  "parry": null,
+  "backstab": null,
+  "damage": {
+   "Blunt": 35.0
+  },
+  "materials": [
+   "Wood x4 Bronze x8 Leather Scraps x3",
+   "Bronze x4",
+   "Bronze x8",
+   "Bronze x12"
+  ],
+  "description": "A headache on a stick.",
+  "icon": "/icons/bronze_mace.png"
+ },
+ {
+  "name": "Bronze pickaxe",
+  "slug": "bronze-pickaxe",
+  "image": "",
+  "type": "Pickaxe",
+  "source": "Forge",
+  "crafting_level": "1",
+  "repair_level": "1",
+  "durability": 120.0,
+  "stamina": 8.0,
+  "block_armor": null,
+  "knockback": null,
+  "parry": null,
+  "backstab": null,
+  "damage": {
+   "Pierce": 25.0,
+   "Pickaxe": 25.0
+  },
+  "materials": [
+   "Corewood x3 Bronze x10",
+   "Corewood x1 Bronze x5",
+   "Corewood x2 Bronze x10",
+   "Corewood x3 Bronze x15"
+  ],
+  "description": "A good bronze pick. Can break very hard rocks.",
+  "icon": "/icons/bronze_pickaxe.png"
+ },
+ {
+  "name": "Bronze Spear",
+  "slug": "bronze-spear",
+  "image": "",
+  "type": "Spear",
+  "source": "Forge",
+  "crafting_level": "1",
+  "repair_level": "1",
+  "durability": null,
+  "stamina": 8.0,
+  "block_armor": 12.0,
+  "knockback": null,
+  "parry": null,
+  "backstab": null,
+  "damage": {
+   "Pierce": 35.0
+  },
+  "materials": [
+   "Wood x5 Bronze x6 Deer hide x2",
+   "Wood x3 Bronze x4 Deer hide x1",
+   "Wood x6 Bronze x8 Deer hide x2",
+   "Wood x9 Bronze x12 Deer hide x3"
+  ],
+  "description": "A sturdy spear with a head of burnished bronze.",
+  "icon": ""
+ },
+ {
+  "name": "Bronze Sword",
+  "slug": "bronze-sword",
+  "image": "",
+  "type": "Sword",
+  "source": "Forge",
+  "crafting_level": "1",
+  "repair_level": "1",
+  "durability": null,
+  "stamina": 8.0,
+  "block_armor": 12.0,
+  "knockback": null,
+  "parry": null,
+  "backstab": null,
+  "damage": {
+   "Slash": 35.0
+  },
+  "materials": [
+   "Wood x2 Bronze x8 Leather scraps x2",
+   "Wood x1 Bronze x4 Leather scraps x1",
+   "Wood x2 Bronze x8 Leather scraps x2",
+   "Wood x3 Bronze x12 Leather scraps x3"
+  ],
+  "description": "Blood-drinker. A thirsty friend.",
+  "icon": "/icons/bronze_sword.png"
+ },
+ {
+  "name": "Bronzehead arrow",
+  "slug": "bronzehead-arrow",
+  "image": "",
+  "type": "Arrow",
+  "source": "Forge",
+  "crafting_level": "1",
+  "repair_level": "",
+  "durability": null,
+  "stamina": null,
+  "block_armor": null,
+  "knockback": null,
+  "parry": null,
+  "backstab": null,
+  "damage": {
+   "Pierce": 32.0
+  },
+  "materials": [
+   "Wood x8 Bronze x1 Feathers x2"
+  ],
+  "description": "Sharper than flint. A sleek messenger of death.",
+  "icon": "/icons/bronzehead_arrow.png"
+ },
+ {
+  "name": "Brutal Slayer",
+  "slug": "brutal-slayer",
+  "image": "",
+  "type": "Sword 2h",
+  "source": "Black forge",
+  "crafting_level": "4",
+  "repair_level": "4",
+  "durability": 200.0,
+  "stamina": 20.0,
+  "block_armor": 64.0,
+  "knockback": 55.0,
+  "parry": null,
+  "backstab": 3.0,
+  "damage": {
+   "Slash": 170.0
+  },
+  "materials": [
+   "Slayer x1 Flametal x15 Bloodstone x1",
+   "Flametal x15 Bloodstone x1",
+   "Flametal x30 Bloodstone x2",
+   "Flametal x45 Bloodstone x3"
+  ],
+  "description": "If it bleeds, you can kill it.",
+  "icon": "/icons/brutal_slayer.png"
+ },
+ {
+  "name": "Butcher knife",
+  "slug": "butcher-knife",
+  "image": "",
+  "type": "Knife",
+  "source": "Forge",
+  "crafting_level": "1",
+  "repair_level": "1",
+  "durability": null,
+  "stamina": 5.0,
+  "block_armor": 2.0,
+  "knockback": 0.0,
+  "parry": null,
+  "backstab": 1.0,
+  "damage": {},
+  "materials": [
+   "Wood x2 Tin x4"
+  ],
+  "description": "A butcher's knife designed specifically for slaughtering tamed animals.",
+  "icon": "/icons/butcher_knife.png"
+ },
+ {
+  "name": "Carapace arrow",
+  "slug": "carapace-arrow",
+  "image": "",
+  "type": "Arrow",
+  "source": "Black forge",
+  "crafting_level": "1",
+  "repair_level": "",
+  "durability": null,
+  "stamina": null,
+  "block_armor": null,
+  "knockback": 15.0,
+  "parry": null,
+  "backstab": null,
+  "damage": {
+   "Pierce": 72.0
+  },
+  "materials": [
+   "Carapace x4 Feathers x2 Wood x8"
+  ],
+  "description": "Heavy and pointy, this one's gonna hurt.",
+  "icon": "/icons/carapace_arrow.png"
+ },
+ {
+  "name": "Carapace bolt",
+  "slug": "carapace-bolt",
+  "image": "",
+  "type": "Bolt",
+  "source": "Black forge",
+  "crafting_level": "1",
+  "repair_level": "",
+  "durability": null,
+  "stamina": null,
+  "block_armor": null,
+  "knockback": 0.0,
+  "parry": null,
+  "backstab": null,
+  "damage": {
+   "Pierce": 72.0
+  },
+  "materials": [
+   "Wood x8 Carapace x2 Feathers x2"
+  ],
+  "description": "A heavy and solid bolt.",
+  "icon": "/icons/carapace_bolt.png"
+ },
+ {
+  "name": "Carapace Buckler",
+  "slug": "carapace-buckler",
+  "image": "",
+  "type": "Shield Buckler",
+  "source": "Black forge",
+  "crafting_level": "1",
+  "repair_level": "1",
+  "durability": null,
+  "stamina": null,
+  "block_armor": 78.0,
+  "knockback": null,
+  "parry": null,
+  "backstab": null,
+  "damage": {},
+  "materials": [
+   "Carapace x16 Scale hide x3 Refined eitr x10",
+   "Carapace x8 Scale hide x3 Refined eitr x3",
+   "Carapace x16 Scale hide x6 Refined eitr x6"
+  ],
+  "description": "The skull of a seeker is solid but not heavy, which makes it perfect for a small and agile shield.",
+  "icon": "/icons/carapace_buckler.png"
+ },
+ {
+  "name": "Carapace shield",
+  "slug": "carapace-shield",
+  "image": "",
+  "type": "Shield Round",
+  "source": "Black forge",
+  "crafting_level": "1",
+  "repair_level": "1",
+  "durability": null,
+  "stamina": null,
+  "block_armor": 96.0,
+  "knockback": null,
+  "parry": null,
+  "backstab": null,
+  "damage": {},
+  "materials": [
+   "Carapace x20 Scale hide x3 Refined eitr x10",
+   "Carapace x10 Scale hide x3 Refined eitr x3",
+   "Carapace x20 Scale hide x6 Refined eitr x6"
+  ],
+  "description": "The almost unbreakable carapace of your enemies makes an excellent shield.",
+  "icon": "/icons/carapace_shield.png"
+ },
+ {
+  "name": "Carapace Spear",
+  "slug": "carapace-spear",
+  "image": "",
+  "type": "Spear",
+  "source": "Black forge",
+  "crafting_level": "1",
+  "repair_level": "1",
+  "durability": 100.0,
+  "stamina": 16.0,
+  "block_armor": 48.0,
+  "knockback": null,
+  "parry": null,
+  "backstab": null,
+  "damage": {
+   "Pierce": 115.0
+  },
+  "materials": [
+   "Yggdrasil wood x10 Carapace x4 Mandible x2",
+   "Yggdrasil wood x5 Carapace x4 Mandible x1",
+   "Yggdrasil wood x10 Carapace x8 Mandible x2",
+   "Yggdrasil wood x15 Carapace x12 Mandible x3"
+  ],
+  "description": "Sharpened to jagged perfection, this spear is sure to be deadly.",
+  "icon": "/icons/carapace_spear.png"
+ },
+ {
+  "name": "Charred arrow",
+  "slug": "charred-arrow",
+  "image": "",
+  "type": "Arrow",
+  "source": "Black forge",
+  "crafting_level": "1",
+  "repair_level": "",
+  "durability": null,
+  "stamina": null,
+  "block_armor": null,
+  "knockback": 15.0,
+  "parry": null,
+  "backstab": null,
+  "damage": {
+   "Pierce": 82.0
+  },
+  "materials": [
+   "Charred bone x4 Feathers x2 Ashwood x8"
+  ],
+  "description": "This arrow has been whittled into shape from a charred femur, and it's as hard as any metal.",
+  "icon": "/icons/charred_arrow.png"
+ },
+ {
+  "name": "Charred bolt",
+  "slug": "charred-bolt",
+  "image": "",
+  "type": "Bolts",
+  "source": "Black forge",
+  "crafting_level": "1",
+  "repair_level": "",
+  "durability": null,
+  "stamina": null,
+  "block_armor": null,
+  "knockback": 0.0,
+  "parry": null,
+  "backstab": null,
+  "damage": {
+   "Pierce": 82.0
+  },
+  "materials": [
+   "Ashwood x8 Charred bone x2 Feathers x2"
+  ],
+  "description": "A sturdy bone from a forearm, shaped into a deadly bolt.",
+  "icon": ""
+ },
+ {
+  "name": "Club",
+  "slug": "club",
+  "image": "",
+  "type": "Club 1h",
+  "source": "Player crafting menu",
+  "crafting_level": "1",
+  "repair_level": "1",
+  "durability": 100.0,
+  "stamina": 6.0,
+  "block_armor": 3.0,
+  "knockback": 30.0,
+  "parry": null,
+  "backstab": null,
+  "damage": {
+   "Blunt": 12.0
+  },
+  "materials": [
+   "Wood x6",
+   "Bone fragments x5",
+   "Bone fragments x10",
+   "Bone fragments x15"
+  ],
+  "description": "A crude but useful weapon.",
+  "icon": "/icons/club.png"
+ },
+ {
+  "name": "Copper knife",
+  "slug": "copper-knife",
+  "image": "",
+  "type": "Knife",
+  "source": "Forge",
+  "crafting_level": "1",
+  "repair_level": "1",
+  "durability": null,
+  "stamina": 6.0,
+  "block_armor": null,
+  "knockback": null,
+  "parry": null,
+  "backstab": null,
+  "damage": {
+   "Slash": 12.0,
+   "Pierce": 12.0
+  },
+  "materials": [
+   "Wood x2 Copper x8",
+   "Greydwarf eye x8 Copper x4",
+   "Greydwarf eye x16 Copper x8",
+   "Greydwarf eye x24 Copper x12"
+  ],
+  "description": "A glittering copper knife.",
+  "icon": "/icons/copper_knife.png"
+ },
+ {
+  "name": "Crude bow",
+  "slug": "crude-bow",
+  "image": "",
+  "type": "Bow",
+  "source": "Workbench",
+  "crafting_level": "1",
+  "repair_level": "1",
+  "durability": 50.0,
+  "stamina": 4.0,
+  "block_armor": 3.0,
+  "knockback": 0.0,
+  "parry": null,
+  "backstab": null,
+  "damage": {
+   "Pierce": 22.0
+  },
+  "materials": [
+   "Wood x10 Leather scraps x8",
+   "Wood x5 Leather scraps x4 Deer hide x1",
+   "Wood x10 Leather scraps x8 Deer hide x2",
+   "Wood x15 Leather scraps x12 Deer hide x3"
+  ],
+  "description": "A crude but functional bow.",
+  "icon": "/icons/crude_bow.png"
+ },
+ {
+  "name": "Crystal battleaxe",
+  "slug": "crystal-battleaxe",
+  "image": "",
+  "type": "Axe 2h",
+  "source": "Forge",
+  "crafting_level": "3",
+  "repair_level": "3",
+  "durability": 200.0,
+  "stamina": 18.0,
+  "block_armor": 40.0,
+  "knockback": 70.0,
+  "parry": null,
+  "backstab": null,
+  "damage": {
+   "Slash": 90.0,
+   "Chop": 50.0,
+   "Spirit": 30.0
+  },
+  "materials": [
+   "Ancient bark x40 Silver x30 Crystal x10",
+   "Ancient bark x5 Silver x15",
+   "Ancient bark x10 Silver x30",
+   "Ancient bark x15 Silver x45"
+  ],
+  "description": "It's see-through and tears through.",
+  "icon": "/icons/crystal_battleaxe.png"
+ },
+ {
+  "name": "Dead Raiser",
+  "slug": "dead-raiser",
+  "image": "",
+  "type": "Blood magic",
+  "source": "Galdr table",
+  "crafting_level": "1",
+  "repair_level": "1",
+  "durability": 200.0,
+  "stamina": null,
+  "block_armor": 48.0,
+  "knockback": null,
+  "parry": null,
+  "backstab": null,
+  "damage": {},
+  "materials": [
+   "Bone fragments x10 Refined eitr x16 Skeleton trophy x4",
+   "Bone fragments x5 Refined eitr x8 Skeleton trophy x2",
+   "Bone fragments x10 Refined eitr x16 Skeleton trophy x4",
+   "Bone fragments x15 Refined eitr x24 Skeleton trophy x6"
+  ],
+  "description": "Sacrifice a bit of blood to raise the dead. Upgrade the skull to spawn multiple skeletons, and increase your blood magic to make them stronger.",
+  "icon": "/icons/dead_raiser.png"
+ },
+ {
+  "name": "Demolisher",
+  "slug": "demolisher",
+  "image": "",
+  "type": "Club 2h",
+  "source": "Black forge",
+  "crafting_level": "1",
+  "repair_level": "1",
+  "durability": 100.0,
+  "stamina": 28.0,
+  "block_armor": 52.0,
+  "knockback": 210.0,
+  "parry": null,
+  "backstab": null,
+  "damage": {
+   "Blunt": 145.0
+  },
+  "materials": [
+   "Yggdrasil wood x10 Iron x20 Refined eitr x10",
+   "Yggdrasil wood x2 Iron x15 Refined eitr x2",
+   "Yggdrasil wood x4 Iron x30 Refined eitr x4",
+   "Yggdrasil wood x6 Iron x45 Refined eitr x6"
+  ],
+  "description": "This mighty sledge yearns to wreak havoc.",
+  "icon": "/icons/demolisher.png"
+ },
+ {
+  "name": "Draugr Fang",
+  "slug": "draugr-fang",
+  "image": "",
+  "type": "Bow",
+  "source": "Forge",
+  "crafting_level": "2",
+  "repair_level": "2",
+  "durability": null,
+  "stamina": 10.0,
+  "block_armor": 3.0,
+  "knockback": 20.0,
+  "parry": null,
+  "backstab": null,
+  "damage": {
+   "Pierce": 47.0,
+   "Poison": 5.0
+  },
+  "materials": [
+   "Ancient bark x10 Silver x20 Deer hide x2 Guck x10",
+   "Ancient bark x5 Silver x10 Deer hide x2 Guck x2",
+   "Ancient bark x10 Silver x20 Deer hide x4 Guck x4",
+   "Ancient bark x15 Silver x30 Deer hide x6 Guck x6"
+  ],
+  "description": "Dark wood strung with glistening sinew. A vicious thing.",
+  "icon": "/icons/draugr_fang.png"
+ },
+ {
+  "name": "Dyrnwyn",
+  "slug": "dyrnwyn",
+  "image": "",
+  "type": "Sword",
+  "source": "Black forge",
+  "crafting_level": "4",
+  "repair_level": "",
+  "durability": 200.0,
+  "stamina": 16.0,
+  "block_armor": 57.0,
+  "knockback": 40.0,
+  "parry": null,
+  "backstab": null,
+  "damage": {
+   "Slash": 145.0,
+   "Fire": 10.0
+  },
+  "materials": [
+   "Dyrnwyn hilt fragment x1 Dyrnwyn blade fragment x1 Dyrnwyn tip fragment x1 Flametal x20 Bloodstone x1",
+   "Flametal x10 Bloodstone x1",
+   "Flametal x20 Bloodstone x2",
+   "Flametal x30 Bloodstone x3"
+  ],
+  "description": "The sword that was broken is whole once more. Its flames burn hot, fuelled by the memories of ancient warriors.",
+  "icon": "/icons/dyrnwyn.png"
+ },
+ {
+  "name": "Early axes",
+  "slug": "early-axes",
+  "image": "",
+  "type": "axe dw",
+  "source": "Workbench",
+  "crafting_level": "1",
+  "repair_level": "1",
+  "durability": 175.0,
+  "stamina": 6.0,
+  "block_armor": 4.0,
+  "knockback": 20.0,
+  "parry": null,
+  "backstab": 3.0,
+  "damage": {
+   "Slash": 30.0,
+   "Chop": 35.0
+  },
+  "materials": [
+   "Curious axe head x1 Mysterious axe head x1 Wood x4",
+   "Wood x6 Leather scraps x2",
+   "Wood x8 Leather scraps x4",
+   "Wood x10 Leather scraps x6"
+  ],
+  "description": "Mighty weapons from long ago, from a time when the world was still young and incomplete...",
+  "icon": "/icons/early_axes.png"
+ },
+ {
+  "name": "Explosive Payload",
+  "slug": "explosive-payload",
+  "image": "",
+  "type": "Catapult Ammo",
+  "source": "Workbench",
+  "crafting_level": "1",
+  "repair_level": "",
+  "durability": null,
+  "stamina": null,
+  "block_armor": null,
+  "knockback": 0.0,
+  "parry": null,
+  "backstab": 4.0,
+  "damage": {
+   "Chop": 100.0,
+   "Pickaxe": 400.0
+  },
+  "materials": [
+   "Sulfur x2 Proustite powder x3 Asksvin hide x2"
+  ],
+  "description": "Best used with a catapult. Handle with care.",
+  "icon": ""
+ },
+ {
+  "name": "Fang spear",
+  "slug": "fang-spear",
+  "image": "",
+  "type": "Spear",
+  "source": "Forge",
+  "crafting_level": "3",
+  "repair_level": "3",
+  "durability": null,
+  "stamina": 12.0,
+  "block_armor": 30.0,
+  "knockback": null,
+  "parry": null,
+  "backstab": null,
+  "damage": {
+   "Pierce": 75.0
+  },
+  "materials": [
+   "Ancient bark x10 Wolf fang x4 Leather scraps x2 Silver x2",
+   "Ancient bark x5 Wolf fang x2 Leather scraps x1 Silver x1",
+   "Ancient bark x10 Wolf fang x4 Leather scraps x2 Silver x2",
+   "Ancient bark x15 Wolf fang x6 Leather scraps x3 Silver x3"
+  ],
+  "description": "Even in death, the wolf's tooth aches for flesh.",
+  "icon": "/icons/fang_spear.png"
+ },
+ {
+  "name": "Finewood Bow",
+  "slug": "finewood-bow",
+  "image": "",
+  "type": "Bow",
+  "source": "Workbench",
+  "crafting_level": "1",
+  "repair_level": "1",
+  "durability": null,
+  "stamina": 6.0,
+  "block_armor": null,
+  "knockback": 5.0,
+  "parry": null,
+  "backstab": null,
+  "damage": {
+   "Pierce": 32.0
+  },
+  "materials": [
+   "Finewood x10 Corewood x10 Deer hide x2",
+   "Finewood x5 Corewood x5 Deer hide x2",
+   "Finewood x10 Corewood x10 Deer hide x4",
+   "Finewood x15 Corewood x15 Deer hide x6"
+  ],
+  "description": "A simple bow of strong and supple wood.",
+  "icon": "/icons/finewood_bow.png"
+ },
+ {
+  "name": "Fire arrow",
+  "slug": "fire-arrow",
+  "image": "",
+  "type": "Arrow",
+  "source": "Workbench",
+  "crafting_level": "2",
+  "repair_level": "",
+  "durability": null,
+  "stamina": null,
+  "block_armor": null,
+  "knockback": null,
+  "parry": null,
+  "backstab": null,
+  "damage": {
+   "Pierce": 11.0,
+   "Fire": 22.0
+  },
+  "materials": [
+   "Wood x8 Resin x8 Feathers x2"
+  ],
+  "description": "This arrow burns whatever it pierces.",
+  "icon": "/icons/fire_arrow.png"
+ },
+ {
+  "name": "Flametal mace",
+  "slug": "flametal-mace",
+  "image": "",
+  "type": "Club 1h",
+  "source": "Black forge",
+  "crafting_level": "3",
+  "repair_level": "3",
+  "durability": 150.0,
+  "stamina": 16.0,
+  "block_armor": 57.0,
+  "knockback": 100.0,
+  "parry": null,
+  "backstab": null,
+  "damage": {
+   "Blunt": 135.0
+  },
+  "materials": [
+   "Charred bone x10 Flametal x15 Sulfur x5 Asksvin hide x3",
+   "Charred bone x5 Flametal x8 Sulfur x3 Asksvin hide x2",
+   "Charred bone x10 Flametal x16 Sulfur x6 Asksvin hide x4",
+   "Charred bone x15 Flametal x24 Sulfur x9 Asksvin hide x6"
+  ],
+  "description": "Dense yet spiked flametal, perfect for bashing enemy faces in.",
+  "icon": "/icons/flametal_mace.png"
+ },
+ {
+  "name": "Flametal missile",
+  "slug": "flametal-missile",
+  "image": "",
+  "type": "Missile",
+  "source": "Artisan table",
+  "crafting_level": "1",
+  "repair_level": "",
+  "durability": null,
+  "stamina": null,
+  "block_armor": null,
+  "knockback": 60.0,
+  "parry": null,
+  "backstab": null,
+  "damage": {
+   "Pierce": 140.0
+  },
+  "materials": [
+   "Ashwood x10 Flametal x1"
+  ],
+  "description": "Forged from one of the hardest metals in all of Valheim, this missile is sure to hold off your enemies.",
+  "icon": "/icons/flametal_missile.png"
+ },
+ {
+  "name": "Flint axe",
+  "slug": "flint-axe",
+  "image": "",
+  "type": "Axe",
+  "source": "Workbench",
+  "crafting_level": "1",
+  "repair_level": "1",
+  "durability": 100.0,
+  "stamina": 6.0,
+  "block_armor": 4.0,
+  "knockback": 50.0,
+  "parry": null,
+  "backstab": null,
+  "damage": {
+   "Slash": 20.0,
+   "Chop": 30.0
+  },
+  "materials": [
+   "Wood x4 Flint x6",
+   "Flint x3 Leather scraps x2",
+   "Flint x6 Leather scraps x4",
+   "Flint x9 Leather scraps x6"
+  ],
+  "description": "Sharper than stone.",
+  "icon": "/icons/flint_axe.png"
+ },
+ {
+  "name": "Flint knife",
+  "slug": "flint-knife",
+  "image": "",
+  "type": "Knife",
+  "source": "Workbench",
+  "crafting_level": "1",
+  "repair_level": "1",
+  "durability": null,
+  "stamina": 4.0,
+  "block_armor": null,
+  "knockback": null,
+  "parry": null,
+  "backstab": null,
+  "damage": {
+   "Slash": 5.0,
+   "Pierce": 5.0
+  },
+  "materials": [
+   "Wood x2 Flint x4 Leather scraps x2",
+   "Flint x2",
+   "Flint x4",
+   "Flint x6"
+  ],
+  "description": "Sharpened flint. A reliable tool.",
+  "icon": "/icons/flint_knife.png"
+ },
+ {
+  "name": "Flint spear",
+  "slug": "flint-spear",
+  "image": "",
+  "type": "Spear",
+  "source": "Workbench",
+  "crafting_level": "1",
+  "repair_level": "1",
+  "durability": null,
+  "stamina": 6.0,
+  "block_armor": 4.0,
+  "knockback": null,
+  "parry": null,
+  "backstab": null,
+  "damage": {
+   "Pierce": 20.0
+  },
+  "materials": [
+   "Wood x5 Flint x10 Leather scraps x2",
+   "Wood x3 Flint x5 Leather scraps x1",
+   "Wood x6 Flint x10 Leather scraps x2",
+   "Wood x9 Flint x15 Leather scraps x3"
+  ],
+  "description": "If your eye marks a thing for death, let your arm send the messenger.",
+  "icon": "/icons/flint_spear.png"
+ },
+ {
+  "name": "Flinthead arrow",
+  "slug": "flinthead-arrow",
+  "image": "",
+  "type": "Arrow",
+  "source": "Workbench",
+  "crafting_level": "2",
+  "repair_level": "",
+  "durability": null,
+  "stamina": null,
+  "block_armor": null,
+  "knockback": null,
+  "parry": null,
+  "backstab": null,
+  "damage": {
+   "Pierce": 27.0
+  },
+  "materials": [
+   "Wood x8 Flint x2 Feathers x2"
+  ],
+  "description": "A hide-breaker with a head of flint.",
+  "icon": ""
+ },
+ {
+  "name": "Frost arrow",
+  "slug": "frost-arrow",
+  "image": "",
+  "type": "Arrow",
+  "source": "Workbench",
+  "crafting_level": "4",
+  "repair_level": "",
+  "durability": null,
+  "stamina": null,
+  "block_armor": null,
+  "knockback": null,
+  "parry": null,
+  "backstab": null,
+  "damage": {
+   "Pierce": 26.0,
+   "Frost": 52.0
+  },
+  "materials": [
+   "Wood x8 Obsidian x4 Feathers x2 Freeze gland x1"
+  ],
+  "description": "A shard of piercing ice.",
+  "icon": "/icons/frost_arrow.png"
+ },
+ {
+  "name": "Frostner",
+  "slug": "frostner",
+  "image": "",
+  "type": "Club 1h",
+  "source": "Forge",
+  "crafting_level": "3",
+  "repair_level": "3",
+  "durability": 200.0,
+  "stamina": 12.0,
+  "block_armor": 30.0,
+  "knockback": 100.0,
+  "parry": null,
+  "backstab": null,
+  "damage": {
+   "Blunt": 35.0,
+   "Frost": 40.0,
+   "Spirit": 20.0
+  },
+  "materials": [
+   "Ancient bark x10 Silver x30 Ymir flesh x5 Freeze gland x5",
+   "Silver x15",
+   "Silver x30",
+   "Silver x45"
+  ],
+  "description": "The dead fear silver. Remind them why.",
+  "icon": "/icons/frostner.png"
+ },
+ {
+  "name": "Grausten Payload",
+  "slug": "grausten-payload",
+  "image": "",
+  "type": "Catapult Ammo",
+  "source": "Workbench",
+  "crafting_level": "1",
+  "repair_level": "",
+  "durability": null,
+  "stamina": null,
+  "block_armor": null,
+  "knockback": 0.0,
+  "parry": null,
+  "backstab": 4.0,
+  "damage": {
+   "Blunt": 25.0,
+   "Chop": 5.0,
+   "Pickaxe": 5.0
+  },
+  "materials": [
+   "Grausten x10"
+  ],
+  "description": "Best used with a catapult. Make sure nothing fragile is in the way.",
+  "icon": ""
+ },
+ {
+  "name": "Himminafl",
+  "slug": "himminafl",
+  "image": "",
+  "type": "Polearm",
+  "source": "Black forge",
+  "crafting_level": "1",
+  "repair_level": "1",
+  "durability": 175.0,
+  "stamina": 20.0,
+  "block_armor": 64.0,
+  "knockback": null,
+  "parry": null,
+  "backstab": null,
+  "damage": {
+   "Pierce": 85.0,
+   "Lightning": 40.0
+  },
+  "materials": [
+   "Yggdrasil wood x10 Refined eitr x15 Silver x5 Mandible x2",
+   "Refined eitr x15 Silver x5 Mandible x2",
+   "Refined eitr x30 Silver x10 Mandible x4",
+   "Refined eitr x45 Silver x15 Mandible x6"
+  ],
+  "description": "It might not be a hammer, but Thor himself would still approve of this weapon.",
+  "icon": ""
+ },
+ {
+  "name": "Huntsman bow",
+  "slug": "huntsman-bow",
+  "image": "",
+  "type": "Bow",
+  "source": "Forge",
+  "crafting_level": "1",
+  "repair_level": "1",
+  "durability": null,
+  "stamina": 8.0,
+  "block_armor": null,
+  "knockback": 10.0,
+  "parry": null,
+  "backstab": null,
+  "damage": {
+   "Pierce": 42.0
+  },
+  "materials": [
+   "Finewood x10 Iron x20 Feathers x10 Deer hide x2",
+   "Finewood x5 Iron x10 Feathers x5 Deer hide x2",
+   "Finewood x10 Iron x20 Feathers x10 Deer hide x4",
+   "Finewood x15 Iron x30 Feathers x15 Deer hide x6"
+  ],
+  "description": "Finely worked and strung. A huntsman's joy.",
+  "icon": "/icons/huntsman_bow.png"
+ },
+ {
+  "name": "Iron atgeir",
+  "slug": "iron-atgeir",
+  "image": "",
+  "type": "Polearm",
+  "source": "Forge",
+  "crafting_level": "2",
+  "repair_level": "2",
+  "durability": null,
+  "stamina": 14.0,
+  "block_armor": 28.0,
+  "knockback": null,
+  "parry": null,
+  "backstab": null,
+  "damage": {
+   "Pierce": 65.0
+  },
+  "materials": [
+   "Wood x10 Iron x30 Leather scraps x2",
+   "Iron x15 Leather scraps x1",
+   "Iron x30 Leather scraps x2",
+   "Iron x45 Leather scraps x3"
+  ],
+  "description": "Blood-drinker, skull-cracker, death-bringer.",
+  "icon": "/icons/iron_atgeir.png"
+ },
+ {
+  "name": "Iron axe",
+  "slug": "iron-axe",
+  "image": "",
+  "type": "Axe 1h",
+  "source": "Forge",
+  "crafting_level": "2",
+  "repair_level": "2",
+  "durability": 175.0,
+  "stamina": 10.0,
+  "block_armor": 21.0,
+  "knockback": 50.0,
+  "parry": null,
+  "backstab": null,
+  "damage": {
+   "Slash": 60.0,
+   "Chop": 50.0
+  },
+  "materials": [
+   "Wood x4 Iron x20 Leather Scraps x2",
+   "Iron x10 Leather Scraps x1",
+   "Iron x20 Leather Scraps x2",
+   "Iron x30 Leather Scraps x3"
+  ],
+  "description": "Sharp and strong, a woodcutter's friend.",
+  "icon": "/icons/iron_axe.png"
+ },
+ {
+  "name": "Iron bolt",
+  "slug": "iron-bolt",
+  "image": "",
+  "type": "Bolt",
+  "source": "Black forge",
+  "crafting_level": "1",
+  "repair_level": "",
+  "durability": null,
+  "stamina": null,
+  "block_armor": null,
+  "knockback": 0.0,
+  "parry": null,
+  "backstab": null,
+  "damage": {
+   "Pierce": 42.0
+  },
+  "materials": [
+   "Wood x8 Iron x1 Feathers x2"
+  ],
+  "description": "A sturdy iron missile.",
+  "icon": "/icons/iron_bolt.png"
+ },
+ {
+  "name": "Iron buckler",
+  "slug": "iron-buckler",
+  "image": "",
+  "type": "Shield Buckler",
+  "source": "Forge",
+  "crafting_level": "2",
+  "repair_level": "2",
+  "durability": null,
+  "stamina": null,
+  "block_armor": 28.0,
+  "knockback": null,
+  "parry": null,
+  "backstab": null,
+  "damage": {},
+  "materials": [
+   "Iron x10 Ancient bark x4",
+   "Iron x5 Ancient bark x1",
+   "Iron x10 Ancient bark x2"
+  ],
+  "description": "Its lightness and curved center makes it excellent for deflecting attacks.",
+  "icon": "/icons/iron_buckler.png"
+ },
+ {
+  "name": "Iron mace",
+  "slug": "iron-mace",
+  "image": "",
+  "type": "Club 1h",
+  "source": "Forge",
+  "crafting_level": "2",
+  "repair_level": "2",
+  "durability": 200.0,
+  "stamina": 10.0,
+  "block_armor": 21.0,
+  "knockback": 90.0,
+  "parry": null,
+  "backstab": null,
+  "damage": {
+   "Blunt": 55.0
+  },
+  "materials": [
+   "Wood x4 Iron x20 Leather scraps x3",
+   "Iron x10",
+   "Iron x20",
+   "Iron x30"
+  ],
+  "description": "A fist-sized lump of iron on a wooden shaft.",
+  "icon": "/icons/iron_mace.png"
+ },
+ {
+  "name": "Iron pickaxe",
+  "slug": "iron-pickaxe",
+  "image": "",
+  "type": "Pickaxe",
+  "source": "Forge",
+  "crafting_level": "2",
+  "repair_level": "2",
+  "durability": 150.0,
+  "stamina": 10.0,
+  "block_armor": null,
+  "knockback": null,
+  "parry": null,
+  "backstab": null,
+  "damage": {
+   "Pierce": 33.0,
+   "Pickaxe": 33.0
+  },
+  "materials": [
+   "Corewood x3 Iron x20",
+   "Corewood x1 Iron x10",
+   "Corewood x2 Iron x20",
+   "Corewood x3 Iron x30"
+  ],
+  "description": "A sturdy tool of hardened iron.",
+  "icon": ""
+ },
+ {
+  "name": "Iron shield",
+  "slug": "iron-shield",
+  "image": "",
+  "type": "Shield Tower",
+  "source": "n/a",
+  "crafting_level": "n/a",
+  "repair_level": "2",
+  "durability": 200.0,
+  "stamina": null,
+  "block_armor": 35.0,
+  "knockback": null,
+  "parry": null,
+  "backstab": null,
+  "damage": {},
+  "materials": [
+   "n/a"
+  ],
+  "description": "An iron sword-breaker, tile of the battle-wall.",
+  "icon": ""
+ },
+ {
+  "name": "Iron sledge",
+  "slug": "iron-sledge",
+  "image": "",
+  "type": "Club 2h",
+  "source": "Forge",
+  "crafting_level": "2",
+  "repair_level": "2",
+  "durability": 100.0,
+  "stamina": 20.0,
+  "block_armor": 28.0,
+  "knockback": 200.0,
+  "parry": null,
+  "backstab": null,
+  "damage": {
+   "Blunt": 55.0
+  },
+  "materials": [
+   "Ancient bark x10 Iron x30 Ymir flesh x4 Draugr Elite trophy x1",
+   "Ancient bark x2 Iron x15 Ymir flesh x2",
+   "Ancient bark x4 Iron x30 Ymir flesh x4",
+   "Ancient bark x6 Iron x45 Ymir flesh x6"
+  ],
+  "description": "A mighty hammer, worthy of a champion.",
+  "icon": "/icons/iron_sledge.png"
+ },
+ {
+  "name": "Iron sword",
+  "slug": "iron-sword",
+  "image": "",
+  "type": "Sword",
+  "source": "Forge",
+  "crafting_level": "2",
+  "repair_level": "2",
+  "durability": null,
+  "stamina": 10.0,
+  "block_armor": 21.0,
+  "knockback": null,
+  "parry": null,
+  "backstab": null,
+  "damage": {
+   "Slash": 55.0
+  },
+  "materials": [
+   "Wood x2 Iron x20 Leather scraps x3",
+   "Wood x1 Iron x10 Leather scraps x2",
+   "Wood x2 Iron x20 Leather scraps x4",
+   "Wood x3 Iron x30 Leather scraps x6"
+  ],
+  "description": "The straight line between life and death runs along the edge of this blade.",
+  "icon": "/icons/iron_sword.png"
+ },
+ {
+  "name": "Iron tower shield",
+  "slug": "iron-tower-shield",
+  "image": "",
+  "type": "Shield Tower",
+  "source": "Forge",
+  "crafting_level": "2",
+  "repair_level": "2",
+  "durability": null,
+  "stamina": null,
+  "block_armor": 52.0,
+  "knockback": null,
+  "parry": null,
+  "backstab": null,
+  "damage": {},
+  "materials": [
+   "Finewood x15 Iron x10",
+   "Finewood x10 Iron x5",
+   "Finewood x20 Iron x10"
+  ],
+  "description": "A tall shield of strong iron.",
+  "icon": "/icons/iron_tower_shield.png"
+ },
+ {
+  "name": "Ironhead arrow",
+  "slug": "ironhead-arrow",
+  "image": "",
+  "type": "Arrow",
+  "source": "Forge",
+  "crafting_level": "2",
+  "repair_level": "",
+  "durability": null,
+  "stamina": null,
+  "block_armor": null,
+  "knockback": null,
+  "parry": null,
+  "backstab": null,
+  "damage": {
+   "Pierce": 42.0
+  },
+  "materials": [
+   "Wood x8 Iron x1 Feathers x2"
+  ],
+  "description": "Capped with iron and flighted with dark feathers.",
+  "icon": "/icons/ironhead_arrow.png"
+ },
+ {
+  "name": "Jotun Bane",
+  "slug": "jotun-bane",
+  "image": "",
+  "type": "Axe 1h",
+  "source": "Black forge",
+  "crafting_level": "1",
+  "repair_level": "1",
+  "durability": 175.0,
+  "stamina": 16.0,
+  "block_armor": 48.0,
+  "knockback": null,
+  "parry": null,
+  "backstab": null,
+  "damage": {
+   "Slash": 80.0,
+   "Chop": 70.0,
+   "Poison": 40.0
+  },
+  "materials": [
+   "Yggdrasil wood x5 Iron x15 Bilebag x3 Refined eitr x10",
+   "Iron x10 Bilebag x1 Refined eitr x1",
+   "Iron x20 Bilebag x2 Refined eitr x2",
+   "Iron x30 Bilebag x3 Refined eitr x3"
+  ],
+  "description": "Not even the giants of old could weather the poisonous bite of this weapon.",
+  "icon": "/icons/jotun_bane.png"
+ },
+ {
+  "name": "Klossen",
+  "slug": "klossen",
+  "image": "",
+  "type": "Club 1h",
+  "source": "Black forge",
+  "crafting_level": "4",
+  "repair_level": "4",
+  "durability": 150.0,
+  "stamina": 16.0,
+  "block_armor": 57.0,
+  "knockback": 100.0,
+  "parry": null,
+  "backstab": null,
+  "damage": {
+   "Blunt": 135.0,
+   "Poison": 10.0
+  },
+  "materials": [
+   "Flametal mace x1 Flametal x8 Jade x1",
+   "Flametal x8 Jade x1",
+   "Flametal x16 Jade x2",
+   "Flametal x24 Jade x3"
+  ],
+  "description": "If the force of your blow isn't enough to knock your enemies to the ground, perhaps the primal roots will hold them down for you.",
+  "icon": "/icons/klossen.png"
+ },
+ {
+  "name": "Knight shield",
+  "slug": "knight-shield",
+  "image": "",
+  "type": "Shield Round",
+  "source": "Console",
+  "crafting_level": "n/a",
+  "repair_level": "1",
+  "durability": 100.0,
+  "stamina": null,
+  "block_armor": 120.0,
+  "knockback": null,
+  "parry": null,
+  "backstab": null,
+  "damage": {},
+  "materials": [
+   "n/a"
+  ],
+  "description": "A wooden shield reinforced with iron.",
+  "icon": ""
+ },
+ {
+  "name": "Krom",
+  "slug": "krom",
+  "image": "",
+  "type": "Sword 2h",
+  "source": "Black forge",
+  "crafting_level": "1",
+  "repair_level": "1",
+  "durability": null,
+  "stamina": 20.0,
+  "block_armor": 52.0,
+  "knockback": 55.0,
+  "parry": null,
+  "backstab": null,
+  "damage": {
+   "Slash": 150.0
+  },
+  "materials": [
+   "Iron x30 Bronze x20 Scale hide x5",
+   "Iron x15 Bronze x10 Scale hide x5",
+   "Iron x30 Bronze x20 Scale hide x10",
+   "Iron x45 Bronze x30 Scale hide x15"
+  ],
+  "description": "As deadly as it is shiny, and it's very shiny.",
+  "icon": "/icons/krom.png"
+ },
+ {
+  "name": "Mistwalker",
+  "slug": "mistwalker",
+  "image": "",
+  "type": "Sword",
+  "source": "Black forge",
+  "crafting_level": "1",
+  "repair_level": "1",
+  "durability": null,
+  "stamina": 16.0,
+  "block_armor": 48.0,
+  "knockback": null,
+  "parry": null,
+  "backstab": null,
+  "damage": {
+   "Slash": 75.0,
+   "Frost": 40.0,
+   "Spirit": 0.0
+  },
+  "materials": [
+   "Finewood x3 Iron x15 Refined eitr x10 Wisp x3",
+   "Iron x10 Refined eitr x5 Wisp x1",
+   "Iron x20 Refined eitr x10 Wisp x2",
+   "Iron x30 Refined eitr x15 Wisp x3"
+  ],
+  "description": "The faint glow seems to slice through the mist.",
+  "icon": "/icons/mistwalker.png"
+ },
+ {
+  "name": "Needle arrow",
+  "slug": "needle-arrow",
+  "image": "",
+  "type": "Arrow",
+  "source": "Workbench",
+  "crafting_level": "4",
+  "repair_level": "",
+  "durability": null,
+  "stamina": null,
+  "block_armor": null,
+  "knockback": 15.0,
+  "parry": null,
+  "backstab": null,
+  "damage": {
+   "Pierce": 62.0
+  },
+  "materials": [
+   "Needle x4 Feathers x2"
+  ],
+  "description": "The final stitch.",
+  "icon": "/icons/needle_arrow.png"
+ },
+ {
+  "name": "Obsidian arrow",
+  "slug": "obsidian-arrow",
+  "image": "",
+  "type": "Arrow",
+  "source": "Workbench",
+  "crafting_level": "3",
+  "repair_level": "",
+  "durability": null,
+  "stamina": null,
+  "block_armor": null,
+  "knockback": null,
+  "parry": null,
+  "backstab": null,
+  "damage": {
+   "Pierce": 52.0
+  },
+  "materials": [
+   "Wood x8 Obsidian x4 Feathers x2"
+  ],
+  "description": "A sliver of darkness.",
+  "icon": "/icons/obsidian_arrow.png"
+ },
+ {
+  "name": "Ooze bomb",
+  "slug": "ooze-bomb",
+  "image": "",
+  "type": "Bomb",
+  "source": "Workbench",
+  "crafting_level": "",
+  "repair_level": "",
+  "durability": null,
+  "stamina": 8.0,
+  "block_armor": 2.0,
+  "knockback": 40.0,
+  "parry": null,
+  "backstab": 3.0,
+  "damage": {
+   "Blunt": 5.0
+  },
+  "materials": [
+   "Leather scraps x5 Ooze x5 Resin x3"
+  ],
+  "description": "The stench is unbearable...",
+  "icon": "/icons/ooze_bomb.png"
+ },
+ {
+  "name": "Poison arrow",
+  "slug": "poison-arrow",
+  "image": "",
+  "type": "Arrow",
+  "source": "Workbench",
+  "crafting_level": "3",
+  "repair_level": "",
+  "durability": null,
+  "stamina": null,
+  "block_armor": null,
+  "knockback": null,
+  "parry": null,
+  "backstab": null,
+  "damage": {
+   "Pierce": 26.0,
+   "Poison": 52.0
+  },
+  "materials": [
+   "Wood x8 Obsidian x4 Feathers x2 Ooze x2"
+  ],
+  "description": "A bitter sting from afar.",
+  "icon": "/icons/poison_arrow.png"
+ },
+ {
+  "name": "Porcupine",
+  "slug": "porcupine",
+  "image": "",
+  "type": "Club 1h",
+  "source": "Forge",
+  "crafting_level": "4",
+  "repair_level": "4",
+  "durability": 150.0,
+  "stamina": 14.0,
+  "block_armor": 39.0,
+  "knockback": 100.0,
+  "parry": null,
+  "backstab": null,
+  "damage": {
+   "Pierce": 45.0,
+   "Blunt": 50.0
+  },
+  "materials": [
+   "Finewood x5 Iron x20 Needle x5 Linen thread x10",
+   "Iron x2 Needle x2",
+   "Iron x4 Needle x4",
+   "Iron x6 Needle x6"
+  ],
+  "description": "A deadly weapon, bristling with fiendish spikes.",
+  "icon": "/icons/porcupine.png"
+ },
+ {
+  "name": "Primal Berserkir Axes",
+  "slug": "primal-berserkir-axes",
+  "image": "",
+  "type": "axe dw",
+  "source": "Black forge",
+  "crafting_level": "4",
+  "repair_level": "4",
+  "durability": 175.0,
+  "stamina": 16.0,
+  "block_armor": 57.0,
+  "knockback": 20.0,
+  "parry": null,
+  "backstab": 3.0,
+  "damage": {
+   "Slash": 140.0,
+   "Chop": 80.0,
+   "Poison": 10.0
+  },
+  "materials": [
+   "Berserkir axes x1 Flametal x5 Jade x1",
+   "Flametal x5 Jade x1",
+   "Flametal x10 Jade x2",
+   "Flametal x15 Jade x3"
+  ],
+  "description": "Your most primal instincts take over, and the nature around you reaches out to aid you.",
+  "icon": "/icons/primal_berserkir_axes.png"
+ },
+ {
+  "name": "Primal Slayer",
+  "slug": "primal-slayer",
+  "image": "",
+  "type": "Sword 2h",
+  "source": "Black forge",
+  "crafting_level": "4",
+  "repair_level": "4",
+  "durability": 200.0,
+  "stamina": 20.0,
+  "block_armor": 64.0,
+  "knockback": 55.0,
+  "parry": null,
+  "backstab": 3.0,
+  "damage": {
+   "Slash": 170.0,
+   "Poison": 10.0
+  },
+  "materials": [
+   "Slayer x1 Flametal x15 Jade x1",
+   "Flametal x15 Jade x1",
+   "Flametal x30 Jade x2",
+   "Flametal x45 Jade x3"
+  ],
+  "description": "The blade works in tandem with the primal forces of the world, seeking death and slaughter.",
+  "icon": "/icons/primal_slayer.png"
+ },
+ {
+  "name": "Ripper",
+  "slug": "ripper",
+  "image": "",
+  "type": "Crossbow",
+  "source": "Black forge",
+  "crafting_level": "3",
+  "repair_level": "3",
+  "durability": null,
+  "stamina": 1.0,
+  "block_armor": null,
+  "knockback": null,
+  "parry": null,
+  "backstab": null,
+  "damage": {
+   "Pierce": 220.0
+  },
+  "materials": [
+   "Ashwood x10 Flametal x8 Morgen sinew x2 Bonemaw tooth x4",
+   "Ashwood x5 Flametal x4 Morgen sinew x1 Bonemaw tooth x4",
+   "Ashwood x10 Flametal x8 Morgen sinew x2 Bonemaw tooth x8",
+   "Ashwood x15 Flametal x12 Morgen sinew x3 Bonemaw tooth x12"
+  ],
+  "description": "Rips your foes apart, simple as that.",
+  "icon": "/icons/ripper.png"
+ },
+ {
+  "name": "Root Ripper",
+  "slug": "root-ripper",
+  "image": "",
+  "type": "Crossbow",
+  "source": "Black forge",
+  "crafting_level": "4",
+  "repair_level": "4",
+  "durability": null,
+  "stamina": 1.0,
+  "block_armor": null,
+  "knockback": null,
+  "parry": null,
+  "backstab": null,
+  "damage": {
+   "Pierce": 220.0,
+   "Poison": 10.0
+  },
+  "materials": [
+   "Ripper x1 Flametal x8 Jade x1",
+   "Flametal x8 Jade x1",
+   "Flametal x16 Jade x2",
+   "Flametal x24 Jade x3"
+  ],
+  "description": "If the bolt doesn't pin your foe in place, the roots surging up from the ground surely will.",
+  "icon": "/icons/root_ripper.png"
+ },
+ {
+  "name": "Serpent scale shield",
+  "slug": "serpent-scale-shield",
+  "image": "",
+  "type": "Shield Tower",
+  "source": "Forge",
+  "crafting_level": "3",
+  "repair_level": "3",
+  "durability": 250.0,
+  "stamina": null,
+  "block_armor": 60.0,
+  "knockback": null,
+  "parry": null,
+  "backstab": null,
+  "damage": {},
+  "materials": [
+   "Finewood x10 Iron x4 Serpent scale x8",
+   "Finewood x10 Iron x2 Serpent scale x4",
+   "Finewood x20 Iron x4 Serpent scale x8"
+  ],
+  "description": "A sturdy shield of overlapping scales.",
+  "icon": "/icons/serpent_scale_shield.png"
+ },
+ {
+  "name": "Silver arrow",
+  "slug": "silver-arrow",
+  "image": "",
+  "type": "Arrow",
+  "source": "Forge",
+  "crafting_level": "3",
+  "repair_level": "",
+  "durability": null,
+  "stamina": null,
+  "block_armor": null,
+  "knockback": null,
+  "parry": null,
+  "backstab": null,
+  "damage": {
+   "Pierce": 52.0,
+   "Spirit": 20.0
+  },
+  "materials": [
+   "Wood x8 Silver x1 Feathers x2"
+  ],
+  "description": "A needle to calm restless spirits.",
+  "icon": "/icons/silver_arrow.png"
+ },
+ {
+  "name": "Silver knife",
+  "slug": "silver-knife",
+  "image": "",
+  "type": "Knife",
+  "source": "Forge",
+  "crafting_level": "3",
+  "repair_level": "3",
+  "durability": null,
+  "stamina": 10.0,
+  "block_armor": null,
+  "knockback": null,
+  "parry": null,
+  "backstab": null,
+  "damage": {
+   "Slash": 25.0,
+   "Pierce": 25.0,
+   "Spirit": 12.0
+  },
+  "materials": [
+   "Wood x2 Silver x10 Leather scraps x3 Iron x2",
+   "Wood x1 Silver x5 Leather scraps x1 Iron x1",
+   "Wood x2 Silver x10 Leather scraps x2 Iron x2",
+   "Wood x3 Silver x15 Leather scraps x3 Iron x3"
+  ],
+  "description": "A savage piece of pain.",
+  "icon": "/icons/silver_knife.png"
+ },
+ {
+  "name": "Silver shield",
+  "slug": "silver-shield",
+  "image": "",
+  "type": "Shield Round",
+  "source": "Forge",
+  "crafting_level": "3",
+  "repair_level": "3",
+  "durability": null,
+  "stamina": null,
+  "block_armor": 60.0,
+  "knockback": null,
+  "parry": null,
+  "backstab": null,
+  "damage": {},
+  "materials": [
+   "Finewood x10 Silver x8",
+   "Finewood x10 Silver x4",
+   "Finewood x20 Silver x8"
+  ],
+  "description": "A shield of radiant silver.",
+  "icon": "/icons/silver_shield.png"
+ },
+ {
+  "name": "Silver sword",
+  "slug": "silver-sword",
+  "image": "",
+  "type": "Sword",
+  "source": "Forge",
+  "crafting_level": "3",
+  "repair_level": "3",
+  "durability": null,
+  "stamina": 12.0,
+  "block_armor": 30.0,
+  "knockback": null,
+  "parry": null,
+  "backstab": null,
+  "damage": {
+   "Slash": 75.0,
+   "Spirit": 30.0
+  },
+  "materials": [
+   "Wood x2 Silver x40 Leather scraps x3 Iron x5",
+   "Wood x1 Silver x20 Leather scraps x1 Iron x3",
+   "Wood x2 Silver x40 Leather scraps x2 Iron x6",
+   "Wood x3 Silver x60 Leather scraps x3 Iron x9"
+  ],
+  "description": "Purest of metals, nothing unclean can abide its touch.",
+  "icon": ""
+ },
+ {
+  "name": "Skoll and Hati",
+  "slug": "skoll-and-hati",
+  "image": "",
+  "type": "Knife 2h",
+  "source": "Black forge",
+  "crafting_level": "1",
+  "repair_level": "1",
+  "durability": null,
+  "stamina": 14.0,
+  "block_armor": null,
+  "knockback": null,
+  "parry": null,
+  "backstab": null,
+  "damage": {
+   "Slash": 45.0,
+   "Pierce": 45.0
+  },
+  "materials": [
+   "Finewood x4 Iron x10 Black metal x10",
+   "Iron x4 Black metal x4",
+   "Iron x8 Black metal x8",
+   "Iron x12 Black metal x12"
+  ],
+  "description": "Stab once for those who've betrayed you, and twice for those you hate.",
+  "icon": ""
+ },
+ {
+  "name": "Skull Splittur",
+  "slug": "skull-splittur",
+  "image": "",
+  "type": "Axe 2h",
+  "source": "Black forge",
+  "crafting_level": "1",
+  "repair_level": "1",
+  "durability": 200.0,
+  "stamina": 22.0,
+  "block_armor": 64.0,
+  "knockback": 70.0,
+  "parry": null,
+  "backstab": null,
+  "damage": {
+   "Slash": 130.0,
+   "Chop": 70.0
+  },
+  "materials": [
+   "Yggdrasil wood x15 Iron x30 Refined eitr x10",
+   "Yggdrasil wood x5 Iron x15",
+   "Yggdrasil wood x10 Iron x30",
+   "Yggdrasil wood x15 Iron x45"
+  ],
+  "description": "Will find skulls to split even in the thickest of mists.",
+  "icon": "/icons/skull_splittur.png"
+ },
+ {
+  "name": "Slayer",
+  "slug": "slayer",
+  "image": "",
+  "type": "Sword 2h",
+  "source": "Black forge",
+  "crafting_level": "3",
+  "repair_level": "3",
+  "durability": 200.0,
+  "stamina": 20.0,
+  "block_armor": 64.0,
+  "knockback": 55.0,
+  "parry": null,
+  "backstab": 3.0,
+  "damage": {
+   "Slash": 170.0
+  },
+  "materials": [
+   "Flametal x30 Asksvin hide x5 Morgen sinew x3",
+   "Flametal x15 Asksvin hide x5 Morgen sinew x3",
+   "Flametal x30 Asksvin hide x10 Morgen sinew x6",
+   "Flametal x45 Asksvin hide x15 Morgen sinew x9"
+  ],
+  "description": "This mighty blade thirsts for the blood of foes.",
+  "icon": "/icons/slayer.png"
+ },
+ {
+  "name": "Smoke bomb",
+  "slug": "smoke-bomb",
+  "image": "",
+  "type": "Bomb",
+  "source": "Workbench",
+  "crafting_level": "1",
+  "repair_level": "",
+  "durability": null,
+  "stamina": 8.0,
+  "block_armor": 2.0,
+  "knockback": 40.0,
+  "parry": null,
+  "backstab": 3.0,
+  "damage": {
+   "Blunt": 5.0
+  },
+  "materials": [
+   "Smoke puff x1 Asksvin bladder x1"
+  ],
+  "description": "Everyone knows you can't breathe in the smoke.",
+  "icon": ""
+ },
+ {
+  "name": "Sparkler",
+  "slug": "sparkler",
+  "image": "",
+  "type": "",
+  "source": "Hildir",
+  "crafting_level": "-",
+  "repair_level": "None",
+  "durability": 100.0,
+  "stamina": null,
+  "block_armor": null,
+  "knockback": null,
+  "parry": null,
+  "backstab": null,
+  "damage": {},
+  "materials": [],
+  "description": "It's a stick that sparkles. Pretty!",
+  "icon": "/icons/sparkler.png"
+ },
+ {
+  "name": "Spinesnap",
+  "slug": "spinesnap",
+  "image": "",
+  "type": "Bow",
+  "source": "Black forge",
+  "crafting_level": "1",
+  "repair_level": "1",
+  "durability": null,
+  "stamina": 14.0,
+  "block_armor": null,
+  "knockback": 25.0,
+  "parry": null,
+  "backstab": null,
+  "damage": {
+   "Pierce": 72.0,
+   "Spirit": 5.0
+  },
+  "materials": [
+   "Finewood x10 Bone fragments x40 Refined eitr x10",
+   "Finewood x5 Bone fragments x20",
+   "Finewood x10 Bone fragments x40",
+   "Finewood x15 Bone fragments x60"
+  ],
+  "description": "Using this bow is backbreaking work but so worth it.",
+  "icon": "/icons/spinesnap.png"
+ },
+ {
+  "name": "Splitnir",
+  "slug": "splitnir",
+  "image": "",
+  "type": "Spear",
+  "source": "Black forge",
+  "crafting_level": "3",
+  "repair_level": "3",
+  "durability": null,
+  "stamina": 16.0,
+  "block_armor": 57.0,
+  "knockback": 20.0,
+  "parry": null,
+  "backstab": null,
+  "damage": {
+   "Pierce": 135.0
+  },
+  "materials": [
+   "Ashwood x10 Flametal x6 Asksvin hide x2 Bonemaw tooth x3",
+   "Ashwood x5 Flametal x6 Asksvin hide x1 Bonemaw tooth x3",
+   "Ashwood x10 Flametal x12 Asksvin hide x2 Bonemaw tooth x6",
+   "Ashwood x15 Flametal x18 Asksvin hide x3 Bonemaw tooth x9"
+  ],
+  "description": "Split your enemies' hearts in two.",
+  "icon": "/icons/splitnir.png"
+ },
+ {
+  "name": "Splitnir the Bleeding",
+  "slug": "splitnir-the-bleeding",
+  "image": "",
+  "type": "Spear",
+  "source": "Black forge",
+  "crafting_level": "4",
+  "repair_level": "4",
+  "durability": null,
+  "stamina": 16.0,
+  "block_armor": 57.0,
+  "knockback": 20.0,
+  "parry": null,
+  "backstab": null,
+  "damage": {
+   "Pierce": 135.0
+  },
+  "materials": [
+   "Splitnir x1 Flametal x6 Bloodstone x1",
+   "Flametal x6 Bloodstone x1",
+   "Flametal x12 Bloodstone x2",
+   "Flametal x18 Bloodstone x3"
+  ],
+  "description": "A small sacrifice must be made for every battle...",
+  "icon": "/icons/splitnir_the_bleeding.png"
+ },
+ {
+  "name": "Splitnir the Primal",
+  "slug": "splitnir-the-primal",
+  "image": "",
+  "type": "Spear",
+  "source": "Black forge",
+  "crafting_level": "4",
+  "repair_level": "4",
+  "durability": null,
+  "stamina": 16.0,
+  "block_armor": 57.0,
+  "knockback": 20.0,
+  "parry": null,
+  "backstab": null,
+  "damage": {
+   "Pierce": 135.0,
+   "Poison": 10.0
+  },
+  "materials": [
+   "Splitnir x1 Flametal x6 Jade x1",
+   "Flametal x6 Jade x1",
+   "Flametal x12 Jade x2",
+   "Flametal x18 Jade x3"
+  ],
+  "description": "Nature's forces burst through the ground wherever this spear strikes.",
+  "icon": "/icons/splitnir_the_primal.png"
+ },
+ {
+  "name": "Splitnir the Storming",
+  "slug": "splitnir-the-storming",
+  "image": "",
+  "type": "Spear",
+  "source": "Black forge",
+  "crafting_level": "4",
+  "repair_level": "4",
+  "durability": null,
+  "stamina": 16.0,
+  "block_armor": 57.0,
+  "knockback": 20.0,
+  "parry": null,
+  "backstab": null,
+  "damage": {
+   "Pierce": 135.0
+  },
+  "materials": [
+   "Splitnir x1 Flametal x6 Iolite x1",
+   "Flametal x6 Iolite x1",
+   "Flametal x12 Iolite x2",
+   "Flametal x18 Iolite x3"
+  ],
+  "description": "Let the crack of thunder split the air.",
+  "icon": "/icons/splitnir_the_storming.png"
+ },
+ {
+  "name": "Staff of Embers",
+  "slug": "staff-of-embers",
+  "image": "",
+  "type": "Elemental magic",
+  "source": "Galdr table",
+  "crafting_level": "1",
+  "repair_level": "1",
+  "durability": null,
+  "stamina": null,
+  "block_armor": 48.0,
+  "knockback": 100.0,
+  "parry": null,
+  "backstab": null,
+  "damage": {
+   "Blunt": 120.0,
+   "Fire": 120.0
+  },
+  "materials": [
+   "Yggdrasil wood x20 Surtling core x4 Refined eitr x16",
+   "Yggdrasil wood x10 Surtling core x2 Refined eitr x8",
+   "Yggdrasil wood x20 Surtling core x4 Refined eitr x16",
+   "Yggdrasil wood x30 Surtling core x6 Refined eitr x24"
+  ],
+  "description": "The sweltering heat of Muspelheim seems almost pathetic when compared to what this staff can do...",
+  "icon": ""
+ },
+ {
+  "name": "Staff of Fracturing",
+  "slug": "staff-of-fracturing",
+  "image": "",
+  "type": "Elemental magic",
+  "source": "Galdr table",
+  "crafting_level": "2",
+  "repair_level": "2",
+  "durability": 200.0,
+  "stamina": null,
+  "block_armor": 48.0,
+  "knockback": 100.0,
+  "parry": null,
+  "backstab": null,
+  "damage": {
+   "Blunt": 12.0,
+   "Fire": 12.0
+  },
+  "materials": [
+   "Charred bone x15 Ashwood x5 Proustite powder x8",
+   "Charred bone x5 Ashwood x3 Proustite powder x1",
+   "Charred bone x10 Ashwood x6 Proustite powder x2",
+   "Charred bone x15 Ashwood x9 Proustite powder x3"
+  ],
+  "description": "Only those with patience and focus will be able to harness the true power of this staff.",
+  "icon": ""
+ },
+ {
+  "name": "Staff of Frost",
+  "slug": "staff-of-frost",
+  "image": "",
+  "type": "Elemental magic",
+  "source": "Galdr table",
+  "crafting_level": "1",
+  "repair_level": "1",
+  "durability": 200.0,
+  "stamina": null,
+  "block_armor": 48.0,
+  "knockback": 10.0,
+  "parry": null,
+  "backstab": null,
+  "damage": {
+   "Frost": 30.0
+  },
+  "materials": [
+   "Yggdrasil wood x20 Freeze gland x4 Refined eitr x16",
+   "Yggdrasil wood x10 Freeze gland x2 Refined eitr x8",
+   "Yggdrasil wood x20 Freeze gland x4 Refined eitr x16",
+   "Yggdrasil wood x30 Freeze gland x6 Refined eitr x24"
+  ],
+  "description": "A staff as cold as the three-year winter that will herald the end of times.",
+  "icon": ""
+ },
+ {
+  "name": "Staff of Protection",
+  "slug": "staff-of-protection",
+  "image": "",
+  "type": "Blood magic",
+  "source": "Galdr table",
+  "crafting_level": "1",
+  "repair_level": "1",
+  "durability": 200.0,
+  "stamina": null,
+  "block_armor": 48.0,
+  "knockback": null,
+  "parry": null,
+  "backstab": null,
+  "damage": {},
+  "materials": [
+   "Yggdrasil wood x20 Blood clot x4 Refined eitr x16",
+   "Yggdrasil wood x10 Blood clot x2 Refined eitr x8",
+   "Yggdrasil wood x20 Blood clot x4 Refined eitr x16"
+  ],
+  "description": "For a slight blood offering it will protect the caster in a magical shell.",
+  "icon": ""
+ },
+ {
+  "name": "Stagbreaker",
+  "slug": "stagbreaker",
+  "image": "",
+  "type": "Club 2h",
+  "source": "Workbench",
+  "crafting_level": "2",
+  "repair_level": "2",
+  "durability": 100.0,
+  "stamina": 12.0,
+  "block_armor": 4.0,
+  "knockback": 150.0,
+  "parry": null,
+  "backstab": null,
+  "damage": {
+   "Pierce": 5.0,
+   "Blunt": 20.0
+  },
+  "materials": [
+   "Corewood x20 Deer trophy x5 Leather scraps x2",
+   "Corewood x5 Deer trophy x2 Leather scraps x1 Bone fragments x10",
+   "Corewood x10 Deer trophy x4 Leather scraps x2 Bone fragments x20",
+   "Corewood x15 Deer trophy x6 Leather scraps x3 Bone fragments x30"
+  ],
+  "description": "A weapon worthy of the Gods! If you get hit with this, you'll know it…",
+  "icon": "/icons/stagbreaker.png"
+ },
+ {
+  "name": "Stone axe",
+  "slug": "stone-axe",
+  "image": "",
+  "type": "Axe 1h",
+  "source": "Player crafting menu",
+  "crafting_level": "1",
+  "repair_level": "1",
+  "durability": 100.0,
+  "stamina": 5.0,
+  "block_armor": 3.0,
+  "knockback": 50.0,
+  "parry": null,
+  "backstab": null,
+  "damage": {
+   "Slash": 15.0,
+   "Chop": 20.0
+  },
+  "materials": [
+   "Wood x5 Stone x4",
+   "Stone x2",
+   "Stone x4",
+   "Stone x6"
+  ],
+  "description": "A crude axe for tree-felling.",
+  "icon": ""
+ },
+ {
+  "name": "Storm Ripper",
+  "slug": "storm-ripper",
+  "image": "",
+  "type": "Crossbow",
+  "source": "Black forge",
+  "crafting_level": "4",
+  "repair_level": "4",
+  "durability": null,
+  "stamina": 1.0,
+  "block_armor": null,
+  "knockback": null,
+  "parry": null,
+  "backstab": null,
+  "damage": {
+   "Pierce": 220.0,
+   "Lightning": 10.0
+  },
+  "materials": [
+   "Ripper x1 Flametal x8 Iolite x1",
+   "Flametal x8 Iolite x1",
+   "Flametal x16 Iolite x2",
+   "Flametal x24 Iolite x3"
+  ],
+  "description": "The bolts will tear through your enemies like a particularly nasty gale.",
+  "icon": "/icons/storm_ripper.png"
+ },
+ {
+  "name": "Storm Star",
+  "slug": "storm-star",
+  "image": "",
+  "type": "Club 1h",
+  "source": "Black forge",
+  "crafting_level": "4",
+  "repair_level": "4",
+  "durability": 150.0,
+  "stamina": 16.0,
+  "block_armor": 57.0,
+  "knockback": 100.0,
+  "parry": null,
+  "backstab": null,
+  "damage": {
+   "Blunt": 135.0,
+   "Lightning": 10.0
+  },
+  "materials": [
+   "Flametal mace x1 Flametal x8 Iolite x1",
+   "Flametal x8 Iolite x1",
+   "Flametal x16 Iolite x2",
+   "Flametal x24 Iolite x3"
+  ],
+  "description": "Particularly effective on cloudy mornings.",
+  "icon": "/icons/storm_star.png"
+ },
+ {
+  "name": "Thundering Berserkir Axes",
+  "slug": "thundering-berserkir-axes",
+  "image": "",
+  "type": "axe dw",
+  "source": "Black forge",
+  "crafting_level": "4",
+  "repair_level": "4",
+  "durability": 175.0,
+  "stamina": 16.0,
+  "block_armor": 57.0,
+  "knockback": 20.0,
+  "parry": null,
+  "backstab": 3.0,
+  "damage": {
+   "Slash": 140.0,
+   "Chop": 80.0,
+   "Lightning": 10.0
+  },
+  "materials": [
+   "Berserkir axes x1 Flametal x5 Iolite x1",
+   "Flametal x5 Iolite x1",
+   "Flametal x10 Iolite x2",
+   "Flametal x15 Iolite x3"
+  ],
+  "description": "Carnage spreads around you when you wield these axes, such that Thor himself would be proud.",
+  "icon": "/icons/thundering_berserkir_axes.png"
+ },
+ {
+  "name": "Torch",
+  "slug": "torch",
+  "image": "",
+  "type": "Club 1h",
+  "source": "Player crafting menu",
+  "crafting_level": "",
+  "repair_level": "",
+  "durability": 20.0,
+  "stamina": 4.0,
+  "block_armor": null,
+  "knockback": 30.0,
+  "parry": null,
+  "backstab": null,
+  "damage": {
+   "Blunt": 4.0,
+   "Fire": 15.0
+  },
+  "materials": [
+   "Wood x1 Resin x1"
+  ],
+  "description": "It brings light and warmth, drives back the darkness.",
+  "icon": "/icons/torch.png"
+ },
+ {
+  "name": "Wood arrow",
+  "slug": "wood-arrow",
+  "image": "",
+  "type": "Arrow",
+  "source": "Workbench",
+  "crafting_level": "1",
+  "repair_level": "",
+  "durability": null,
+  "stamina": null,
+  "block_armor": null,
+  "knockback": null,
+  "parry": null,
+  "backstab": null,
+  "damage": {
+   "Pierce": 22.0
+  },
+  "materials": [
+   "Wood x8"
+  ],
+  "description": "An arrow of sharpened wood.",
+  "icon": "/icons/wood_arrow.png"
+ },
+ {
+  "name": "Wood shield",
+  "slug": "wood-shield",
+  "image": "",
+  "type": "Shield Round",
+  "source": "Workbench",
+  "crafting_level": "1",
+  "repair_level": "1",
+  "durability": null,
+  "stamina": null,
+  "block_armor": 6.0,
+  "knockback": null,
+  "parry": null,
+  "backstab": null,
+  "damage": {},
+  "materials": [
+   "Wood x10 Resin x4 Leather scraps x4",
+   "Wood x5 Resin x2 Leather scraps x2",
+   "Wood x10 Resin x4 Leather scraps x4"
+  ],
+  "description": "A simple wooden shield.",
+  "icon": "/icons/wood_shield.png"
+ },
+ {
+  "name": "Wood Tower Shield",
+  "slug": "wood-tower-shield",
+  "image": "",
+  "type": "Shield Tower",
+  "source": "Workbench",
+  "crafting_level": "1",
+  "repair_level": "1",
+  "durability": null,
+  "stamina": null,
+  "block_armor": 10.0,
+  "knockback": null,
+  "parry": null,
+  "backstab": null,
+  "damage": {},
+  "materials": [
+   "Wood x10 Leather scraps x4",
+   "Wood x5 Leather scraps x3",
+   "Wood x10 Leather scraps x6"
+  ],
+  "description": "A rough but heavy wooden shield.",
+  "icon": "/icons/wood_tower_shield.png"
+ },
+ {
+  "name": "Wooden missile",
+  "slug": "wooden-missile",
+  "image": "",
+  "type": "Missile",
+  "source": "Artisan table",
+  "crafting_level": "1",
+  "repair_level": "",
+  "durability": null,
+  "stamina": null,
+  "block_armor": null,
+  "knockback": 45.0,
+  "parry": null,
+  "backstab": null,
+  "damage": {
+   "Pierce": 75.0
+  },
+  "materials": [
+   "Corewood x5 Feathers x2"
+  ],
+  "description": "Sturdy wooden missiles that can provide a tough defense against foes.",
+  "icon": "/icons/wooden_missile.png"
+ },
+ {
+  "name": "Wound Ripper",
+  "slug": "wound-ripper",
+  "image": "",
+  "type": "Crossbow",
+  "source": "Black forge",
+  "crafting_level": "4",
+  "repair_level": "4",
+  "durability": null,
+  "stamina": 1.0,
+  "block_armor": null,
+  "knockback": null,
+  "parry": null,
+  "backstab": null,
+  "damage": {
+   "Pierce": 220.0
+  },
+  "materials": [
+   "Ripper x1 Flametal x8 Bloodstone x1",
+   "Flametal x8 Bloodstone x1",
+   "Flametal x16 Bloodstone x2",
+   "Flametal x24 Bloodstone x3"
+  ],
+  "description": "Ready to rend your enemies to pieces.",
+  "icon": "/icons/wound_ripper.png"
+ }
+]

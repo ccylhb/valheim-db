@@ -1,0 +1,99 @@
+---
+import Base from "../../layouts/Base.astro";
+import Related from "../../components/Related.astro";
+import weapons from "../../data/weapons.json";
+
+export async function getStaticPaths() {
+  const weapons = (await import("../../data/weapons.json")).default;
+  return weapons.map((w) => ({ params: { slug: w.slug }, props: { w } }));
+}
+const { w } = Astro.props;
+const dmg = w.damage || {};
+const dmgTotal = Object.values(dmg).reduce((s: number, v: any) => s + (Number(v) || 0), 0);
+const primary = Object.entries(dmg).sort((a: any, b: any) => b[1] - a[1])[0];
+const sameType = weapons
+  .filter((x) => x.type === w.type && x.slug !== w.slug)
+  .sort((a: any, b: any) => Object.values(b.damage || {}).reduce((s: number, v: any) => s + v, 0) - Object.values(a.damage || {}).reduce((s: number, v: any) => s + v, 0))
+  .slice(0, 3);
+---
+
+<Base
+  title={`${w.name} — Valheim Weapon Stats`}
+  description={`${w.name} damage (${Object.entries(dmg).map(([k, v]) => `${v} ${k}`).join(", ")}), durability ${w.durability ?? "?"} and stamina cost in Valheim.`}
+>
+  <p style="margin:0"><a href="/weapons/">← All weapons</a></p>
+  <h1 class="icon-h1">
+    {w.icon && <img src={w.icon} alt="" width="52" height="52" loading="eager" />}
+    {w.name}
+  </h1>
+  <p>
+    {w.type && <span class="tag">{w.type}</span>}
+    {w.source && <span class="tag">Crafted at {w.source}</span>}
+    {w.crafting_level && <span class="tag">Workbench level {w.crafting_level}</span>}
+  </p>
+
+  {w.description && <p class="muted">{w.description}</p>}
+
+  <div class="card answer-card">
+    <div class="stat-row">
+      <div>
+        <div class="stat-num">{primary ? `${primary[1]} ${primary[0]}` : "—"}</div>
+        <div class="stat-label">Top damage</div>
+      </div>
+      {Object.keys(dmg).length > 1 && (
+        <div>
+          <div class="stat-num">{dmgTotal}</div>
+          <div class="stat-label">Total per hit</div>
+        </div>
+      )}
+      <div>
+        <div class="stat-num">{w.stamina ?? "—"}</div>
+        <div class="stat-label">Stamina</div>
+      </div>
+      <div>
+        <div class="stat-num">{w.durability ?? "—"}</div>
+        <div class="stat-label">Durability</div>
+      </div>
+      <div>
+        <div class="stat-num">{w.block_armor ?? "—"}</div>
+        <div class="stat-label">Block armor</div>
+      </div>
+    </div>
+  </div>
+
+  {Object.keys(dmg).length > 0 && (
+    <section>
+      <h2>Damage breakdown</h2>
+      <table>
+        <tbody>
+          {Object.entries(dmg).map(([k, v]) => (
+            <tr><th style="width:40%">{k} damage</th><td><strong>{v}</strong></td></tr>
+          ))}
+          <tr><th>Knockback</th><td>{w.knockback ?? "—"}</td></tr>
+          <tr><th>Parry bonus</th><td>{w.parry ?? "—"}</td></tr>
+          <tr><th>Backstab bonus</th><td>{w.backstab ?? "—"}</td></tr>
+        </tbody>
+      </table>
+    </section>
+  )}
+
+  {w.materials && w.materials.length > 0 && (
+    <section>
+      <h2>Crafting</h2>
+      <p>{w.materials.join(" · ")}</p>
+      <p class="muted">Higher qualities cost less material — see the wiki upgrade table.</p>
+    </section>
+  )}
+
+  <Related
+    heading="Next steps"
+    links={[
+      { href: "/rankings/", title: "Weapon damage rankings", sub: "Where this weapon ranks", tool: true },
+      ...(w.type
+        ? sameType.map((x) => ({
+            href: `/weapons/${x.slug}/`, title: x.name, sub: `${x.type} · ${Object.values(x.damage || {}).reduce((s: number, v: any) => s + v, 0)} total dmg`, icon: x.icon,
+          }))
+        : []),
+    ]}
+  />
+</Base>

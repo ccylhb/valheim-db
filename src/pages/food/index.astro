@@ -1,0 +1,45 @@
+---
+import Base from "../../layouts/Base.astro";
+import DataTable from "../../components/DataTable.astro";
+import food from "../../data/food.json";
+
+const mins = (f: any): number => (f.duration || 0) / 60;
+const withStats = food.filter((f) => f.health || f.stamina);
+---
+
+<Base
+  title="Valheim Food — Health, Stamina & Duration for Every Dish"
+  description="Every Valheim food with health gained, stamina gained and duration. Find the best food for boss fights, farming or exploration."
+>
+  <h1>Food</h1>
+  <p class="muted">
+    {withStats.length} foods with full stats. Health/stamina is the max gained while the buff lasts — combine up to 3 for your loadout.
+  </p>
+
+  <div class="grid grid-3" style="margin:1.25rem 0">
+    <a class="card" href="/food-planner/" style="display:block">
+      <strong>🍲 Food planner</strong>
+      <div class="muted">Pick dishes, get total HP & stamina</div>
+    </a>
+    <a class="card" href="/rankings/#food" style="display:block">
+      <strong>Best food rankings</strong>
+      <div class="muted">Highest HP / stamina dishes</div>
+    </a>
+  </div>
+
+  <h2>All foods</h2>
+  <DataTable
+    head={["Food", "Crafted at", "Health", "Stamina", "Duration", "Healing"]}
+    rows={[...withStats]
+      .sort((a, b) => (b.health || 0) - (a.health || 0))
+      .map((f) => [
+        `<a href="/food/${f.slug}/">${f.name}</a>`,
+        f.source || "—",
+        f.health ? `<strong>${f.health}</strong>` : "—",
+        f.stamina ? `<strong>${f.stamina}</strong>` : "—",
+        f.duration ? `${mins(f)} min` : "—",
+        f.healing || "—",
+      ])}
+    searchPlaceholder="Search foods..."
+  />
+</Base>

@@ -1,0 +1,100 @@
+---
+import Base from "../layouts/Base.astro";
+import DataTable from "../components/DataTable.astro";
+import weapons from "../data/weapons.json";
+import creatures from "../data/creatures.json";
+import armor from "../data/armor.json";
+import food from "../data/food.json";
+
+const wDmg = (w: any): number => Object.values(w.damage || {}).reduce((s: number, v: any) => s + (Number(v) || 0), 0);
+const wFmt = (w: any) => Object.entries(w.damage || {}).map(([k, v]) => `${v} ${k}`).join(" + ");
+const hp0 = (c: any): number => (c.health_stars || {})["0"] ?? c.health_stars?.[0] ?? 0;
+const dmg0 = (c: any): string => {
+  const d = (c.damage_stars || {})["0"] ?? (c.damage_stars || {})[0];
+  return d?.dmg ? `${d.dmg}${d.type ? " " + d.type : ""}` : "—";
+};
+const bosses = creatures.filter((c) => c.boss);
+const bossOrder = ["Eikthyr", "The Elder", "Bonemass", "Moder", "Yagluth", "The Queen", "Fader"];
+const ordered = [...bosses].sort((a, b) => {
+  const ia = bossOrder.indexOf(a.name), ib = bossOrder.indexOf(b.name);
+  return (ia < 0 ? 99 : ia) - (ib < 0 ? 99 : ib);
+});
+const topW = [...weapons].sort((a, b) => wDmg(b) - wDmg(a)).slice(0, 25);
+const topC = [...creatures].sort((a, b) => hp0(b) - hp0(a)).slice(0, 20);
+const topA = [...armor]
+  .filter((a) => (a.pieces?.length || 0) > 1)
+  .sort((a, b) => (b.pieces?.reduce((s: number, p: any) => s + p.armor, 0) || 0) - (a.pieces?.reduce((s: number, p: any) => s + p.armor, 0) || 0))
+  .slice(0, 15);
+const topF = [...food].filter((f) => f.health).sort((a, b) => (b.health || 0) - (a.health || 0)).slice(0, 15);
+---
+
+<Base
+  title="Valheim Rankings — Best Weapons, Food, Armor & Boss Order"
+  description="Valheim rankings: highest damage weapons, best food for health and stamina, top armor sets and the correct boss order with strategy tips."
+>
+  <h1>Rankings &amp; boss order</h1>
+  <p class="muted">Every list sorts base (quality 1 / 0-star) values from the wiki. Elemental damage is added into the weapon total.</p>
+
+  <h2 id="bosses">🗡️ Boss order &amp; strategy</h2>
+  <DataTable
+    head={["#", "Boss", "Summon at", "Base HP", "Attack", "Drops"]}
+    rows={ordered.map((c, i) => [
+      `<strong>${i + 1}</strong>`,
+      `<a href="/creatures/${c.slug}/"><strong>${c.name}</strong></a>`,
+      c.location || "—",
+      hp0(c) ? `<strong>${hp0(c)}</strong>` : "—",
+      dmg0(c),
+      (c.drops || []).slice(0, 2).join(", ") || "—",
+    ])}
+  />
+
+  <h2 id="weapons">⚔️ Weapons by total damage</h2>
+  <DataTable
+    head={["#", "Weapon", "Type", "Damage", "Stamina", "Crafted at"]}
+    rows={topW.map((w, i) => [
+      `<strong>${i + 1}</strong>`,
+      `<a href="/weapons/${w.slug}/"><strong>${w.name}</strong></a>`,
+      w.type || "—",
+      wFmt(w),
+      w.stamina ?? "—",
+      w.source || "—",
+    ])}
+  />
+
+  <h2 id="food">🍲 Best food (by health)</h2>
+  <DataTable
+    head={["#", "Food", "Health", "Stamina", "Duration", "Crafted at"]}
+    rows={topF.map((f, i) => [
+      `<strong>${i + 1}</strong>`,
+      `<a href="/food/${f.slug}/"><strong>${f.name}</strong></a>`,
+      f.health ? `<strong>+${f.health}</strong>` : "—",
+      f.stamina ? `+${f.stamina}` : "—",
+      f.duration ? `${(f.duration / 60).toFixed(0)} min` : "—",
+      f.source || "—",
+    ])}
+  />
+
+  <h2 id="armor">🛡️ Armor sets by total rating</h2>
+  <DataTable
+    head={["#", "Set", "Total armor", "Head / Chest / Legs"]}
+    rows={topA.map((a, i) => [
+      `<strong>${i + 1}</strong>`,
+      `<a href="/armor/${a.slug}/"><strong>${a.name}</strong></a>`,
+      `<strong>${a.pieces?.reduce((s: number, p: any) => s + p.armor, 0)}</strong>`,
+      a.pieces?.map((p: any) => p.armor).join(" / "),
+    ])}
+  />
+
+  <h2 id="creatures">👹 Highest HP creatures</h2>
+  <DataTable
+    head={["#", "Creature", "Biome", "Base HP", "Attack", "Boss?"]}
+    rows={topC.map((c, i) => [
+      `<strong>${i + 1}</strong>`,
+      `<a href="/creatures/${c.slug}/"><strong>${c.name}</strong></a>`,
+      c.location || "—",
+      hp0(c) ? `<strong>${hp0(c)}</strong>` : "—",
+      dmg0(c),
+      c.boss ? "Boss" : "—",
+    ])}
+  />
+</Base>

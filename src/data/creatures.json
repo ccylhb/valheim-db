@@ -1,0 +1,1674 @@
+[
+ {
+  "name": "Abomination",
+  "slug": "abomination",
+  "image": "",
+  "location": "Swamp",
+  "tameable": "",
+  "trophy": "Abomination trophy",
+  "health_stars": {
+   "0": 800.0
+  },
+  "damage_stars": {
+   "0": {
+    "dmg": 60.0,
+    "type": ""
+   }
+  },
+  "weak": "Fire",
+  "veryweak": "",
+  "resistant": "Blunt",
+  "veryresistant": "Pierce",
+  "immune": "Frost, Poison, Spirit",
+  "stagger": "33%",
+  "faction": "Undead",
+  "abilities": "Swing (7s) Slam (8s) Ground slam (6s)",
+  "drops": [],
+  "boss": false,
+  "description": "Due to its weakness to fire damage, killing it with Fire arrows is a valid option.",
+  "icon": "/icons/abomination.png"
+ },
+ {
+  "name": "Blob",
+  "slug": "blob",
+  "image": "",
+  "location": "Swamp",
+  "tameable": "",
+  "trophy": "Blob trophy",
+  "health_stars": {
+   "0": 50.0
+  },
+  "damage_stars": {
+   "0": {
+    "dmg": 90.0,
+    "type": ""
+   }
+  },
+  "weak": "Blunt, Frost, Lightning",
+  "veryweak": "",
+  "resistant": "Fire, Pierce, Slash",
+  "veryresistant": "",
+  "immune": "Poison, Stagger",
+  "stagger": "",
+  "faction": "Undead",
+  "abilities": "Area of effect",
+  "drops": [],
+  "boss": false,
+  "description": "",
+  "icon": "/icons/blob.png"
+ },
+ {
+  "name": "Boar",
+  "slug": "boar",
+  "image": "",
+  "location": "Meadows",
+  "tameable": "yes",
+  "trophy": "Boar trophy",
+  "health_stars": {
+   "0": 10.0,
+   "1": 20.0,
+   "2": 30.0
+  },
+  "damage_stars": {
+   "0": {
+    "dmg": 10.0,
+    "type": "Blunt"
+   },
+   "1": {
+    "dmg": 15.0,
+    "type": "Blunt"
+   },
+   "2": {
+    "dmg": 20.0,
+    "type": "Blunt"
+   }
+  },
+  "weak": "",
+  "veryweak": "",
+  "resistant": "",
+  "veryresistant": "",
+  "immune": "Spirit",
+  "stagger": "50%",
+  "faction": "Forest",
+  "abilities": "Attack (5s)",
+  "drops": [],
+  "boss": false,
+  "description": "Boars are wild creatures found throughout Valheim, known for their aggressive behavior when approached.",
+  "icon": "/icons/boar.png"
+ },
+ {
+  "name": "Brenna",
+  "slug": "brenna",
+  "image": "",
+  "location": "Smouldering Tombs",
+  "tameable": "No",
+  "trophy": "Brenna trophy",
+  "health_stars": {
+   "0": 1200.0
+  },
+  "damage_stars": {
+   "0": {
+    "dmg": 60.0,
+    "type": ""
+   }
+  },
+  "weak": "Blunt, Frost",
+  "veryweak": "",
+  "resistant": "Pierce",
+  "veryresistant": "",
+  "immune": "Fire, Poison",
+  "stagger": "",
+  "faction": "Undead",
+  "abilities": "Sword (3s) Fire nova (10s)",
+  "drops": [],
+  "boss": false,
+  "description": "The Swedish word \"bränna\", with similar pronunciation, means \"to burn\".",
+  "icon": "/icons/brenna.png"
+ },
+ {
+  "name": "Deathsquito",
+  "slug": "deathsquito",
+  "image": "",
+  "location": "Plains",
+  "tameable": "",
+  "trophy": "Deathsquito trophy",
+  "health_stars": {
+   "0": 10.0
+  },
+  "damage_stars": {
+   "0": {
+    "dmg": 90.0,
+    "type": ""
+   }
+  },
+  "weak": "",
+  "veryweak": "",
+  "resistant": "",
+  "veryresistant": "",
+  "immune": "Spirit, Stagger",
+  "stagger": "",
+  "faction": "Plains",
+  "abilities": "Sting",
+  "drops": [],
+  "boss": false,
+  "description": "",
+  "icon": "/icons/deathsquito.png"
+ },
+ {
+  "name": "Drake",
+  "slug": "drake",
+  "image": "",
+  "location": "Mountain",
+  "tameable": "",
+  "trophy": "Drake trophy",
+  "health_stars": {
+   "0": 100.0
+  },
+  "damage_stars": {
+   "0": {
+    "dmg": 90.0,
+    "type": ""
+   }
+  },
+  "weak": "Fire",
+  "veryweak": "",
+  "resistant": "",
+  "veryresistant": "",
+  "immune": "Frost, Spirit, Stagger",
+  "stagger": "",
+  "faction": "Mountain",
+  "abilities": "Spit cold (6s)",
+  "drops": [],
+  "boss": false,
+  "description": "",
+  "icon": "/icons/drake.png"
+ },
+ {
+  "name": "Draugr",
+  "slug": "draugr",
+  "image": "",
+  "location": "Swamp",
+  "tameable": "",
+  "trophy": "Draugr trophy",
+  "health_stars": {
+   "0": 100.0,
+   "1": 200.0,
+   "2": 300.0
+  },
+  "damage_stars": {
+   "0": {
+    "dmg": 48.0,
+    "type": ""
+   },
+   "1": {
+    "dmg": 72.0,
+    "type": ""
+   },
+   "2": {
+    "dmg": 96.0,
+    "type": ""
+   }
+  },
+  "weak": "",
+  "veryweak": "",
+  "resistant": "Fire",
+  "veryresistant": "",
+  "immune": "Poison",
+  "stagger": "50%",
+  "faction": "Undead",
+  "abilities": "Axe (3s) Bow (4s)",
+  "drops": [],
+  "boss": false,
+  "description": "",
+  "icon": "/icons/draugr.png"
+ },
+ {
+  "name": "Draugr Elite",
+  "slug": "draugr-elite",
+  "image": "",
+  "location": "Swamp",
+  "tameable": "",
+  "trophy": "Draugr Elite trophy",
+  "health_stars": {
+   "0": 200.0,
+   "1": 400.0,
+   "2": 600.0
+  },
+  "damage_stars": {
+   "0": {
+    "dmg": 58.0,
+    "type": ""
+   },
+   "1": {
+    "dmg": 87.0,
+    "type": ""
+   },
+   "2": {
+    "dmg": 116.0,
+    "type": ""
+   }
+  },
+  "weak": "",
+  "veryweak": "",
+  "resistant": "Fire",
+  "veryresistant": "",
+  "immune": "Poison",
+  "stagger": "50%",
+  "faction": "Undead",
+  "abilities": "Sword",
+  "drops": [],
+  "boss": false,
+  "description": "",
+  "icon": "/icons/draugr_elite.png"
+ },
+ {
+  "name": "Dvergr Mage",
+  "slug": "dvergr-mage",
+  "image": "",
+  "location": "Mistlands",
+  "tameable": "",
+  "trophy": "Dvergr trophy",
+  "health_stars": {
+   "0": 350.0,
+   "1": 700.0,
+   "2": 1050.0
+  },
+  "damage_stars": {
+   "0": {
+    "dmg": 70.0,
+    "type": ""
+   },
+   "1": {
+    "dmg": 105.0,
+    "type": ""
+   },
+   "2": {
+    "dmg": 140.0,
+    "type": ""
+   }
+  },
+  "weak": "",
+  "veryweak": "",
+  "resistant": "Fire, Frost",
+  "veryresistant": "",
+  "immune": "Spirit",
+  "stagger": "30%",
+  "faction": "Dvergr",
+  "abilities": "Fire mage: Melee (4s) Fireball (6s) Clusterbomb (35s) Ice mage: Melee (4s) Icebolt (6s) Nova (7s) Support mage: Buff (45s) Heal (10s) Mistile (35s)",
+  "drops": [],
+  "boss": false,
+  "description": "Once provoked by a player (by damaging them, other nearby Dvergr, or any part of a nearby structure that is protected by a Dvergr Ward), they will become hostile and attack.",
+  "icon": ""
+ },
+ {
+  "name": "Dvergr Rogue",
+  "slug": "dvergr-rogue",
+  "image": "",
+  "location": "Mistlands",
+  "tameable": "",
+  "trophy": "Dvergr trophy",
+  "health_stars": {
+   "0": 350.0,
+   "1": 700.0,
+   "2": 1050.0
+  },
+  "damage_stars": {
+   "0": {
+    "dmg": 110.0,
+    "type": ""
+   },
+   "1": {
+    "dmg": 165.0,
+    "type": ""
+   },
+   "2": {
+    "dmg": 220.0,
+    "type": ""
+   }
+  },
+  "weak": "",
+  "veryweak": "",
+  "resistant": "",
+  "veryresistant": "",
+  "immune": "Spirit",
+  "stagger": "30%",
+  "faction": "Dvergr",
+  "abilities": "Shoot Melee",
+  "drops": [],
+  "boss": false,
+  "description": "Once provoked by a player (by damaging them, other nearby Dvergr, or any part of a nearby structure that is protected by a Dvergr Ward), they will become hostile and attack.",
+  "icon": "/icons/dvergr_rogue.png"
+ },
+ {
+  "name": "Fallen Valkyrie",
+  "slug": "fallen-valkyrie",
+  "image": "",
+  "location": "Ashlands",
+  "tameable": "no",
+  "trophy": "Fallen Valkyrie trophy",
+  "health_stars": {
+   "0": 1500.0
+  },
+  "damage_stars": {
+   "0": {
+    "dmg": 80.0,
+    "type": ""
+   }
+  },
+  "weak": "Spirit",
+  "veryweak": "",
+  "resistant": "Fire",
+  "veryresistant": "",
+  "immune": "Poison",
+  "stagger": "",
+  "faction": "",
+  "abilities": "Spit (10s, 3x) Claws (3s) Spin (10s)",
+  "drops": [],
+  "boss": false,
+  "description": "",
+  "icon": ""
+ },
+ {
+  "name": "Fenring",
+  "slug": "fenring",
+  "image": "",
+  "location": "Mountain",
+  "tameable": "",
+  "trophy": "Fenring trophy",
+  "health_stars": {
+   "0": 300.0
+  },
+  "damage_stars": {
+   "0": {
+    "dmg": 85.0,
+    "type": ""
+   }
+  },
+  "weak": "Fire",
+  "veryweak": "",
+  "resistant": "Poison",
+  "veryresistant": "",
+  "immune": "",
+  "stagger": "50%",
+  "faction": "Mountain",
+  "abilities": "Claw (3s) Jump (8s)",
+  "drops": [],
+  "boss": false,
+  "description": "",
+  "icon": "/icons/fenring.png"
+ },
+ {
+  "name": "Frost Blob",
+  "slug": "frost-blob",
+  "image": "",
+  "location": "",
+  "tameable": "",
+  "trophy": "",
+  "health_stars": {
+   "0": 50.0
+  },
+  "damage_stars": {
+   "0": {
+    "dmg": 100.0,
+    "type": "Frost"
+   }
+  },
+  "weak": "Blunt, Fire, Lightning",
+  "veryweak": "",
+  "resistant": "Slash, Pierce",
+  "veryresistant": "Frost",
+  "immune": "Poison, Chop, Pickaxe",
+  "stagger": "",
+  "faction": "Mountain",
+  "abilities": "Frost AoE",
+  "drops": [
+   "Crystal"
+  ],
+  "boss": false,
+  "description": "",
+  "icon": ""
+ },
+ {
+  "name": "Fuling",
+  "slug": "fuling",
+  "image": "",
+  "location": "Plains",
+  "tameable": "",
+  "trophy": "Fuling trophy",
+  "health_stars": {
+   "0": 175.0,
+   "1": 350.0,
+   "2": 525.0
+  },
+  "damage_stars": {
+   "0": {
+    "dmg": 85.0,
+    "type": ""
+   },
+   "1": {
+    "dmg": 127.5,
+    "type": ""
+   },
+   "2": {
+    "dmg": 170.0,
+    "type": ""
+   }
+  },
+  "weak": "",
+  "veryweak": "",
+  "resistant": "",
+  "veryresistant": "",
+  "immune": "Spirit",
+  "stagger": "30%",
+  "faction": "Plains",
+  "abilities": "Club (2s) Spear (4s) Sword (2s) Torch (2s)",
+  "drops": [],
+  "boss": false,
+  "description": "Fulings appear 33% of the time as club variants, 17% of the time as spear variants, 33% of the time as sword variants and 17% of the time as torch variants.",
+  "icon": "/icons/fuling.png"
+ },
+ {
+  "name": "Fuling Berserker",
+  "slug": "fuling-berserker",
+  "image": "",
+  "location": "Plains",
+  "tameable": "",
+  "trophy": "Fuling berserker trophy",
+  "health_stars": {
+   "0": 800.0,
+   "1": 1600.0,
+   "2": 2400.0
+  },
+  "damage_stars": {
+   "0": {
+    "dmg": 130.0,
+    "type": "Blunt"
+   },
+   "1": {
+    "dmg": 195.0,
+    "type": "Blunt"
+   },
+   "2": {
+    "dmg": 260.0,
+    "type": "Blunt"
+   }
+  },
+  "weak": "",
+  "veryweak": "",
+  "resistant": "",
+  "veryresistant": "",
+  "immune": "Spirit",
+  "stagger": "30%",
+  "faction": "Plains",
+  "abilities": "Attack (2s) Rage attack (20s)",
+  "drops": [],
+  "boss": false,
+  "description": "",
+  "icon": "/icons/fuling_berserker.png"
+ },
+ {
+  "name": "Fuling Shaman",
+  "slug": "fuling-shaman",
+  "image": "",
+  "location": "Plains",
+  "tameable": "",
+  "trophy": "Fuling shaman trophy",
+  "health_stars": {
+   "0": 100.0
+  },
+  "damage_stars": {
+   "0": {
+    "dmg": 100.0,
+    "type": ""
+   }
+  },
+  "weak": "",
+  "veryweak": "",
+  "resistant": "",
+  "veryresistant": "",
+  "immune": "Spirit",
+  "stagger": "30%",
+  "faction": "Plains",
+  "abilities": "Protect (40s) Poke (2s) Fireball (3s)",
+  "drops": [],
+  "boss": false,
+  "description": "",
+  "icon": "/icons/fuling_shaman.png"
+ },
+ {
+  "name": "Geirrhafa",
+  "slug": "geirrhafa",
+  "image": "",
+  "location": "Howling Caverns",
+  "tameable": "No",
+  "trophy": "Geirrhafa trophy",
+  "health_stars": {
+   "0": 3700.0
+  },
+  "damage_stars": {
+   "0": {
+    "dmg": 60.0,
+    "type": ""
+   }
+  },
+  "weak": "Fire",
+  "veryweak": "",
+  "resistant": "",
+  "veryresistant": "",
+  "immune": "Frost",
+  "stagger": "",
+  "faction": "Mountain",
+  "abilities": "Ice claw double (10s) Ice claw (2s) Frost (10s) Ice nova (15s)",
+  "drops": [],
+  "boss": false,
+  "description": "",
+  "icon": "/icons/geirrhafa.png"
+ },
+ {
+  "name": "Ghost",
+  "slug": "ghost",
+  "image": "",
+  "location": "Black Forest",
+  "tameable": "",
+  "trophy": "Ghost trophy",
+  "health_stars": {
+   "0": 60.0
+  },
+  "damage_stars": {
+   "0": {
+    "dmg": 25.0,
+    "type": "Slash"
+   }
+  },
+  "weak": "Spirit",
+  "veryweak": "",
+  "resistant": "Blunt, Slash, Pierce",
+  "veryresistant": "",
+  "immune": "Poison",
+  "stagger": "50%",
+  "faction": "Undead",
+  "abilities": "Attack",
+  "drops": [
+   "Ectoplasm"
+  ],
+  "boss": false,
+  "description": "",
+  "icon": "/icons/ghost.png"
+ },
+ {
+  "name": "Gjall",
+  "slug": "gjall",
+  "image": "",
+  "location": "Mistlands",
+  "tameable": "No",
+  "trophy": "Gjall trophy",
+  "health_stars": {
+   "0": 1500.0,
+   "1": 3000.0,
+   "2": 4500.0
+  },
+  "damage_stars": {
+   "0": {
+    "dmg": 50.0,
+    "type": ""
+   },
+   "1": {
+    "dmg": 75.0,
+    "type": ""
+   },
+   "2": {
+    "dmg": 100.0,
+    "type": ""
+   }
+  },
+  "weak": "",
+  "veryweak": "",
+  "resistant": "Fire",
+  "veryresistant": "",
+  "immune": "Spirit, Stagger",
+  "stagger": "",
+  "faction": "Mistlands",
+  "abilities": "Spit (6s) Egg (50s, 3 Ticks) Shake (10s)",
+  "drops": [],
+  "boss": false,
+  "description": "",
+  "icon": "/icons/gjall.png"
+ },
+ {
+  "name": "Greydwarf",
+  "slug": "greydwarf",
+  "image": "",
+  "location": "Black Forest",
+  "tameable": "",
+  "trophy": "Greydwarf trophy",
+  "health_stars": {
+   "0": 40.0,
+   "1": 80.0,
+   "2": 120.0
+  },
+  "damage_stars": {
+   "0": {
+    "dmg": 14.0,
+    "type": "Slash Throw"
+   },
+   "1": {
+    "dmg": 21.0,
+    "type": "Slash Throw"
+   },
+   "2": {
+    "dmg": 28.0,
+    "type": "Slash Throw"
+   }
+  },
+  "weak": "",
+  "veryweak": "Fire",
+  "resistant": "Poison",
+  "veryresistant": "",
+  "immune": "Spirit",
+  "stagger": "30%",
+  "faction": "Forest",
+  "abilities": "Attack (2s) Throw (8s)",
+  "drops": [],
+  "boss": false,
+  "description": "",
+  "icon": "/icons/greydwarf.png"
+ },
+ {
+  "name": "Greydwarf Brute",
+  "slug": "greydwarf-brute",
+  "image": "",
+  "location": "Black Forest",
+  "tameable": "",
+  "trophy": "Greydwarf Brute trophy",
+  "health_stars": {
+   "0": 150.0,
+   "1": 300.0,
+   "2": 450.0
+  },
+  "damage_stars": {
+   "0": {
+    "dmg": 30.0,
+    "type": "Slash"
+   },
+   "1": {
+    "dmg": 45.0,
+    "type": "Slash"
+   },
+   "2": {
+    "dmg": 60.0,
+    "type": "Slash"
+   }
+  },
+  "weak": "",
+  "veryweak": "Fire",
+  "resistant": "Poison",
+  "veryresistant": "",
+  "immune": "Spirit",
+  "stagger": "50%",
+  "faction": "Forest",
+  "abilities": "Attack (2s)",
+  "drops": [],
+  "boss": false,
+  "description": "",
+  "icon": "/icons/greydwarf_brute.png"
+ },
+ {
+  "name": "Greydwarf Shaman",
+  "slug": "greydwarf-shaman",
+  "image": "",
+  "location": "Black Forest",
+  "tameable": "",
+  "trophy": "Greydwarf Shaman trophy",
+  "health_stars": {
+   "0": 60.0,
+   "1": 120.0,
+   "2": 180.0
+  },
+  "damage_stars": {
+   "0": {
+    "dmg": 30.0,
+    "type": ""
+   },
+   "1": {
+    "dmg": 45.0,
+    "type": ""
+   },
+   "2": {
+    "dmg": 60.0,
+    "type": ""
+   }
+  },
+  "weak": "",
+  "veryweak": "Fire",
+  "resistant": "Poison",
+  "veryresistant": "",
+  "immune": "Spirit",
+  "stagger": "33%",
+  "faction": "Forest",
+  "abilities": "Magic attack (8s) Attack (2s) Heal (10s)",
+  "drops": [],
+  "boss": false,
+  "description": "",
+  "icon": "/icons/greydwarf_shaman.png"
+ },
+ {
+  "name": "Greyling",
+  "slug": "greyling",
+  "image": "",
+  "location": "Meadows",
+  "tameable": "",
+  "trophy": "",
+  "health_stars": {
+   "0": 20.0
+  },
+  "damage_stars": {
+   "0": {
+    "dmg": 5.0,
+    "type": "Slash"
+   }
+  },
+  "weak": "",
+  "veryweak": "Fire",
+  "resistant": "Poison",
+  "veryresistant": "",
+  "immune": "Spirit",
+  "stagger": "30%",
+  "faction": "Forest",
+  "abilities": "Attack (2s)",
+  "drops": [
+   "Resin"
+  ],
+  "boss": false,
+  "description": "",
+  "icon": ""
+ },
+ {
+  "name": "Growth",
+  "slug": "growth",
+  "image": "",
+  "location": "Plains",
+  "tameable": "",
+  "trophy": "Growth trophy",
+  "health_stars": {
+   "0": 100.0
+  },
+  "damage_stars": {
+   "0": {
+    "dmg": 45.0,
+    "type": "Blunt"
+   }
+  },
+  "weak": "Blunt, Fire",
+  "veryweak": "",
+  "resistant": "Frost, Pierce, Slash",
+  "veryresistant": "",
+  "immune": "Poison, Stagger",
+  "stagger": "",
+  "faction": "Undead",
+  "abilities": "Attack (8s, 6x)",
+  "drops": [],
+  "boss": false,
+  "description": "",
+  "icon": "/icons/growth.png"
+ },
+ {
+  "name": "Kvastur",
+  "slug": "kvastur",
+  "image": "",
+  "location": "Swamp",
+  "tameable": "",
+  "trophy": "Kvastur trophy",
+  "health_stars": {
+   "0": 700.0
+  },
+  "damage_stars": {
+   "0": {
+    "dmg": 80.0,
+    "type": "Blunt"
+   }
+  },
+  "weak": "Chop",
+  "veryweak": "Fire",
+  "resistant": "",
+  "veryresistant": "",
+  "immune": "Poison, Spirit, Pickaxe",
+  "stagger": "30%",
+  "faction": "Dvergr",
+  "abilities": "Attack (2s)",
+  "drops": [],
+  "boss": false,
+  "description": "It will attack monsters close to the hut.",
+  "icon": "/icons/kvastur.png"
+ },
+ {
+  "name": "Lava Blob",
+  "slug": "lava-blob",
+  "image": "",
+  "location": "Ashlands",
+  "tameable": "no",
+  "trophy": "",
+  "health_stars": {
+   "0": 300.0
+  },
+  "damage_stars": {
+   "0": {
+    "dmg": 70.0,
+    "type": ""
+   }
+  },
+  "weak": "Blunt, Frost, Lightning",
+  "veryweak": "",
+  "resistant": "Pierce, Poison",
+  "veryresistant": "",
+  "immune": "Fire",
+  "stagger": "No",
+  "faction": "",
+  "abilities": "Area of effect",
+  "drops": [
+   "Proustite powder Sulfur"
+  ],
+  "boss": false,
+  "description": "Similar to their Blob counterparts, the Lava Blob jumps around, and so can close large distance between itself and the player.",
+  "icon": "/icons/lava_blob.png"
+ },
+ {
+  "name": "Leech",
+  "slug": "leech",
+  "image": "",
+  "location": "Swamp",
+  "tameable": "",
+  "trophy": "Leech trophy",
+  "health_stars": {
+   "0": 60.0,
+   "1": 120.0,
+   "2": 180.0
+  },
+  "damage_stars": {
+   "0": {
+    "dmg": 20.0,
+    "type": ""
+   },
+   "1": {
+    "dmg": 30.0,
+    "type": ""
+   },
+   "2": {
+    "dmg": 40.0,
+    "type": ""
+   }
+  },
+  "weak": "",
+  "veryweak": "",
+  "resistant": "Poison",
+  "veryresistant": "",
+  "immune": "Fire, Spirit, Stagger",
+  "stagger": "",
+  "faction": "Undead",
+  "abilities": "Bite",
+  "drops": [],
+  "boss": false,
+  "description": "",
+  "icon": "/icons/leech.png"
+ },
+ {
+  "name": "Lox",
+  "slug": "lox",
+  "image": "",
+  "location": "Plains",
+  "tameable": "yes",
+  "trophy": "Lox trophy",
+  "health_stars": {
+   "0": 1000.0
+  },
+  "damage_stars": {
+   "0": {
+    "dmg": 130.0,
+    "type": ""
+   }
+  },
+  "weak": "Fire",
+  "veryweak": "",
+  "resistant": "Blunt, Frost, Slash",
+  "veryresistant": "",
+  "immune": "Spirit",
+  "stagger": "30%",
+  "faction": "Plains",
+  "abilities": "Bite Stomp",
+  "drops": [],
+  "boss": false,
+  "description": "Because Lox tend to stay in herds and wander back to the same location, it is possible to tame large groups of Lox even early in the game by periodically sprinting through the Plains and scattering the Cloudberries around places where the herds gather.",
+  "icon": "/icons/lox.png"
+ },
+ {
+  "name": "Neck",
+  "slug": "neck",
+  "image": "",
+  "location": "Meadows",
+  "tameable": "",
+  "trophy": "Neck trophy",
+  "health_stars": {
+   "0": 5.0,
+   "1": 10.0,
+   "2": 15.0
+  },
+  "damage_stars": {
+   "0": {
+    "dmg": 6.0,
+    "type": ""
+   },
+   "1": {
+    "dmg": 9.0,
+    "type": ""
+   },
+   "2": {
+    "dmg": 12.0,
+    "type": ""
+   }
+  },
+  "weak": "Fire",
+  "veryweak": "",
+  "resistant": "Poison",
+  "veryresistant": "",
+  "immune": "Spirit",
+  "stagger": "50%",
+  "faction": "Forest",
+  "abilities": "Bite (4s)",
+  "drops": [],
+  "boss": false,
+  "description": "",
+  "icon": ""
+ },
+ {
+  "name": "Oozer",
+  "slug": "oozer",
+  "image": "",
+  "location": "Swamp",
+  "tameable": "",
+  "trophy": "",
+  "health_stars": {
+   "0": 150.0
+  },
+  "damage_stars": {
+   "0": {
+    "dmg": 115.0,
+    "type": ""
+   }
+  },
+  "weak": "Blunt, Frost, Lightning",
+  "veryweak": "",
+  "resistant": "Fire, Pierce, Slash",
+  "veryresistant": "",
+  "immune": "Poison, Stagger",
+  "stagger": "",
+  "faction": "Undead",
+  "abilities": "Area of effect",
+  "drops": [
+   "Ooze Scrap iron"
+  ],
+  "boss": false,
+  "description": "",
+  "icon": "/icons/oozer.png"
+ },
+ {
+  "name": "Rancid remains",
+  "slug": "rancid-remains",
+  "image": "",
+  "location": "Black Forest",
+  "tameable": "",
+  "trophy": "Rancid Remains trophy",
+  "health_stars": {
+   "0": 100.0,
+   "1": 200.0,
+   "2": 300.0
+  },
+  "damage_stars": {
+   "0": {
+    "dmg": 20.0,
+    "type": ""
+   },
+   "1": {
+    "dmg": 30.0,
+    "type": ""
+   },
+   "2": {
+    "dmg": 40.0,
+    "type": ""
+   }
+  },
+  "weak": "Blunt, Fire",
+  "veryweak": "",
+  "resistant": "Pierce, Frost",
+  "veryresistant": "",
+  "immune": "Poison",
+  "stagger": "50%",
+  "faction": "Undead",
+  "abilities": "Mace (3s)",
+  "drops": [],
+  "boss": false,
+  "description": "",
+  "icon": "/icons/rancid_remains.png"
+ },
+ {
+  "name": "Seeker",
+  "slug": "seeker",
+  "image": "",
+  "location": "Mistlands",
+  "tameable": "No",
+  "trophy": "Seeker trophy",
+  "health_stars": {
+   "0": 200.0,
+   "1": 400.0,
+   "2": 600.0
+  },
+  "damage_stars": {
+   "0": {
+    "dmg": 90.0,
+    "type": ""
+   },
+   "1": {
+    "dmg": 135.0,
+    "type": ""
+   },
+   "2": {
+    "dmg": 180.0,
+    "type": ""
+   }
+  },
+  "weak": "",
+  "veryweak": "",
+  "resistant": "Blunt, Pierce, Slash",
+  "veryresistant": "",
+  "immune": "Spirit",
+  "stagger": "30%",
+  "faction": "Mistlands",
+  "abilities": "Takeoff (8s) Land (8s) Pincers (6s) Claw (10s each for 2 variants) Ground slam (10s) Ground slam flying (10s)",
+  "drops": [],
+  "boss": false,
+  "description": "Seekers are large insectoid creatures with traits similar to beetles, ants, and bees.",
+  "icon": "/icons/seeker.png"
+ },
+ {
+  "name": "Seeker Brood",
+  "slug": "seeker-brood",
+  "image": "",
+  "location": "Mistlands",
+  "tameable": "No",
+  "trophy": "",
+  "health_stars": {
+   "0": 20.0
+  },
+  "damage_stars": {
+   "0": {
+    "dmg": 60.0,
+    "type": "Pierce"
+   }
+  },
+  "weak": "",
+  "veryweak": "",
+  "resistant": "Blunt, Pierce, Slash",
+  "veryresistant": "",
+  "immune": "Spirit",
+  "stagger": "30%",
+  "faction": "Mistlands",
+  "abilities": "Attack",
+  "drops": [
+   "Royal jelly"
+  ],
+  "boss": false,
+  "description": "Seekers are large insect-like creatures with traits similar to beetles, ants, and bees.",
+  "icon": "/icons/seeker_brood.png"
+ },
+ {
+  "name": "Seeker Soldier",
+  "slug": "seeker-soldier",
+  "image": "",
+  "location": "Mistlands",
+  "tameable": "No",
+  "trophy": "Seeker soldier trophy",
+  "health_stars": {
+   "0": 1500.0,
+   "1": 3000.0,
+   "2": 4500.0
+  },
+  "damage_stars": {
+   "0": {
+    "dmg": 100.0,
+    "type": ""
+   },
+   "1": {
+    "dmg": 150.0,
+    "type": ""
+   },
+   "2": {
+    "dmg": 200.0,
+    "type": ""
+   }
+  },
+  "weak": "",
+  "veryweak": "",
+  "resistant": "Blunt, Pierce, Slash",
+  "veryresistant": "",
+  "immune": "Spirit",
+  "stagger": "30%",
+  "faction": "Mistlands",
+  "abilities": "Ram (8s) Bite (8s) Ground slam (12s)",
+  "drops": [],
+  "boss": false,
+  "description": "Seekers soldiers are large, highly durable insect-like creatures with traits similar to beetles, ants, and bees.",
+  "icon": "/icons/seeker_soldier.png"
+ },
+ {
+  "name": "Serpent",
+  "slug": "serpent",
+  "image": "",
+  "location": "Ocean",
+  "tameable": "",
+  "trophy": "Serpent trophy",
+  "health_stars": {
+   "0": 400.0
+  },
+  "damage_stars": {
+   "0": {
+    "dmg": 70.0,
+    "type": "Slash"
+   }
+  },
+  "weak": "Frost",
+  "veryweak": "",
+  "resistant": "Poison",
+  "veryresistant": "",
+  "immune": "Fire, Spirit, Stagger",
+  "stagger": "",
+  "faction": "Sea",
+  "abilities": "Attack (10s)",
+  "drops": [],
+  "boss": false,
+  "description": "Serpents are hunted primarily for their meat, which can be used in mid-late game food.",
+  "icon": "/icons/serpent.png"
+ },
+ {
+  "name": "Skeleton",
+  "slug": "skeleton",
+  "image": "",
+  "location": "Black Forest, Swamp, Mountain",
+  "tameable": "",
+  "trophy": "Skeleton trophy",
+  "health_stars": {
+   "0": 40.0,
+   "1": 80.0,
+   "2": 120.0
+  },
+  "damage_stars": {
+   "0": {
+    "dmg": 25.0,
+    "type": ""
+   },
+   "1": {
+    "dmg": 37.5,
+    "type": ""
+   },
+   "2": {
+    "dmg": 50.0,
+    "type": ""
+   }
+  },
+  "weak": "Blunt, Fire",
+  "veryweak": "",
+  "resistant": "Pierce, Frost",
+  "veryresistant": "",
+  "immune": "Poison",
+  "stagger": "50%",
+  "faction": "Undead",
+  "abilities": "Sword (3s) Bow (4s)",
+  "drops": [],
+  "boss": false,
+  "description": "Skeletons appear 80% of the time as melee variants and 20% of the time as ranged variants.",
+  "icon": "/icons/skeleton.png"
+ },
+ {
+  "name": "Summoned Root",
+  "slug": "summoned-root",
+  "image": "",
+  "location": "",
+  "tameable": "",
+  "trophy": "",
+  "health_stars": {
+   "0": 250.0
+  },
+  "damage_stars": {
+   "0": {
+    "dmg": 70.0,
+    "type": "Blunt"
+   }
+  },
+  "weak": "",
+  "veryweak": "",
+  "resistant": "Fire",
+  "veryresistant": "",
+  "immune": "Poison, Chop, Pickaxe",
+  "stagger": "",
+  "faction": "Player",
+  "abilities": "10% chance to immobilize enemy for 10 seconds",
+  "drops": [],
+  "boss": false,
+  "description": "Each summon cast green projectile that causes blunt and poison damage on impact, and a thorny vine grows immediately from the area of impact.",
+  "icon": ""
+ },
+ {
+  "name": "Stone Golem",
+  "slug": "stone-golem",
+  "image": "",
+  "location": "Mountain",
+  "tameable": "",
+  "trophy": "Stone Golem trophy",
+  "health_stars": {
+   "0": 800.0
+  },
+  "damage_stars": {
+   "0": {
+    "dmg": 110.0,
+    "type": ""
+   }
+  },
+  "weak": "",
+  "veryweak": "Pickaxe",
+  "resistant": "Pierce, Slash",
+  "veryresistant": "",
+  "immune": "Fire, Frost, Poison, Spirit",
+  "stagger": "33%",
+  "faction": "Forest",
+  "abilities": "Sledge Ground slam (8s) Double smash (8s) Spike Spike (8s) Spike sweep (15s)",
+  "drops": [],
+  "boss": false,
+  "description": "Sledge Golems have two attacks.",
+  "icon": "/icons/stone_golem.png"
+ },
+ {
+  "name": "Surtling",
+  "slug": "surtling",
+  "image": "",
+  "location": "Swamp",
+  "tameable": "",
+  "trophy": "Surtling trophy",
+  "health_stars": {
+   "0": 20.0,
+   "1": 40.0,
+   "2": 60.0
+  },
+  "damage_stars": {
+   "0": {
+    "dmg": 10.0,
+    "type": ""
+   },
+   "1": {
+    "dmg": 15.0,
+    "type": ""
+   },
+   "2": {
+    "dmg": 20.0,
+    "type": ""
+   }
+  },
+  "weak": "Frost, Water",
+  "veryweak": "",
+  "resistant": "",
+  "veryresistant": "",
+  "immune": "Fire, Poison, Spirit",
+  "stagger": "50%",
+  "faction": "Demon",
+  "abilities": "Fireball (3s)",
+  "drops": [],
+  "boss": false,
+  "description": "Long ago the great demon Surtr was brought down and destroyed by the First Men, giant warriors of whom you are but a dwindling echo.",
+  "icon": "/icons/surtling.png"
+ },
+ {
+  "name": "Tick",
+  "slug": "tick",
+  "image": "",
+  "location": "Mistlands",
+  "tameable": "No",
+  "trophy": "Tick trophy",
+  "health_stars": {
+   "0": 50.0,
+   "1": 100.0,
+   "2": 150.0
+  },
+  "damage_stars": {
+   "0": {
+    "dmg": 50.0,
+    "type": ""
+   },
+   "1": {
+    "dmg": 75.0,
+    "type": ""
+   },
+   "2": {
+    "dmg": 100.0,
+    "type": ""
+   }
+  },
+  "weak": "Pierce",
+  "veryweak": "",
+  "resistant": "",
+  "veryresistant": "",
+  "immune": "Spirit",
+  "stagger": "",
+  "faction": "",
+  "abilities": "Attach",
+  "drops": [],
+  "boss": false,
+  "description": "Ticks are aggressive creatures found in the Mistlands.",
+  "icon": "/icons/tick.png"
+ },
+ {
+  "name": "Troll",
+  "slug": "troll",
+  "image": "",
+  "location": "Black Forest",
+  "tameable": "no",
+  "trophy": "Troll trophy",
+  "health_stars": {
+   "0": 600.0,
+   "1": 1200.0,
+   "2": 1800.0
+  },
+  "damage_stars": {
+   "0": {
+    "dmg": 60.0,
+    "type": ""
+   },
+   "1": {
+    "dmg": 90.0,
+    "type": ""
+   },
+   "2": {
+    "dmg": 120.0,
+    "type": ""
+   }
+  },
+  "weak": "Pierce",
+  "veryweak": "",
+  "resistant": "Blunt",
+  "veryresistant": "",
+  "immune": "Spirit",
+  "stagger": "30%",
+  "faction": "Forest",
+  "abilities": "Unarmed: Punch (4s) Ground slam (20s) Throw (10s) Log-wielding: Log swing V (6s) Log swing H (6s)",
+  "drops": [],
+  "boss": false,
+  "description": "Unarmed trolls have three attacks.",
+  "icon": "/icons/troll.png"
+ },
+ {
+  "name": "Wolf",
+  "slug": "wolf",
+  "image": "",
+  "location": "Mountain",
+  "tameable": "yes",
+  "trophy": "Wolf trophy",
+  "health_stars": {
+   "0": 80.0,
+   "1": 160.0,
+   "2": 240.0
+  },
+  "damage_stars": {
+   "0": {
+    "dmg": 70.0,
+    "type": "Slash"
+   },
+   "1": {
+    "dmg": 105.0,
+    "type": "Slash"
+   },
+   "2": {
+    "dmg": 140.0,
+    "type": "Slash"
+   }
+  },
+  "weak": "",
+  "veryweak": "",
+  "resistant": "",
+  "veryresistant": "",
+  "immune": "Spirit",
+  "stagger": "50%",
+  "faction": "Mountain",
+  "abilities": "Attack (5s each for 3 variants)",
+  "drops": [],
+  "boss": false,
+  "description": "Wolves can make for powerful allies, both when following a player and when roaming around the built structures.",
+  "icon": "/icons/wolf.png"
+ },
+ {
+  "name": "Wraith",
+  "slug": "wraith",
+  "image": "",
+  "location": "Swamp",
+  "tameable": "",
+  "trophy": "Wraith trophy",
+  "health_stars": {
+   "0": 100.0
+  },
+  "damage_stars": {
+   "0": {
+    "dmg": 60.0,
+    "type": ""
+   }
+  },
+  "weak": "Fire, Spirit",
+  "veryweak": "",
+  "resistant": "Blunt, Pierce, Slash",
+  "veryresistant": "",
+  "immune": "Frost, Poison",
+  "stagger": "50%",
+  "faction": "Undead",
+  "abilities": "Melee",
+  "drops": [],
+  "boss": false,
+  "description": "",
+  "icon": "/icons/wraith.png"
+ },
+ {
+  "name": "Fader",
+  "slug": "fader",
+  "image": "",
+  "location": "Ashlands",
+  "tameable": "",
+  "trophy": "Fader trophy",
+  "health_stars": {
+   "0": 25000.0
+  },
+  "damage_stars": {
+   "0": {
+    "dmg": 120.0,
+    "type": ""
+   }
+  },
+  "weak": "",
+  "veryweak": "",
+  "resistant": "Pierce",
+  "veryresistant": "",
+  "immune": "Fire, Spirit",
+  "stagger": "",
+  "faction": "Boss",
+  "abilities": "Fissure (30s 35–85% HP, 20s <35% HP) Bite (3s) Claw (3s each for 2 variants) Spin (20s) Flamebreath (25s 5–85% HP) Meteors (25s 25–100% HP, 18s <25% HP) Roar (45s 35–55% HP, 26s <35% HP) Wall of fire (60s, 15–90% HP)",
+  "drops": [],
+  "boss": true,
+  "description": "",
+  "icon": "/icons/fader.png"
+ },
+ {
+  "name": "Yagluth",
+  "slug": "yagluth",
+  "image": "",
+  "location": "Plains",
+  "tameable": "No",
+  "trophy": "Yagluth trophy",
+  "health_stars": {
+   "0": 10.0
+  },
+  "damage_stars": {
+   "0": {
+    "dmg": 40.0,
+    "type": ""
+   }
+  },
+  "weak": "",
+  "veryweak": "",
+  "resistant": "Fire",
+  "veryresistant": "Pierce",
+  "immune": "Poison, Stagger",
+  "stagger": "",
+  "faction": "Boss",
+  "abilities": "Beam (15s) Meteors (25s) Nova (20s)",
+  "drops": [],
+  "boss": true,
+  "description": "He is summoned by placing five s in his Forsaken Altar in the Plains.",
+  "icon": "/icons/yagluth.png"
+ },
+ {
+  "name": "Bonemass",
+  "slug": "bonemass",
+  "image": "",
+  "location": "Swamp",
+  "tameable": "No",
+  "trophy": "Bonemass trophy",
+  "health_stars": {
+   "0": 5000.0
+  },
+  "damage_stars": {
+   "0": {
+    "dmg": 130.0,
+    "type": ""
+   }
+  },
+  "weak": "Blunt, Frost",
+  "veryweak": "",
+  "resistant": "Slash",
+  "veryresistant": "Fire, Pierce",
+  "immune": "Poison, Stagger",
+  "stagger": "",
+  "faction": "Boss",
+  "abilities": "Area of effect (30s, unblockable) Punch (7s) Throw (50s)",
+  "drops": [],
+  "boss": true,
+  "description": "He is summoned by placing 10 s in his Forsaken altar in Swamps.",
+  "icon": "/icons/bonemass.png"
+ },
+ {
+  "name": "The Elder",
+  "slug": "the-elder",
+  "image": "",
+  "location": "Black Forest",
+  "tameable": "No",
+  "trophy": "The Elder trophy",
+  "health_stars": {
+   "0": 2500.0
+  },
+  "damage_stars": {
+   "0": {
+    "dmg": 35.0,
+    "type": ""
+   }
+  },
+  "weak": "",
+  "veryweak": "Fire",
+  "resistant": "",
+  "veryresistant": "",
+  "immune": "Poison, Spirit, Stagger",
+  "stagger": "",
+  "faction": "Boss",
+  "abilities": "Root Spawn (25s) Shoot (6s) Stomp (5s)",
+  "drops": [],
+  "boss": true,
+  "description": "He is summoned by placing three s in his Forsaken altar in Black Forests.",
+  "icon": "/icons/the_elder.png"
+ },
+ {
+  "name": "Eikthyr",
+  "slug": "eikthyr",
+  "image": "",
+  "location": "Meadows",
+  "tameable": "No",
+  "trophy": "Eikthyr trophy",
+  "health_stars": {
+   "0": 500.0
+  },
+  "damage_stars": {
+   "0": {
+    "dmg": 20.0,
+    "type": ""
+   }
+  },
+  "weak": "",
+  "veryweak": "",
+  "resistant": "",
+  "veryresistant": "",
+  "immune": "Stagger",
+  "stagger": "",
+  "faction": "Boss",
+  "abilities": "Antler (5s) Charge (25s) Stomp (40s)",
+  "drops": [],
+  "boss": true,
+  "description": "He is summoned by placing two  in his Forsaken altar in the Meadows.",
+  "icon": "/icons/eikthyr.png"
+ },
+ {
+  "name": "The Queen",
+  "slug": "the-queen",
+  "image": "",
+  "location": "Mistlands",
+  "tameable": "",
+  "trophy": "The Queen trophy",
+  "health_stars": {
+   "0": 12.0
+  },
+  "damage_stars": {
+   "0": {
+    "dmg": 100.0,
+    "type": ""
+   }
+  },
+  "weak": "",
+  "veryweak": "",
+  "resistant": "Pierce",
+  "veryresistant": "",
+  "immune": "Spirit",
+  "stagger": "",
+  "faction": "Boss",
+  "abilities": "Teleport (60s, 90% HP) Rush (25s, 60% HP) Bite (10s, 70% HP) Call (60s, 99% HP) Spit (20s, 80% HP) Slap (4s) Pierce AOE (4s)",
+  "drops": [],
+  "boss": true,
+  "description": "The Queen will spawn on the lower floor of the citadel and will wander around until aggroed.",
+  "icon": "/icons/the_queen.png"
+ },
+ {
+  "name": "Moder",
+  "slug": "moder",
+  "image": "",
+  "location": "Mountain",
+  "tameable": "No",
+  "trophy": "Moder trophy",
+  "health_stars": {
+   "0": 7500.0
+  },
+  "damage_stars": {
+   "0": {
+    "dmg": 120.0,
+    "type": ""
+   }
+  },
+  "weak": "Fire",
+  "veryweak": "",
+  "resistant": "",
+  "veryresistant": "",
+  "immune": "Frost, Spirit, Stagger",
+  "stagger": "",
+  "faction": "Boss",
+  "abilities": "Bite (30s) Claw (30s per claw) Spit shotgun (8s) Cold breath (8s)",
+  "drops": [],
+  "boss": true,
+  "description": "She is summoned by placing three s in her Forsaken Altar in the Mountains.",
+  "icon": "/icons/moder.png"
+ }
+]
