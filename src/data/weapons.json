@@ -146,7 +146,7 @@
    "Finewood x20 Iron x8"
   ],
   "description": "Banded with hoops of iron, a true warrior's companion.",
-  "icon": ""
+  "icon": "/icons/banded_shield.png"
  },
  {
   "name": "Basalt Bomb",
@@ -221,7 +221,7 @@
    "Flametal x45 Asksvin hide x3"
   ],
   "description": "Let your rage take over and face the slaughter.",
-  "icon": ""
+  "icon": "/icons/berserkir_axes.png"
  },
  {
   "name": "Bile Bomb",
@@ -750,7 +750,7 @@
    "Wood x9 Bronze x12 Deer hide x3"
   ],
   "description": "A sturdy spear with a head of burnished bronze.",
-  "icon": ""
+  "icon": "/icons/bronze_spear.png"
  },
  {
   "name": "Bronze Sword",
@@ -1010,7 +1010,7 @@
    "Ashwood x8 Charred bone x2 Feathers x2"
   ],
   "description": "A sturdy bone from a forearm, shaped into a deadly bolt.",
-  "icon": ""
+  "icon": "/icons/charred_bolt.png"
  },
  {
   "name": "Club",
@@ -1500,7 +1500,7 @@
    "Wood x8 Flint x2 Feathers x2"
   ],
   "description": "A hide-breaker with a head of flint.",
-  "icon": ""
+  "icon": "/icons/flinthead_arrow.png"
  },
  {
   "name": "Frost arrow",
@@ -1782,7 +1782,7 @@
    "Corewood x3 Iron x30"
   ],
   "description": "A sturdy tool of hardened iron.",
-  "icon": ""
+  "icon": "/icons/iron_pickaxe.png"
  },
  {
   "name": "Iron shield",
@@ -2384,7 +2384,7 @@
    "Wood x3 Silver x60 Leather scraps x3 Iron x9"
   ],
   "description": "Purest of metals, nothing unclean can abide its touch.",
-  "icon": ""
+  "icon": "/icons/silver_sword.png"
  },
  {
   "name": "Skoll and Hati",
@@ -2411,7 +2411,7 @@
    "Iron x12 Black metal x12"
   ],
   "description": "Stab once for those who've betrayed you, and twice for those you hate.",
-  "icon": ""
+  "icon": "/icons/skoll_and_hati.png"
  },
  {
   "name": "Skull Splittur",
@@ -2795,7 +2795,7 @@
    "Stone x6"
   ],
   "description": "A crude axe for tree-felling.",
-  "icon": ""
+  "icon": "/icons/stone_axe.png"
  },
  {
   "name": "Storm Ripper",

@@ -53,7 +53,7 @@
   "effect": "",
   "materials": "Thistle x2 Bloodbag x2 Barley flour x4",
   "description": "It's bloody tasty.",
-  "icon": ""
+  "icon": "/icons/blood_pudding.png"
  },
  {
   "name": "Blue mushroom",
@@ -417,7 +417,7 @@
   "effect": "",
   "materials": "Egg x3 Jotun puffs x3",
   "description": "A delicious omelette with an earthy aftertaste.",
-  "icon": ""
+  "icon": "/icons/mushroom_omelette.png"
  },
  {
   "name": "Mushrooms galore á la Mistlands",
@@ -473,7 +473,7 @@
   "effect": "",
   "materials": "Bread x3 Lox meat pie x2 Cloudberries x5 Grasslands herbalist harvest x1",
   "description": "There's nothing plain about this feast! Enjoy pies and loaves fresh from the oven, both sweet and savoury, and experience the culinary equivalent of a hug.",
-  "icon": ""
+  "icon": "/icons/plains_pie_picnic.png"
  },
  {
   "name": "Queen's Jam",
@@ -543,7 +543,7 @@
   "effect": "",
   "materials": "Cooked fish x5 Thistle x4 Cooked serpent meat x2 Seafarer's herbs x1",
   "description": "Fish, fish, and more fish! And also serpent meat, cut to look like fish! Explore the flavours of the Ocean, along with some grilled greens for those still practicing their sea legs.",
-  "icon": ""
+  "icon": "/icons/sailor_s_bounty.png"
  },
  {
   "name": "Salad",

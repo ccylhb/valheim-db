@@ -267,7 +267,7 @@
   "set_bonus": "",
   "description": "",
   "total_armor": 24.0,
-  "icon": ""
+  "icon": "/icons/bronze_armor.png"
  },
  {
   "name": "Cape of Odin",
@@ -455,7 +455,7 @@
   "set_bonus": "",
   "description": "",
   "total_armor": 2.0,
-  "icon": ""
+  "icon": "/icons/dverger_circlet.png"
  },
  {
   "name": "Eitr-weave Set",
@@ -1180,7 +1180,7 @@
   "set_bonus": "",
   "description": "",
   "total_armor": 1.0,
-  "icon": ""
+  "icon": "/icons/shawl_dress_brown.png"
  },
  {
   "name": "Shawl dress yellow",

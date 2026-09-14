@@ -366,7 +366,7 @@
   "drops": [],
   "boss": false,
   "description": "",
-  "icon": ""
+  "icon": "/icons/fallen_valkyrie.png"
  },
  {
   "name": "Fenring",
@@ -426,7 +426,7 @@
   ],
   "boss": false,
   "description": "",
-  "icon": ""
+  "icon": "/icons/frost_blob.png"
  },
  {
   "name": "Fuling",
@@ -780,7 +780,7 @@
   ],
   "boss": false,
   "description": "",
-  "icon": ""
+  "icon": "/icons/greyling.png"
  },
  {
   "name": "Growth",
@@ -940,6 +940,30 @@
   "icon": "/icons/lox.png"
  },
  {
+  "name": "Moose",
+  "slug": "moose",
+  "image": "",
+  "location": "Deep North",
+  "tameable": "yes",
+  "trophy": "Moose trophy",
+  "health_stars": {
+   "0": 1000.0
+  },
+  "damage_stars": {},
+  "weak": "",
+  "veryweak": "",
+  "resistant": "",
+  "veryresistant": "",
+  "immune": "",
+  "stagger": "",
+  "faction": "Deep North",
+  "abilities": "",
+  "drops": [],
+  "boss": false,
+  "description": "Moose are aggressive creatures found in Deep North.",
+  "icon": ""
+ },
+ {
   "name": "Neck",
   "slug": "neck",
   "image": "",
@@ -976,7 +1000,7 @@
   "drops": [],
   "boss": false,
   "description": "",
-  "icon": ""
+  "icon": "/icons/neck.png"
  },
  {
   "name": "Oozer",
@@ -1469,18 +1493,18 @@
   "icon": "/icons/wraith.png"
  },
  {
-  "name": "Fader",
-  "slug": "fader",
+  "name": "The Queen",
+  "slug": "the-queen",
   "image": "",
-  "location": "Ashlands",
+  "location": "Mistlands",
   "tameable": "",
-  "trophy": "Fader trophy",
+  "trophy": "The Queen trophy",
   "health_stars": {
-   "0": 25000.0
+   "0": 12.0
   },
   "damage_stars": {
    "0": {
-    "dmg": 120.0,
+    "dmg": 100.0,
     "type": ""
    }
   },
@@ -1488,14 +1512,14 @@
   "veryweak": "",
   "resistant": "Pierce",
   "veryresistant": "",
-  "immune": "Fire, Spirit",
+  "immune": "Spirit",
   "stagger": "",
   "faction": "Boss",
-  "abilities": "Fissure (30s 35–85% HP, 20s <35% HP) Bite (3s) Claw (3s each for 2 variants) Spin (20s) Flamebreath (25s 5–85% HP) Meteors (25s 25–100% HP, 18s <25% HP) Roar (45s 35–55% HP, 26s <35% HP) Wall of fire (60s, 15–90% HP)",
+  "abilities": "Teleport (60s, 90% HP) Rush (25s, 60% HP) Bite (10s, 70% HP) Call (60s, 99% HP) Spit (20s, 80% HP) Slap (4s) Pierce AOE (4s)",
   "drops": [],
   "boss": true,
-  "description": "",
-  "icon": "/icons/fader.png"
+  "description": "The Queen will spawn on the lower floor of the citadel and will wander around until aggroed.",
+  "icon": "/icons/the_queen.png"
  },
  {
   "name": "Yagluth",
@@ -1525,6 +1549,64 @@
   "boss": true,
   "description": "He is summoned by placing five s in his Forsaken Altar in the Plains.",
   "icon": "/icons/yagluth.png"
+ },
+ {
+  "name": "Moder",
+  "slug": "moder",
+  "image": "",
+  "location": "Mountain",
+  "tameable": "No",
+  "trophy": "Moder trophy",
+  "health_stars": {
+   "0": 7500.0
+  },
+  "damage_stars": {
+   "0": {
+    "dmg": 120.0,
+    "type": ""
+   }
+  },
+  "weak": "Fire",
+  "veryweak": "",
+  "resistant": "",
+  "veryresistant": "",
+  "immune": "Frost, Spirit, Stagger",
+  "stagger": "",
+  "faction": "Boss",
+  "abilities": "Bite (30s) Claw (30s per claw) Spit shotgun (8s) Cold breath (8s)",
+  "drops": [],
+  "boss": true,
+  "description": "She is summoned by placing three s in her Forsaken Altar in the Mountains.",
+  "icon": "/icons/moder.png"
+ },
+ {
+  "name": "Fader",
+  "slug": "fader",
+  "image": "",
+  "location": "Ashlands",
+  "tameable": "",
+  "trophy": "Fader trophy",
+  "health_stars": {
+   "0": 25000.0
+  },
+  "damage_stars": {
+   "0": {
+    "dmg": 120.0,
+    "type": ""
+   }
+  },
+  "weak": "",
+  "veryweak": "",
+  "resistant": "Pierce",
+  "veryresistant": "",
+  "immune": "Fire, Spirit",
+  "stagger": "",
+  "faction": "Boss",
+  "abilities": "Fissure (30s 35–85% HP, 20s <35% HP) Bite (3s) Claw (3s each for 2 variants) Spin (20s) Flamebreath (25s 5–85% HP) Meteors (25s 25–100% HP, 18s <25% HP) Roar (45s 35–55% HP, 26s <35% HP) Wall of fire (60s, 15–90% HP)",
+  "drops": [],
+  "boss": true,
+  "description": "",
+  "icon": "/icons/fader.png"
  },
  {
   "name": "Bonemass",
@@ -1612,63 +1694,5 @@
   "boss": true,
   "description": "He is summoned by placing two  in his Forsaken altar in the Meadows.",
   "icon": "/icons/eikthyr.png"
- },
- {
-  "name": "The Queen",
-  "slug": "the-queen",
-  "image": "",
-  "location": "Mistlands",
-  "tameable": "",
-  "trophy": "The Queen trophy",
-  "health_stars": {
-   "0": 12.0
-  },
-  "damage_stars": {
-   "0": {
-    "dmg": 100.0,
-    "type": ""
-   }
-  },
-  "weak": "",
-  "veryweak": "",
-  "resistant": "Pierce",
-  "veryresistant": "",
-  "immune": "Spirit",
-  "stagger": "",
-  "faction": "Boss",
-  "abilities": "Teleport (60s, 90% HP) Rush (25s, 60% HP) Bite (10s, 70% HP) Call (60s, 99% HP) Spit (20s, 80% HP) Slap (4s) Pierce AOE (4s)",
-  "drops": [],
-  "boss": true,
-  "description": "The Queen will spawn on the lower floor of the citadel and will wander around until aggroed.",
-  "icon": "/icons/the_queen.png"
- },
- {
-  "name": "Moder",
-  "slug": "moder",
-  "image": "",
-  "location": "Mountain",
-  "tameable": "No",
-  "trophy": "Moder trophy",
-  "health_stars": {
-   "0": 7500.0
-  },
-  "damage_stars": {
-   "0": {
-    "dmg": 120.0,
-    "type": ""
-   }
-  },
-  "weak": "Fire",
-  "veryweak": "",
-  "resistant": "",
-  "veryresistant": "",
-  "immune": "Frost, Spirit, Stagger",
-  "stagger": "",
-  "faction": "Boss",
-  "abilities": "Bite (30s) Claw (30s per claw) Spit shotgun (8s) Cold breath (8s)",
-  "drops": [],
-  "boss": true,
-  "description": "She is summoned by placing three s in her Forsaken Altar in the Mountains.",
-  "icon": "/icons/moder.png"
  }
 ]
