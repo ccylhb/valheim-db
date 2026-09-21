@@ -476,6 +476,20 @@
   "icon": "/icons/plains_pie_picnic.png"
  },
  {
+  "name": "Pulled Bear",
+  "slug": "pulled-bear",
+  "image": "",
+  "source": "Cauldron",
+  "health": 37.0,
+  "stamina": 16.0,
+  "duration": 1800.0,
+  "healing": "3 hp/tick",
+  "effect": "",
+  "materials": "Cooked bear meat x1 Blueberries x1 Carrot x1",
+  "description": "",
+  "icon": ""
+ },
+ {
   "name": "Queen's Jam",
   "slug": "queen-s-jam",
   "image": "",

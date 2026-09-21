@@ -29,6 +29,47 @@
   "icon": "/icons/abomination.png"
  },
  {
+  "name": "Barka",
+  "slug": "barka",
+  "image": "",
+  "location": "Deep North",
+  "tameable": "",
+  "trophy": "Barka trophy",
+  "health_stars": {
+   "0": null,
+   "1": null,
+   "2": null
+  },
+  "damage_stars": {
+   "0": {
+    "dmg": null,
+    "type": ""
+   },
+   "1": {
+    "dmg": null,
+    "type": ""
+   },
+   "2": {
+    "dmg": null,
+    "type": ""
+   }
+  },
+  "weak": "n/a",
+  "veryweak": "n/a",
+  "resistant": "n/a",
+  "veryresistant": "n/a",
+  "immune": "n/a",
+  "stagger": "n/a",
+  "faction": "Deep North",
+  "abilities": "Three consecutive melee hits combo (starts with left hand) Fast melee hit (starts with right hand) Slow long range hit (starts with right hand)",
+  "drops": [
+   "unknown"
+  ],
+  "boss": false,
+  "description": "",
+  "icon": "/icons/barka.png"
+ },
+ {
   "name": "Blob",
   "slug": "blob",
   "image": "",
@@ -1493,62 +1534,33 @@
   "icon": "/icons/wraith.png"
  },
  {
-  "name": "The Queen",
-  "slug": "the-queen",
+  "name": "Bonemass",
+  "slug": "bonemass",
   "image": "",
-  "location": "Mistlands",
-  "tameable": "",
-  "trophy": "The Queen trophy",
-  "health_stars": {
-   "0": 12.0
-  },
-  "damage_stars": {
-   "0": {
-    "dmg": 100.0,
-    "type": ""
-   }
-  },
-  "weak": "",
-  "veryweak": "",
-  "resistant": "Pierce",
-  "veryresistant": "",
-  "immune": "Spirit",
-  "stagger": "",
-  "faction": "Boss",
-  "abilities": "Teleport (60s, 90% HP) Rush (25s, 60% HP) Bite (10s, 70% HP) Call (60s, 99% HP) Spit (20s, 80% HP) Slap (4s) Pierce AOE (4s)",
-  "drops": [],
-  "boss": true,
-  "description": "The Queen will spawn on the lower floor of the citadel and will wander around until aggroed.",
-  "icon": "/icons/the_queen.png"
- },
- {
-  "name": "Yagluth",
-  "slug": "yagluth",
-  "image": "",
-  "location": "Plains",
+  "location": "Swamp",
   "tameable": "No",
-  "trophy": "Yagluth trophy",
+  "trophy": "Bonemass trophy",
   "health_stars": {
-   "0": 10.0
+   "0": 5000.0
   },
   "damage_stars": {
    "0": {
-    "dmg": 40.0,
+    "dmg": 130.0,
     "type": ""
    }
   },
-  "weak": "",
+  "weak": "Blunt, Frost",
   "veryweak": "",
-  "resistant": "Fire",
-  "veryresistant": "Pierce",
+  "resistant": "Slash",
+  "veryresistant": "Fire, Pierce",
   "immune": "Poison, Stagger",
   "stagger": "",
   "faction": "Boss",
-  "abilities": "Beam (15s) Meteors (25s) Nova (20s)",
+  "abilities": "Area of effect (30s, unblockable) Punch (7s) Throw (50s)",
   "drops": [],
   "boss": true,
-  "description": "He is summoned by placing five s in his Forsaken Altar in the Plains.",
-  "icon": "/icons/yagluth.png"
+  "description": "He is summoned by placing 10 s in his Forsaken altar in Swamps.",
+  "icon": "/icons/bonemass.png"
  },
  {
   "name": "Moder",
@@ -1609,35 +1621,6 @@
   "icon": "/icons/fader.png"
  },
  {
-  "name": "Bonemass",
-  "slug": "bonemass",
-  "image": "",
-  "location": "Swamp",
-  "tameable": "No",
-  "trophy": "Bonemass trophy",
-  "health_stars": {
-   "0": 5000.0
-  },
-  "damage_stars": {
-   "0": {
-    "dmg": 130.0,
-    "type": ""
-   }
-  },
-  "weak": "Blunt, Frost",
-  "veryweak": "",
-  "resistant": "Slash",
-  "veryresistant": "Fire, Pierce",
-  "immune": "Poison, Stagger",
-  "stagger": "",
-  "faction": "Boss",
-  "abilities": "Area of effect (30s, unblockable) Punch (7s) Throw (50s)",
-  "drops": [],
-  "boss": true,
-  "description": "He is summoned by placing 10 s in his Forsaken altar in Swamps.",
-  "icon": "/icons/bonemass.png"
- },
- {
   "name": "The Elder",
   "slug": "the-elder",
   "image": "",
@@ -1694,5 +1677,63 @@
   "boss": true,
   "description": "He is summoned by placing two  in his Forsaken altar in the Meadows.",
   "icon": "/icons/eikthyr.png"
+ },
+ {
+  "name": "Yagluth",
+  "slug": "yagluth",
+  "image": "",
+  "location": "Plains",
+  "tameable": "No",
+  "trophy": "Yagluth trophy",
+  "health_stars": {
+   "0": 10.0
+  },
+  "damage_stars": {
+   "0": {
+    "dmg": 40.0,
+    "type": ""
+   }
+  },
+  "weak": "",
+  "veryweak": "",
+  "resistant": "Fire",
+  "veryresistant": "Pierce",
+  "immune": "Poison, Stagger",
+  "stagger": "",
+  "faction": "Boss",
+  "abilities": "Beam (15s) Meteors (25s) Nova (20s)",
+  "drops": [],
+  "boss": true,
+  "description": "He is summoned by placing five s in his Forsaken Altar in the Plains.",
+  "icon": "/icons/yagluth.png"
+ },
+ {
+  "name": "The Queen",
+  "slug": "the-queen",
+  "image": "",
+  "location": "Mistlands",
+  "tameable": "",
+  "trophy": "The Queen trophy",
+  "health_stars": {
+   "0": 12.0
+  },
+  "damage_stars": {
+   "0": {
+    "dmg": 100.0,
+    "type": ""
+   }
+  },
+  "weak": "",
+  "veryweak": "",
+  "resistant": "Pierce",
+  "veryresistant": "",
+  "immune": "Spirit",
+  "stagger": "",
+  "faction": "Boss",
+  "abilities": "Teleport (60s, 90% HP) Rush (25s, 60% HP) Bite (10s, 70% HP) Call (60s, 99% HP) Spit (20s, 80% HP) Slap (4s) Pierce AOE (4s)",
+  "drops": [],
+  "boss": true,
+  "description": "The Queen will spawn on the lower floor of the citadel and will wander around until aggroed.",
+  "icon": "/icons/the_queen.png"
  }
 ]
