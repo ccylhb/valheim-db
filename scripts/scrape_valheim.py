@@ -43,6 +43,27 @@ def cat_members(cat):
         time.sleep(DELAY)
     return out
 
+# --- wiki 魔术字展开 ---------------------------------------------------------
+# 清洗器用 re.sub(r"\{\{[^{}]*\}\}", "", v) 整段删无名模板，{{PAGENAME}}（条目名）
+# 随之消失，正文出现 "The is a ..." 残句。必须在清洗前展开成真实文本。
+_MAGIC_TITLE = re.compile(r"\{\{\s*(?:SUB|BASE|FULL)?PAGENAME(?:E)?\s*\}\}", re.I)
+_MAGIC_GAME = re.compile(r"\{\{\s*(?:Gamename|Game|SITENAME|Sitename)\s*\}\}", re.I)
+_MAGIC_DROP = re.compile(
+    r"\{\{\s*(?:DISPLAYTITLE|DEFAULTSORT|#(?:expr|var|if|ifeq|ifexist|switch|tag|invoke|time|pos|len|replace|sub|explode|titleparts)[^}]*)\}\}",
+    re.I,
+)
+
+
+def expand_magic(wt, title):
+    """把 {{PAGENAME}} 换成条目名，丢弃解析器函数等元魔术字。"""
+    if not wt:
+        return wt
+    wt = _MAGIC_TITLE.sub(lambda _m: title, wt)
+    wt = _MAGIC_GAME.sub("Valheim", wt)
+    wt = _MAGIC_DROP.sub("", wt)
+    return wt
+
+
 def fetch_wikitexts(titles):
     """Batch fetch wikitext for titles (50/batch). Returns {title: text}."""
     out = {}
@@ -321,7 +342,7 @@ def main():
         wts = fetch_wikitexts(all_t)
         json.dump(wts, open(WT_CACHE, "w", encoding="utf-8"), ensure_ascii=False)
     print(f"fetched wikitexts: {len(wts)}")
-    wts = {k: normalize_wt(v) for k, v in wts.items()}
+    wts = {k: expand_magic(normalize_wt(v), k) for k, v in wts.items()}
 
     weapons = scrape_weapons(weapons_titles, wts)
     merged_creatures = list(dict.fromkeys(creatures_titles + [b for b in boss_titles if b not in creatures_titles]))

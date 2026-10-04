@@ -976,6 +976,57 @@
   "icon": "/icons/lox_cape.png"
  },
  {
+  "name": "Lox Fur Set",
+  "slug": "lox-fur-set",
+  "image": "",
+  "pieces": [
+   {
+    "name": "Lox Fur Hood",
+    "type": "Head",
+    "armor": 16.0,
+    "durability": 500.0,
+    "weight": 1.0,
+    "materials": "4 Lox Pelt 4 Bone Fragments 2 Writhan roots",
+    "movement_speed": "",
+    "effect": ""
+   },
+   {
+    "name": "Lox Fur Jacket",
+    "type": "Chest",
+    "armor": 16.0,
+    "durability": 500.0,
+    "weight": 5.0,
+    "materials": "5 Lox Pelt 8 Bone Fragments 2 Root (item)",
+    "movement_speed": "",
+    "effect": ""
+   },
+   {
+    "name": "Lox Fur Trousers",
+    "type": "Legs",
+    "armor": 16.0,
+    "durability": 500.0,
+    "weight": 5.0,
+    "materials": "5 Lox Pelt 8 Bone Fragments 2 Root (item)",
+    "movement_speed": "",
+    "effect": ""
+   },
+   {
+    "name": "Lox Cape",
+    "type": "Cape",
+    "armor": 1.0,
+    "durability": 1200.0,
+    "weight": 1.0,
+    "materials": "6 Lox Pelt 2 Silver",
+    "movement_speed": "",
+    "effect": ""
+   }
+  ],
+  "set_bonus": "",
+  "description": "",
+  "total_armor": 49.0,
+  "icon": ""
+ },
+ {
   "name": "Midsummer Crown",
   "slug": "midsummer-crown",
   "image": "",
@@ -1053,7 +1104,7 @@
   "image": "",
   "pieces": [
    {
-    "name": "{{PAGENAME",
+    "name": "Pointy Hat",
     "type": "Head",
     "armor": 1.0,
     "durability": 800.0,
