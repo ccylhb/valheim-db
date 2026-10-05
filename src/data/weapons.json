@@ -2285,6 +2285,29 @@
   "icon": "/icons/serpent_scale_shield.png"
  },
  {
+  "name": "Shield of Roots",
+  "slug": "shield-of-roots",
+  "image": "",
+  "type": "Shield Round",
+  "source": "Workbench",
+  "crafting_level": "2",
+  "repair_level": "2",
+  "durability": 200.0,
+  "stamina": null,
+  "block_armor": 48.0,
+  "knockback": null,
+  "parry": null,
+  "backstab": null,
+  "damage": {},
+  "materials": [
+   "Finewood x10 Writhan Roots x1",
+   "Finewood x5 Writhan Roots x2",
+   "Finewood x10 Writhan Roots x4"
+  ],
+  "description": "Malleable roots have been twisted into a surprisingly sturdy shield.",
+  "icon": ""
+ },
+ {
   "name": "Silver arrow",
   "slug": "silver-arrow",
   "image": "",

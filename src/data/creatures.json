@@ -1534,6 +1534,45 @@
   "icon": "/icons/wraith.png"
  },
  {
+  "name": "Writhan",
+  "slug": "writhan",
+  "image": "",
+  "location": "Swamp",
+  "tameable": "",
+  "trophy": "",
+  "health_stars": {
+   "0": 400.0,
+   "1": 800.0,
+   "2": 1200.0
+  },
+  "damage_stars": {
+   "0": {
+    "dmg": 40.0,
+    "type": ""
+   },
+   "1": {
+    "dmg": 60.0,
+    "type": ""
+   },
+   "2": {
+    "dmg": 80.0,
+    "type": ""
+   }
+  },
+  "weak": "Slash",
+  "veryweak": "",
+  "resistant": "Blunt, Fire",
+  "veryresistant": "",
+  "immune": "Poison",
+  "stagger": "50%",
+  "faction": "Undead",
+  "abilities": "Bite Death explosion",
+  "drops": [],
+  "boss": false,
+  "description": "",
+  "icon": ""
+ },
+ {
   "name": "The Queen",
   "slug": "the-queen",
   "image": "",
@@ -1561,35 +1600,6 @@
   "boss": true,
   "description": "The Queen will spawn on the lower floor of the citadel and will wander around until aggroed.",
   "icon": "/icons/the_queen.png"
- },
- {
-  "name": "Eikthyr",
-  "slug": "eikthyr",
-  "image": "",
-  "location": "Meadows",
-  "tameable": "No",
-  "trophy": "Eikthyr trophy",
-  "health_stars": {
-   "0": 500.0
-  },
-  "damage_stars": {
-   "0": {
-    "dmg": 20.0,
-    "type": ""
-   }
-  },
-  "weak": "",
-  "veryweak": "",
-  "resistant": "",
-  "veryresistant": "",
-  "immune": "Stagger",
-  "stagger": "",
-  "faction": "Boss",
-  "abilities": "Antler (5s) Charge (25s) Stomp (40s)",
-  "drops": [],
-  "boss": true,
-  "description": "He is summoned by placing two  in his Forsaken altar in the Meadows.",
-  "icon": "/icons/eikthyr.png"
  },
  {
   "name": "Moder",
@@ -1621,35 +1631,6 @@
   "icon": "/icons/moder.png"
  },
  {
-  "name": "The Elder",
-  "slug": "the-elder",
-  "image": "",
-  "location": "Black Forest",
-  "tameable": "No",
-  "trophy": "The Elder trophy",
-  "health_stars": {
-   "0": 2500.0
-  },
-  "damage_stars": {
-   "0": {
-    "dmg": 35.0,
-    "type": ""
-   }
-  },
-  "weak": "",
-  "veryweak": "Fire",
-  "resistant": "",
-  "veryresistant": "",
-  "immune": "Poison, Spirit, Stagger",
-  "stagger": "",
-  "faction": "Boss",
-  "abilities": "Root Spawn (25s) Shoot (6s) Stomp (5s)",
-  "drops": [],
-  "boss": true,
-  "description": "He is summoned by placing three s in his Forsaken altar in Black Forests.",
-  "icon": "/icons/the_elder.png"
- },
- {
   "name": "Bonemass",
   "slug": "bonemass",
   "image": "",
@@ -1677,6 +1658,35 @@
   "boss": true,
   "description": "He is summoned by placing 10 s in his Forsaken altar in Swamps.",
   "icon": "/icons/bonemass.png"
+ },
+ {
+  "name": "Eikthyr",
+  "slug": "eikthyr",
+  "image": "",
+  "location": "Meadows",
+  "tameable": "No",
+  "trophy": "Eikthyr trophy",
+  "health_stars": {
+   "0": 500.0
+  },
+  "damage_stars": {
+   "0": {
+    "dmg": 20.0,
+    "type": ""
+   }
+  },
+  "weak": "",
+  "veryweak": "",
+  "resistant": "",
+  "veryresistant": "",
+  "immune": "Stagger",
+  "stagger": "",
+  "faction": "Boss",
+  "abilities": "Antler (5s) Charge (25s) Stomp (40s)",
+  "drops": [],
+  "boss": true,
+  "description": "He is summoned by placing two  in his Forsaken altar in the Meadows.",
+  "icon": "/icons/eikthyr.png"
  },
  {
   "name": "Yagluth",
@@ -1735,5 +1745,34 @@
   "boss": true,
   "description": "",
   "icon": "/icons/fader.png"
+ },
+ {
+  "name": "The Elder",
+  "slug": "the-elder",
+  "image": "",
+  "location": "Black Forest",
+  "tameable": "No",
+  "trophy": "The Elder trophy",
+  "health_stars": {
+   "0": 2500.0
+  },
+  "damage_stars": {
+   "0": {
+    "dmg": 35.0,
+    "type": ""
+   }
+  },
+  "weak": "",
+  "veryweak": "Fire",
+  "resistant": "",
+  "veryresistant": "",
+  "immune": "Poison, Spirit, Stagger",
+  "stagger": "",
+  "faction": "Boss",
+  "abilities": "Root Spawn (25s) Shoot (6s) Stomp (5s)",
+  "drops": [],
+  "boss": true,
+  "description": "He is summoned by placing three s in his Forsaken altar in Black Forests.",
+  "icon": "/icons/the_elder.png"
  }
 ]
