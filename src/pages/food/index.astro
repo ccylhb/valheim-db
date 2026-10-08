@@ -42,4 +42,14 @@ const withStats = food.filter((f) => f.health || f.stamina);
       ])}
     searchPlaceholder="Search foods..."
   />
+
+  <h2>All {food.length} foods</h2>
+  <p class="muted">
+    Every food in the database, including the ones without health or stamina values in the table above.
+  </p>
+  <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:0.35rem 0.9rem;margin:1rem 0 2rem">
+    {food.map((f) => (
+      <a href={`/food/${f.slug}/`} style="font-size:0.9rem">{f.name}</a>
+    ))}
+  </div>
 </Base>

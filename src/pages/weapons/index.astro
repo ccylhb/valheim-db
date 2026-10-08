@@ -47,4 +47,14 @@ const fmt = (w: any) =>
       ])}
     searchPlaceholder="Search weapons..."
   />
+
+  <h2>All {weapons.length} weapons</h2>
+  <p class="muted">
+    Every weapon in the database, including shields and the ones with no damage listed above.
+  </p>
+  <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:0.35rem 0.9rem;margin:1rem 0 2rem">
+    {weapons.map((w) => (
+      <a href={`/weapons/${w.slug}/`} style="font-size:0.9rem">{w.name}</a>
+    ))}
+  </div>
 </Base>
