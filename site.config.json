@@ -19,13 +19,62 @@
   },
   "favicon": "🐺",
   "nav": [
-    { "label": "Home", "href": "/" },
-    { "label": "Weapons", "href": "/weapons/" },
-    { "label": "Creatures", "href": "/creatures/" },
-    { "label": "Armor", "href": "/armor/" },
-    { "label": "Food", "href": "/food/" },
-    { "label": "Rankings", "href": "/rankings/", "tool": true },
-    { "label": "Food Planner", "href": "/food-planner/", "tool": true }
+    {
+      "label": "Home",
+      "href": "/"
+    },
+    {
+      "label": "Weapons",
+      "href": "/weapons/"
+    },
+    {
+      "label": "Creatures",
+      "href": "/creatures/"
+    },
+    {
+      "label": "Armor",
+      "href": "/armor/"
+    },
+    {
+      "label": "Food",
+      "href": "/food/"
+    },
+    {
+      "label": "Rankings",
+      "href": "/rankings/",
+      "tool": true
+    },
+    {
+      "label": "Food Planner",
+      "href": "/food-planner/",
+      "tool": true
+    }
   ],
-  "footerNote": "Fan-made database. Not affiliated with the game publisher."
+  "footerNote": "Fan-made database. Not affiliated with the game publisher.",
+  "sisterSites": [
+    {
+      "name": "PalHub",
+      "url": "https://palhub.lootseer.com",
+      "blurb": "Breeding calculator, work suitability tables and base-building guides."
+    },
+    {
+      "name": "PalworldDB",
+      "url": "https://palworld.lootseer.com",
+      "blurb": "Pal stats, drops, breeding combos and work suitability."
+    },
+    {
+      "name": "SatisfactoryDB",
+      "url": "https://satisfactory.lootseer.com",
+      "blurb": "Crafting recipes with exact per-minute input and output rates."
+    },
+    {
+      "name": "VRisingDB",
+      "url": "https://vrising.lootseer.com",
+      "blurb": "All 64 V Blood bosses, gear tiers and drop tables."
+    }
+  ],
+  "hubSite": {
+    "name": "LootSeer",
+    "url": "https://lootseer.com"
+  }
 }
