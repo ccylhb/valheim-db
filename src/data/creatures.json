@@ -1573,33 +1573,33 @@
   "icon": ""
  },
  {
-  "name": "The Queen",
-  "slug": "the-queen",
+  "name": "The Elder",
+  "slug": "the-elder",
   "image": "",
-  "location": "Mistlands",
-  "tameable": "",
-  "trophy": "The Queen trophy",
+  "location": "Black Forest",
+  "tameable": "No",
+  "trophy": "The Elder trophy",
   "health_stars": {
-   "0": 12.0
+   "0": 2500.0
   },
   "damage_stars": {
    "0": {
-    "dmg": 100.0,
+    "dmg": 35.0,
     "type": ""
    }
   },
   "weak": "",
-  "veryweak": "",
-  "resistant": "Pierce",
+  "veryweak": "Fire",
+  "resistant": "",
   "veryresistant": "",
-  "immune": "Spirit",
+  "immune": "Poison, Spirit, Stagger",
   "stagger": "",
   "faction": "Boss",
-  "abilities": "Teleport (60s, 90% HP) Rush (25s, 60% HP) Bite (10s, 70% HP) Call (60s, 99% HP) Spit (20s, 80% HP) Slap (4s) Pierce AOE (4s)",
+  "abilities": "Root Spawn (25s) Shoot (6s) Stomp (5s)",
   "drops": [],
   "boss": true,
-  "description": "The Queen will spawn on the lower floor of the citadel and will wander around until aggroed.",
-  "icon": "/icons/the_queen.png"
+  "description": "He is summoned by placing three s in his Forsaken altar in Black Forests.",
+  "icon": "/icons/the_elder.png"
  },
  {
   "name": "Moder",
@@ -1629,6 +1629,35 @@
   "boss": true,
   "description": "She is summoned by placing three s in her Forsaken Altar in the Mountains.",
   "icon": "/icons/moder.png"
+ },
+ {
+  "name": "Yagluth",
+  "slug": "yagluth",
+  "image": "",
+  "location": "Plains",
+  "tameable": "No",
+  "trophy": "Yagluth trophy",
+  "health_stars": {
+   "0": 10.0
+  },
+  "damage_stars": {
+   "0": {
+    "dmg": 40.0,
+    "type": ""
+   }
+  },
+  "weak": "",
+  "veryweak": "",
+  "resistant": "Fire",
+  "veryresistant": "Pierce",
+  "immune": "Poison, Stagger",
+  "stagger": "",
+  "faction": "Boss",
+  "abilities": "Beam (15s) Meteors (25s) Nova (20s)",
+  "drops": [],
+  "boss": true,
+  "description": "He is summoned by placing five s in his Forsaken Altar in the Plains.",
+  "icon": "/icons/yagluth.png"
  },
  {
   "name": "Bonemass",
@@ -1689,33 +1718,33 @@
   "icon": "/icons/eikthyr.png"
  },
  {
-  "name": "Yagluth",
-  "slug": "yagluth",
+  "name": "The Queen",
+  "slug": "the-queen",
   "image": "",
-  "location": "Plains",
-  "tameable": "No",
-  "trophy": "Yagluth trophy",
+  "location": "Mistlands",
+  "tameable": "",
+  "trophy": "The Queen trophy",
   "health_stars": {
-   "0": 10.0
+   "0": 12.0
   },
   "damage_stars": {
    "0": {
-    "dmg": 40.0,
+    "dmg": 100.0,
     "type": ""
    }
   },
   "weak": "",
   "veryweak": "",
-  "resistant": "Fire",
-  "veryresistant": "Pierce",
-  "immune": "Poison, Stagger",
+  "resistant": "Pierce",
+  "veryresistant": "",
+  "immune": "Spirit",
   "stagger": "",
   "faction": "Boss",
-  "abilities": "Beam (15s) Meteors (25s) Nova (20s)",
+  "abilities": "Teleport (60s, 90% HP) Rush (25s, 60% HP) Bite (10s, 70% HP) Call (60s, 99% HP) Spit (20s, 80% HP) Slap (4s) Pierce AOE (4s)",
   "drops": [],
   "boss": true,
-  "description": "He is summoned by placing five s in his Forsaken Altar in the Plains.",
-  "icon": "/icons/yagluth.png"
+  "description": "The Queen will spawn on the lower floor of the citadel and will wander around until aggroed.",
+  "icon": "/icons/the_queen.png"
  },
  {
   "name": "Fader",
@@ -1745,34 +1774,5 @@
   "boss": true,
   "description": "",
   "icon": "/icons/fader.png"
- },
- {
-  "name": "The Elder",
-  "slug": "the-elder",
-  "image": "",
-  "location": "Black Forest",
-  "tameable": "No",
-  "trophy": "The Elder trophy",
-  "health_stars": {
-   "0": 2500.0
-  },
-  "damage_stars": {
-   "0": {
-    "dmg": 35.0,
-    "type": ""
-   }
-  },
-  "weak": "",
-  "veryweak": "Fire",
-  "resistant": "",
-  "veryresistant": "",
-  "immune": "Poison, Spirit, Stagger",
-  "stagger": "",
-  "faction": "Boss",
-  "abilities": "Root Spawn (25s) Shoot (6s) Stomp (5s)",
-  "drops": [],
-  "boss": true,
-  "description": "He is summoned by placing three s in his Forsaken altar in Black Forests.",
-  "icon": "/icons/the_elder.png"
  }
 ]
