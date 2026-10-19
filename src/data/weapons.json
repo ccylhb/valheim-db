@@ -1243,9 +1243,9 @@
   },
   "materials": [
    "Curious axe head x1 Mysterious axe head x1 Wood x4",
-   "Wood x6 Leather scraps x2",
-   "Wood x8 Leather scraps x4",
-   "Wood x10 Leather scraps x6"
+   "Wood x2 Leather scraps x2",
+   "Wood x4 Leather scraps x4",
+   "Wood x8 Leather scraps x8"
   ],
   "description": "Mighty weapons from long ago, from a time when the world was still young and incomplete...",
   "icon": "/icons/early_axes.png"

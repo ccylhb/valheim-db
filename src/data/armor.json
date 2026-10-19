@@ -495,7 +495,7 @@
    {
     "name": "Feather cape",
     "type": "Cape",
-    "armor": 16.0,
+    "armor": 1.0,
     "durability": 1000.0,
     "weight": 4.0,
     "materials": "10 Feathers 20 Refined eitr 5 Scale hide",
@@ -505,7 +505,7 @@
   ],
   "set_bonus": "",
   "description": "",
-  "total_armor": 64.0,
+  "total_armor": 49.0,
   "icon": "/icons/eitr_weave_set.png"
  },
  {
