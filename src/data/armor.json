@@ -1120,6 +1120,47 @@
   "icon": ""
  },
  {
+  "name": "Protector Armor",
+  "slug": "protector-armor",
+  "image": "",
+  "pieces": [
+   {
+    "name": "Helmet of the Protector",
+    "type": "Head",
+    "armor": 46.0,
+    "durability": 1000.0,
+    "weight": 1.0,
+    "materials": "",
+    "movement_speed": "",
+    "effect": ""
+   },
+   {
+    "name": "Breastplate of the Protector",
+    "type": "Chest",
+    "armor": 44.0,
+    "durability": 1000.0,
+    "weight": 10.0,
+    "materials": "",
+    "movement_speed": "-5%",
+    "effect": ""
+   },
+   {
+    "name": "Trousers of the Protector",
+    "type": "Legs",
+    "armor": 44.0,
+    "durability": 1000.0,
+    "weight": 10.0,
+    "materials": "",
+    "movement_speed": "-5%",
+    "effect": ""
+   }
+  ],
+  "set_bonus": "",
+  "description": "",
+  "total_armor": 134.0,
+  "icon": "/icons/protector_armor.png"
+ },
+ {
   "name": "Rag Armor",
   "slug": "rag-armor",
   "image": "",
@@ -1640,6 +1681,47 @@
   "description": "",
   "total_armor": 1.0,
   "icon": "/icons/twisted_headscarf_red.png"
+ },
+ {
+  "name": "Vanguard Set",
+  "slug": "vanguard-set",
+  "image": "",
+  "pieces": [
+   {
+    "name": "Hood of the Vanguard",
+    "type": "Head",
+    "armor": null,
+    "durability": null,
+    "weight": null,
+    "materials": "",
+    "movement_speed": "",
+    "effect": ""
+   },
+   {
+    "name": "Chestpiece of the Vanguard",
+    "type": "Chest",
+    "armor": null,
+    "durability": null,
+    "weight": null,
+    "materials": "",
+    "movement_speed": "",
+    "effect": ""
+   },
+   {
+    "name": "Trousers of the Vanguard",
+    "type": "Legs",
+    "armor": null,
+    "durability": null,
+    "weight": null,
+    "materials": "",
+    "movement_speed": "",
+    "effect": ""
+   }
+  ],
+  "set_bonus": "",
+  "description": "",
+  "total_armor": 0,
+  "icon": "/icons/vanguard_set.png"
  },
  {
   "name": "Vilebone Set",

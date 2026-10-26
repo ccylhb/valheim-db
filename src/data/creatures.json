@@ -1573,33 +1573,33 @@
   "icon": ""
  },
  {
-  "name": "Eikthyr",
-  "slug": "eikthyr",
+  "name": "Moder",
+  "slug": "moder",
   "image": "",
-  "location": "Meadows",
+  "location": "Mountain",
   "tameable": "No",
-  "trophy": "Eikthyr trophy",
+  "trophy": "Moder trophy",
   "health_stars": {
-   "0": 500.0
+   "0": 7500.0
   },
   "damage_stars": {
    "0": {
-    "dmg": 20.0,
+    "dmg": 120.0,
     "type": ""
    }
   },
-  "weak": "",
+  "weak": "Fire",
   "veryweak": "",
   "resistant": "",
   "veryresistant": "",
-  "immune": "Stagger",
+  "immune": "Frost, Spirit, Stagger",
   "stagger": "",
   "faction": "Boss",
-  "abilities": "Antler (5s) Charge (25s) Stomp (40s)",
+  "abilities": "Bite (30s) Claw (30s per claw) Spit shotgun (8s) Cold breath (8s)",
   "drops": [],
   "boss": true,
-  "description": "He is summoned by placing two  in his Forsaken altar in the Meadows.",
-  "icon": "/icons/eikthyr.png"
+  "description": "She is summoned by placing three s in her Forsaken Altar in the Mountains.",
+  "icon": "/icons/moder.png"
  },
  {
   "name": "Yagluth",
@@ -1631,6 +1631,35 @@
   "icon": "/icons/yagluth.png"
  },
  {
+  "name": "Bonemass",
+  "slug": "bonemass",
+  "image": "",
+  "location": "Swamp",
+  "tameable": "No",
+  "trophy": "Bonemass trophy",
+  "health_stars": {
+   "0": 5000.0
+  },
+  "damage_stars": {
+   "0": {
+    "dmg": 130.0,
+    "type": ""
+   }
+  },
+  "weak": "Blunt, Frost",
+  "veryweak": "",
+  "resistant": "Slash",
+  "veryresistant": "Fire, Pierce",
+  "immune": "Poison, Stagger",
+  "stagger": "",
+  "faction": "Boss",
+  "abilities": "Area of effect (30s, unblockable) Punch (7s) Throw (50s)",
+  "drops": [],
+  "boss": true,
+  "description": "He is summoned by placing 10 s in his Forsaken altar in Swamps.",
+  "icon": "/icons/bonemass.png"
+ },
+ {
   "name": "Fader",
   "slug": "fader",
   "image": "",
@@ -1658,35 +1687,6 @@
   "boss": true,
   "description": "",
   "icon": "/icons/fader.png"
- },
- {
-  "name": "Moder",
-  "slug": "moder",
-  "image": "",
-  "location": "Mountain",
-  "tameable": "No",
-  "trophy": "Moder trophy",
-  "health_stars": {
-   "0": 7500.0
-  },
-  "damage_stars": {
-   "0": {
-    "dmg": 120.0,
-    "type": ""
-   }
-  },
-  "weak": "Fire",
-  "veryweak": "",
-  "resistant": "",
-  "veryresistant": "",
-  "immune": "Frost, Spirit, Stagger",
-  "stagger": "",
-  "faction": "Boss",
-  "abilities": "Bite (30s) Claw (30s per claw) Spit shotgun (8s) Cold breath (8s)",
-  "drops": [],
-  "boss": true,
-  "description": "She is summoned by placing three s in her Forsaken Altar in the Mountains.",
-  "icon": "/icons/moder.png"
  },
  {
   "name": "The Elder",
@@ -1747,32 +1747,32 @@
   "icon": "/icons/the_queen.png"
  },
  {
-  "name": "Bonemass",
-  "slug": "bonemass",
+  "name": "Eikthyr",
+  "slug": "eikthyr",
   "image": "",
-  "location": "Swamp",
+  "location": "Meadows",
   "tameable": "No",
-  "trophy": "Bonemass trophy",
+  "trophy": "Eikthyr trophy",
   "health_stars": {
-   "0": 5000.0
+   "0": 500.0
   },
   "damage_stars": {
    "0": {
-    "dmg": 130.0,
+    "dmg": 20.0,
     "type": ""
    }
   },
-  "weak": "Blunt, Frost",
+  "weak": "",
   "veryweak": "",
-  "resistant": "Slash",
-  "veryresistant": "Fire, Pierce",
-  "immune": "Poison, Stagger",
+  "resistant": "",
+  "veryresistant": "",
+  "immune": "Stagger",
   "stagger": "",
   "faction": "Boss",
-  "abilities": "Area of effect (30s, unblockable) Punch (7s) Throw (50s)",
+  "abilities": "Antler (5s) Charge (25s) Stomp (40s)",
   "drops": [],
   "boss": true,
-  "description": "He is summoned by placing 10 s in his Forsaken altar in Swamps.",
-  "icon": "/icons/bonemass.png"
+  "description": "He is summoned by placing two  in his Forsaken altar in the Meadows.",
+  "icon": "/icons/eikthyr.png"
  }
 ]

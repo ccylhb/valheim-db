@@ -1,5 +1,10 @@
 [
   {
+    "date": "2026-10-26",
+    "text": "Wiki sync: 2 new armor sets added (Protector Armor, Vanguard Set)",
+    "href": "/armor/"
+  },
+  {
     "date": "2026-10-19",
     "text": "Wiki sync: Eitr-weave set armor values and early axe crafting materials corrected",
     "href": "/armor/"
@@ -33,10 +38,5 @@
     "date": "2026-09-07",
     "text": "Boss order guide with summoning spots and drops",
     "href": "/rankings/#bosses"
-  },
-  {
-    "date": "2026-09-07",
-    "text": "Food planner tool — build your 3-buff loadout",
-    "href": "/food-planner/"
   }
 ]
