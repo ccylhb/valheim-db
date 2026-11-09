@@ -437,6 +437,27 @@
   "icon": "/icons/celebratory_cap.png"
  },
  {
+  "name": "Crown of Roots",
+  "slug": "crown-of-roots",
+  "image": "",
+  "pieces": [
+   {
+    "name": "Crown of Roots",
+    "type": "Head",
+    "armor": 1.0,
+    "durability": 800.0,
+    "weight": 3.0,
+    "materials": "",
+    "movement_speed": "",
+    "effect": ""
+   }
+  ],
+  "set_bonus": "",
+  "description": "",
+  "total_armor": 1.0,
+  "icon": ""
+ },
+ {
   "name": "Dverger Circlet",
   "slug": "dverger-circlet",
   "image": "",

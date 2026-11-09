@@ -1555,6 +1555,29 @@
   "icon": "/icons/frostner.png"
  },
  {
+  "name": "Grappling Hook",
+  "slug": "grappling-hook",
+  "image": "",
+  "type": "Crossbow",
+  "source": "Black Forge",
+  "crafting_level": "1",
+  "repair_level": "1",
+  "durability": 300.0,
+  "stamina": 15.0,
+  "block_armor": 21.0,
+  "knockback": 20.0,
+  "parry": null,
+  "backstab": null,
+  "damage": {
+   "Pierce": 10.0
+  },
+  "materials": [
+   "Yggdrasil Wood x10 Refined Eitr x10 Mandible x4 Hook x1"
+  ],
+  "description": "For a dramatic entrance, or a switft retreat.",
+  "icon": ""
+ },
+ {
   "name": "Grausten Payload",
   "slug": "grausten-payload",
   "image": "",
@@ -2788,7 +2811,7 @@
    "Corewood x20 Deer trophy x5 Leather scraps x2",
    "Corewood x5 Deer trophy x2 Leather scraps x1 Bone fragments x10",
    "Corewood x10 Deer trophy x4 Leather scraps x2 Bone fragments x20",
-   "Corewood x15 Deer trophy x6 Leather scraps x3 Bone fragments x30"
+   "Corewood x20 Deer trophy x8 Leather scraps x4 Bone fragments x40"
   ],
   "description": "A weapon worthy of the Gods! If you get hit with this, you'll know it…",
   "icon": "/icons/stagbreaker.png"

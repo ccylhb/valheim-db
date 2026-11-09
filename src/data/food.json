@@ -14,6 +14,20 @@
   "icon": "/icons/ashlands_gourmet_bowl.png"
  },
  {
+  "name": "Baked Poteitr",
+  "slug": "baked-poteitr",
+  "image": "",
+  "source": "Stone Oven",
+  "health": 34.0,
+  "stamina": 17.0,
+  "duration": 1500.0,
+  "healing": "5 hp/tick",
+  "effect": "",
+  "materials": "Unbaked Poteitr x1",
+  "description": "Neither boiled nor mashed nor in a stew. Still delicious though!",
+  "icon": "/icons/baked_poteitr.png"
+ },
+ {
   "name": "Black Forest buffet platter",
   "slug": "black-forest-buffet-platter",
   "image": "",
@@ -224,6 +238,20 @@
   "icon": ""
  },
  {
+  "name": "Fish Soup",
+  "slug": "fish-soup",
+  "image": "",
+  "source": "{{Item link|Cauldron",
+  "health": 37.0,
+  "stamina": 18.0,
+  "duration": 1800.0,
+  "healing": "5 hp/tick",
+  "effect": "",
+  "materials": "x3 x2 x2",
+  "description": "Swimming with flavour!",
+  "icon": ""
+ },
+ {
   "name": "Fish wraps",
   "slug": "fish-wraps",
   "image": "",
@@ -308,6 +336,62 @@
   "icon": "/icons/jotun_puffs.png"
  },
  {
+  "name": "Kale",
+  "slug": "kale",
+  "image": "",
+  "source": "Farming Kale seeds",
+  "health": 35.0,
+  "stamina": 35.0,
+  "duration": 900.0,
+  "healing": "1 hp/tick",
+  "effect": "",
+  "materials": "",
+  "description": "A versatile leafy green.",
+  "icon": "/icons/kale.png"
+ },
+ {
+  "name": "Kale Chips",
+  "slug": "kale-chips",
+  "image": "",
+  "source": "Stone Oven",
+  "health": 35.0,
+  "stamina": 105.0,
+  "duration": 1500.0,
+  "healing": "5 hp/tick",
+  "effect": "",
+  "materials": "Raw Kale Chips x1",
+  "description": "Crispy greens!",
+  "icon": "/icons/kale_chips.png"
+ },
+ {
+  "name": "Lingonberries",
+  "slug": "lingonberries",
+  "image": "",
+  "source": "Lingonberry bushes in the Deep North",
+  "health": 35.0,
+  "stamina": 35.0,
+  "duration": 900.0,
+  "healing": "1 hp/tick",
+  "effect": "",
+  "materials": "",
+  "description": "Tart and a little sweet.",
+  "icon": ""
+ },
+ {
+  "name": "Lingonberry Juice",
+  "slug": "lingonberry-juice",
+  "image": "",
+  "source": "{{Item link|Cauldron",
+  "health": 35.0,
+  "stamina": 105.0,
+  "duration": 1500.0,
+  "healing": "5 hp/tick",
+  "effect": "",
+  "materials": "x5 x5",
+  "description": "Pairs well with most foods.",
+  "icon": "/icons/lingonberry_juice.png"
+ },
+ {
   "name": "Lox meat pie",
   "slug": "lox-meat-pie",
   "image": "",
@@ -336,6 +420,20 @@
   "icon": "/icons/magecap.png"
  },
  {
+  "name": "Meat In Bread",
+  "slug": "meat-in-bread",
+  "image": "",
+  "source": "{{Item link|Cauldron",
+  "health": 110.0,
+  "stamina": 37.0,
+  "duration": 1800.0,
+  "healing": "7 hp/tick",
+  "effect": "",
+  "materials": "x1 x2 x1 x2",
+  "description": "A convenient meal, often favoured by travelling merchants.",
+  "icon": ""
+ },
+ {
   "name": "Meat platter",
   "slug": "meat-platter",
   "image": "",
@@ -348,6 +446,20 @@
   "materials": "Uncooked meat platter x1",
   "description": "Battle fuel.",
   "icon": "/icons/meat_platter.png"
+ },
+ {
+  "name": "Meatballs and Poteitr",
+  "slug": "meatballs-and-poteitr",
+  "image": "",
+  "source": "{{Item link|Cauldron",
+  "health": 35.0,
+  "stamina": 18.0,
+  "duration": 1500.0,
+  "healing": "5 hp/tick",
+  "effect": "",
+  "materials": "x1 x2 x2",
+  "description": "It doesn't get more iconic than this!",
+  "icon": "/icons/meatballs_and_poteitr.png"
  },
  {
   "name": "Minced Meat Sauce",
@@ -434,6 +546,62 @@
   "icon": "/icons/mushrooms_galore_la_mistlands.png"
  },
  {
+  "name": "Northern Morning Fare",
+  "slug": "northern-morning-fare",
+  "image": "",
+  "source": "{{Item link|Food Preparation Table",
+  "health": 85.0,
+  "stamina": 85.0,
+  "duration": 3000.0,
+  "healing": "7 hp/tick",
+  "effect": "",
+  "materials": "x3 x5 x2 x1",
+  "description": "Warming and filling, this meal will sustain you even during the coldest of days. Porridge and pancakes pair well with jams and sausages, making it hard not to come back for a second helping!",
+  "icon": "/icons/northern_morning_fare.png"
+ },
+ {
+  "name": "Oat Milk",
+  "slug": "oat-milk",
+  "image": "",
+  "source": "{{Item link|Mead Ketill",
+  "health": 37.0,
+  "stamina": 110.0,
+  "duration": 1500.0,
+  "healing": "5 hp/tick",
+  "effect": "",
+  "materials": "x5 x5",
+  "description": "Tastes like innovation.",
+  "icon": ""
+ },
+ {
+  "name": "Oatmeal",
+  "slug": "oatmeal",
+  "image": "",
+  "source": "{{Item link|Cauldron",
+  "health": 39.0,
+  "stamina": 115.0,
+  "duration": 1800.0,
+  "healing": "5 hp/tick",
+  "effect": "",
+  "materials": "x2 x2 x1",
+  "description": "Served with a generous helping of lingonberry jam.",
+  "icon": "/icons/oatmeal.png"
+ },
+ {
+  "name": "Oats",
+  "slug": "oats",
+  "image": "",
+  "source": "Oat seeds via Windmill",
+  "health": 33.0,
+  "stamina": 33.0,
+  "duration": 1800.0,
+  "healing": "3 hp/tick",
+  "effect": "",
+  "materials": "Oat seeds x1",
+  "description": "Tasty grains, to be used as they are or to be ground into flour.",
+  "icon": "/icons/oats.png"
+ },
+ {
   "name": "Onion",
   "slug": "onion",
   "image": "",
@@ -462,6 +630,34 @@
   "icon": "/icons/onion_soup.png"
  },
  {
+  "name": "Oven Pancake",
+  "slug": "oven-pancake",
+  "image": "",
+  "source": "Stone Oven",
+  "health": 37.0,
+  "stamina": 18.0,
+  "duration": 1800.0,
+  "healing": "5 hp/tick",
+  "effect": "",
+  "materials": "Oven Pancake Batter x1",
+  "description": "Warm and fluffy.",
+  "icon": "/icons/oven_pancake.png"
+ },
+ {
+  "name": "Pancakes",
+  "slug": "pancakes",
+  "image": "",
+  "source": "{{Item link|Cauldron",
+  "health": 39.0,
+  "stamina": 115.0,
+  "duration": 1800.0,
+  "healing": "5 hp/tick",
+  "effect": "",
+  "materials": "x1 x2 x2 x2",
+  "description": "Was there ever a more comforting food?",
+  "icon": "/icons/pancakes.png"
+ },
+ {
   "name": "Plains pie picnic",
   "slug": "plains-pie-picnic",
   "image": "",
@@ -474,6 +670,20 @@
   "materials": "Bread x3 Lox meat pie x2 Cloudberries x5 Grasslands herbalist harvest x1",
   "description": "There's nothing plain about this feast! Enjoy pies and loaves fresh from the oven, both sweet and savoury, and experience the culinary equivalent of a hug.",
   "icon": "/icons/plains_pie_picnic.png"
+ },
+ {
+  "name": "Poteitr",
+  "slug": "poteitr",
+  "image": "",
+  "source": "Farming Seed Poteitr",
+  "health": 35.0,
+  "stamina": 35.0,
+  "duration": 900.0,
+  "healing": "1 hp/tick",
+  "effect": "",
+  "materials": "",
+  "description": "The possibilities are practically endless. Who wouldn't want a taste?",
+  "icon": "/icons/poteitr.png"
  },
  {
   "name": "Pulled Bear",
@@ -588,6 +798,20 @@
   "icon": "/icons/sausages.png"
  },
  {
+  "name": "Seal Meat Soup",
+  "slug": "seal-meat-soup",
+  "image": "",
+  "source": "{{Item link|Cauldron",
+  "health": 110.0,
+  "stamina": 37.0,
+  "duration": 1800.0,
+  "healing": "7 hp/tick",
+  "effect": "",
+  "materials": "x2 x2 x2",
+  "description": "A warm and tasty meal, best enjoyed on a cold day.",
+  "icon": "/icons/seal_meat_soup.png"
+ },
+ {
   "name": "Seeker aspic",
   "slug": "seeker-aspic",
   "image": "",
@@ -614,6 +838,34 @@
   "materials": "Mushroom x1 Cooked serpent meat x1 Honey x2",
   "description": "Smells of honey and serpent...",
   "icon": "/icons/serpent_stew.png"
+ },
+ {
+  "name": "Smoked Fish",
+  "slug": "smoked-fish",
+  "image": "",
+  "source": "{{Item link|Cauldron",
+  "health": 30.0,
+  "stamina": 16.0,
+  "duration": 1500.0,
+  "healing": "5 hp/tick",
+  "effect": "",
+  "materials": "x1 x1 x1",
+  "description": "Fish prepared in the most delicious way.",
+  "icon": "/icons/smoked_fish.png"
+ },
+ {
+  "name": "Smoked Moose Meat",
+  "slug": "smoked-moose-meat",
+  "image": "",
+  "source": "{{Item link|Cauldron",
+  "health": 105.0,
+  "stamina": 35.0,
+  "duration": 1500.0,
+  "healing": "7 hp/tick",
+  "effect": "",
+  "materials": "x1 x2",
+  "description": "The smoke only adds to the wild flavour.",
+  "icon": "/icons/smoked_moose_meat.png"
  },
  {
   "name": "Stuffed mushroom",
