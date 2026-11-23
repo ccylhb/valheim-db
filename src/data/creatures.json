@@ -1539,7 +1539,7 @@
   "image": "",
   "location": "Swamp",
   "tameable": "",
-  "trophy": "",
+  "trophy": "Writhan trophy",
   "health_stars": {
    "0": 400.0,
    "1": 800.0,
@@ -1573,62 +1573,62 @@
   "icon": ""
  },
  {
-  "name": "The Elder",
-  "slug": "the-elder",
+  "name": "Yagluth",
+  "slug": "yagluth",
   "image": "",
-  "location": "Black Forest",
+  "location": "Plains",
   "tameable": "No",
-  "trophy": "The Elder trophy",
+  "trophy": "Yagluth trophy",
   "health_stars": {
-   "0": 2500.0
+   "0": 10.0
   },
   "damage_stars": {
    "0": {
-    "dmg": 35.0,
+    "dmg": 40.0,
     "type": ""
    }
   },
   "weak": "",
-  "veryweak": "Fire",
-  "resistant": "",
-  "veryresistant": "",
-  "immune": "Poison, Spirit, Stagger",
+  "veryweak": "",
+  "resistant": "Fire",
+  "veryresistant": "Pierce",
+  "immune": "Poison, Stagger",
   "stagger": "",
   "faction": "Boss",
-  "abilities": "Root Spawn (25s) Shoot (6s) Stomp (5s)",
+  "abilities": "Beam (15s) Meteors (25s) Nova (20s)",
   "drops": [],
   "boss": true,
-  "description": "He is summoned by placing three s in his Forsaken altar in Black Forests.",
-  "icon": "/icons/the_elder.png"
+  "description": "He is summoned by placing five s in his Forsaken Altar in the Plains.",
+  "icon": "/icons/yagluth.png"
  },
  {
-  "name": "Moder",
-  "slug": "moder",
+  "name": "Bonemass",
+  "slug": "bonemass",
   "image": "",
-  "location": "Mountain",
+  "location": "Swamp",
   "tameable": "No",
-  "trophy": "Moder trophy",
+  "trophy": "Bonemass trophy",
   "health_stars": {
-   "0": 7500.0
+   "0": 5000.0
   },
   "damage_stars": {
    "0": {
-    "dmg": 120.0,
+    "dmg": 130.0,
     "type": ""
    }
   },
-  "weak": "Fire",
+  "weak": "Blunt, Frost",
   "veryweak": "",
-  "resistant": "",
-  "veryresistant": "",
-  "immune": "Frost, Spirit, Stagger",
+  "resistant": "Slash",
+  "veryresistant": "Fire, Pierce",
+  "immune": "Poison, Stagger",
   "stagger": "",
   "faction": "Boss",
-  "abilities": "Bite (30s) Claw (30s per claw) Spit shotgun (8s) Cold breath (8s)",
+  "abilities": "Area of effect (30s, unblockable) Punch (7s) Throw (50s)",
   "drops": [],
   "boss": true,
-  "description": "She is summoned by placing three s in her Forsaken Altar in the Mountains.",
-  "icon": "/icons/moder.png"
+  "description": "He is summoned by placing 10 s in his Forsaken altar in Swamps.",
+  "icon": "/icons/bonemass.png"
  },
  {
   "name": "The Queen",
@@ -1689,6 +1689,64 @@
   "icon": "/icons/fader.png"
  },
  {
+  "name": "Moder",
+  "slug": "moder",
+  "image": "",
+  "location": "Mountain",
+  "tameable": "No",
+  "trophy": "Moder trophy",
+  "health_stars": {
+   "0": 7500.0
+  },
+  "damage_stars": {
+   "0": {
+    "dmg": 120.0,
+    "type": ""
+   }
+  },
+  "weak": "Fire",
+  "veryweak": "",
+  "resistant": "",
+  "veryresistant": "",
+  "immune": "Frost, Spirit, Stagger",
+  "stagger": "",
+  "faction": "Boss",
+  "abilities": "Bite (30s) Claw (30s per claw) Spit shotgun (8s) Cold breath (8s)",
+  "drops": [],
+  "boss": true,
+  "description": "She is summoned by placing three s in her Forsaken Altar in the Mountains.",
+  "icon": "/icons/moder.png"
+ },
+ {
+  "name": "The Elder",
+  "slug": "the-elder",
+  "image": "",
+  "location": "Black Forest",
+  "tameable": "No",
+  "trophy": "The Elder trophy",
+  "health_stars": {
+   "0": 2500.0
+  },
+  "damage_stars": {
+   "0": {
+    "dmg": 35.0,
+    "type": ""
+   }
+  },
+  "weak": "",
+  "veryweak": "Fire",
+  "resistant": "",
+  "veryresistant": "",
+  "immune": "Poison, Spirit, Stagger",
+  "stagger": "",
+  "faction": "Boss",
+  "abilities": "Root Spawn (25s) Shoot (6s) Stomp (5s)",
+  "drops": [],
+  "boss": true,
+  "description": "He is summoned by placing three s in his Forsaken altar in Black Forests.",
+  "icon": "/icons/the_elder.png"
+ },
+ {
   "name": "Eikthyr",
   "slug": "eikthyr",
   "image": "",
@@ -1716,63 +1774,5 @@
   "boss": true,
   "description": "He is summoned by placing two  in his Forsaken altar in the Meadows.",
   "icon": "/icons/eikthyr.png"
- },
- {
-  "name": "Yagluth",
-  "slug": "yagluth",
-  "image": "",
-  "location": "Plains",
-  "tameable": "No",
-  "trophy": "Yagluth trophy",
-  "health_stars": {
-   "0": 10.0
-  },
-  "damage_stars": {
-   "0": {
-    "dmg": 40.0,
-    "type": ""
-   }
-  },
-  "weak": "",
-  "veryweak": "",
-  "resistant": "Fire",
-  "veryresistant": "Pierce",
-  "immune": "Poison, Stagger",
-  "stagger": "",
-  "faction": "Boss",
-  "abilities": "Beam (15s) Meteors (25s) Nova (20s)",
-  "drops": [],
-  "boss": true,
-  "description": "He is summoned by placing five s in his Forsaken Altar in the Plains.",
-  "icon": "/icons/yagluth.png"
- },
- {
-  "name": "Bonemass",
-  "slug": "bonemass",
-  "image": "",
-  "location": "Swamp",
-  "tameable": "No",
-  "trophy": "Bonemass trophy",
-  "health_stars": {
-   "0": 5000.0
-  },
-  "damage_stars": {
-   "0": {
-    "dmg": 130.0,
-    "type": ""
-   }
-  },
-  "weak": "Blunt, Frost",
-  "veryweak": "",
-  "resistant": "Slash",
-  "veryresistant": "Fire, Pierce",
-  "immune": "Poison, Stagger",
-  "stagger": "",
-  "faction": "Boss",
-  "abilities": "Area of effect (30s, unblockable) Punch (7s) Throw (50s)",
-  "drops": [],
-  "boss": true,
-  "description": "He is summoned by placing 10 s in his Forsaken altar in Swamps.",
-  "icon": "/icons/bonemass.png"
  }
 ]
